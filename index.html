@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EggTimer Max</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(165deg, #FFF0CC 0%, #FFD97A 50%, #F59B23 100%);
+      color: #3D2006;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      max-width: 680px;
+      padding: 64px 24px 48px;
+      text-align: center;
+    }
+
+    header img {
+      width: 96px;
+      height: 96px;
+      border-radius: 22%;
+      box-shadow: 0 8px 24px rgba(100,50,0,.25);
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    header h1 span { color: #C06800; }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.05rem;
+      color: #6B3D10;
+      font-weight: 500;
+    }
+
+    nav {
+      display: flex;
+      gap: 12px;
+      margin-top: 28px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    nav a {
+      background: rgba(255,255,255,.55);
+      color: #3D2006;
+      font-weight: 700;
+      font-size: .9rem;
+      text-decoration: none;
+      padding: 10px 22px;
+      border-radius: 99px;
+      backdrop-filter: blur(8px);
+      transition: background .15s;
+    }
+
+    nav a:hover { background: rgba(255,255,255,.8); }
+    nav a.active { background: #5A3413; color: #FFE6BD; }
+
+    main {
+      width: 100%;
+      max-width: 680px;
+      padding: 0 24px 80px;
+    }
+
+    section {
+      display: none;
+      background: rgba(255,255,255,.6);
+      backdrop-filter: blur(16px);
+      border-radius: 20px;
+      padding: 36px 40px;
+      box-shadow: 0 4px 24px rgba(100,50,0,.10);
+    }
+
+    section.visible { display: block; }
+
+    section h2 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+      color: #3D2006;
+    }
+
+    section h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-top: 24px;
+      margin-bottom: 8px;
+      color: #5A3413;
+    }
+
+    section p, section li {
+      font-size: .95rem;
+      line-height: 1.65;
+      color: #5A3413;
+    }
+
+    section ul { padding-left: 20px; }
+    section li { margin-bottom: 6px; }
+
+    a.email {
+      color: #C06800;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    a.email:hover { text-decoration: underline; }
+
+    footer {
+      margin-top: 48px;
+      font-size: .82rem;
+      color: #7A4E22;
+      text-align: center;
+      padding-bottom: 32px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="icon.png" alt="EggTimer Max icon" onerror="this.style.display='none'">
+  <h1>EggTimer <span>Max</span></h1>
+  <p>Perfect eggs, every time.</p>
+  <nav>
+    <a href="#" class="active" onclick="show('support',this);return false">Support</a>
+    <a href="#" onclick="show('privacy',this);return false">Privacy Policy</a>
+  </nav>
+</header>
+
+<main>
+  <!-- SUPPORT -->
+  <section id="support" class="visible">
+    <h2>Support</h2>
+    <p>Having trouble with EggTimer Max? We're happy to help.</p>
+
+    <h3>Contact</h3>
+    <p>Email us at <a class="email" href="mailto:broelando@icloud.com">broelando@icloud.com</a> and we'll get back to you as soon as possible.</p>
+
+    <h3>Frequently Asked Questions</h3>
+
+    <h3>How does EggTimer Max calculate cooking time?</h3>
+    <p>EggTimer Max uses the Williams formula — a physics-based model that takes into account the weight of the egg, its starting temperature, and the altitude at which you're cooking (which affects the boiling point of water). The result is the exact time needed to reach your preferred doneness.</p>
+
+    <h3>What does "Pro" unlock?</h3>
+    <p>Pro features include the live boiling-water animation, altitude-aware boiling point correction, a live Activity, and the ability to cook multiple eggs at once with individual doneness settings. Pro is unlocked via a one-time tip of €2.99 or more.</p>
+
+    <h3>I bought Pro but it's not showing up</h3>
+    <p>Go to Settings → Restore purchases. If the issue persists, contact us at <a class="email" href="mailto:broelando@icloud.com">broelando@icloud.com</a>.</p>
+
+    <h3>Does the app work without an internet connection?</h3>
+    <p>Yes — EggTimer Max works completely offline. No account required.</p>
+  </section>
+
+  <!-- PRIVACY -->
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p>Last updated: June 15, 2025</p>
+
+    <h3>Overview</h3>
+    <p>EggTimer Max is designed with privacy in mind. The app does not require an account and does not collect or transmit personal data.</p>
+
+    <h3>Data we collect</h3>
+    <p>We do not collect any personal information. All your settings (egg weight, temperature preference, doneness) are stored locally on your device using Apple's standard UserDefaults and are never sent to any server.</p>
+
+    <h3>Purchases</h3>
+    <p>In-app purchases and tips are processed entirely by Apple via StoreKit. We do not receive or store your payment information.</p>
+
+    <h3>Analytics</h3>
+    <p>EggTimer Max does not use any third-party analytics or tracking SDKs. We do not track how you use the app.</p>
+
+    <h3>Third-party services</h3>
+    <p>No third-party SDKs that collect data are included in EggTimer Max. Future versions may include Apple's own frameworks (such as StoreKit) which are governed by <a class="email" href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
+
+    <h3>Children</h3>
+    <p>EggTimer Max does not knowingly collect data from anyone, including children under 13.</p>
+
+    <h3>Changes to this policy</h3>
+    <p>If we update this privacy policy, the new version will be posted on this page with an updated date.</p>
+
+    <h3>Contact</h3>
+    <p>Questions? Email <a class="email" href="mailto:broelando@icloud.com">broelando@icloud.com</a>.</p>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Tim Witte · EggTimer Max
+</footer>
+
+<script>
+  function show(id, el) {
+    document.querySelectorAll('section').forEach(s => s.classList.remove('visible'));
+    document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+    document.getElementById(id).classList.add('visible');
+    el.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
