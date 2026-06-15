@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — EggTimer Max</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a class="cta" href="index.html#download">Get the app</a>
+    </div>
+  </div>
+</nav>
+
+<main class="page wrap">
+  <article class="panel">
+    <h1>Support</h1>
+    <p class="meta">We're happy to help.</p>
+
+    <h2>Frequently asked questions</h2>
+
+    <h2>How does EggTimer Max calculate cooking time?</h2>
+    <p>It uses the Williams formula — a physics-based model that accounts for the egg's weight, its starting temperature, and the altitude where you're cooking (which changes the boiling point of water). The result is the exact time to reach your chosen doneness.</p>
+
+    <h2>What does Pro unlock?</h2>
+    <p>Pro adds the live boiling-water animation, altitude-aware boiling-point correction, a Live Activity, and cooking multiple eggs at once with individual doneness settings. Pro unlocks with a one-time tip of €2.99 or more.</p>
+
+    <h2>I bought Pro but it isn't showing</h2>
+    <p>Open Settings → Restore purchases. If it still doesn't appear, get in touch using the form below.</p>
+
+    <h2>Does it work offline?</h2>
+    <p>Yes. EggTimer Max works completely offline and needs no account.</p>
+
+    <h2>Get in touch</h2>
+    <p>Found a bug, or have a suggestion? Send us a message and we'll get back to you.</p>
+
+    <form class="form" id="contactForm">
+      <div>
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+      </div>
+      <div>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="What's it about?" required>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send message</button>
+    </form>
+  </article>
+</main>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+  <div>&copy; 2025 EggTimer Max</div>
+</footer>
+
+<script src="bubbles.js"></script>
+<script>
+  // Contact address — replace with your iCloud "Hide My Email" alias.
+  const CONTACT = "tattles.outlays-1s@icloud.com";
+
+  document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const name = encodeURIComponent(document.getElementById('name').value);
+    const subject = encodeURIComponent('[EggTimer Max] ' + document.getElementById('subject').value);
+    const body = encodeURIComponent(
+      document.getElementById('message').value + '\n\n— ' +
+      decodeURIComponent(name)
+    );
+    window.location.href = `mailto:${CONTACT}?subject=${subject}&body=${body}`;
+  });
+</script>
+</body>
+</html>
