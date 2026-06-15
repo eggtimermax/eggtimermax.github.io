@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 54" role="img" aria-label="Download on the App Store">
+  <rect width="160" height="54" rx="10.4" fill="#000"/>
+  <rect x=".5" y=".5" width="159" height="53" rx="9.9" fill="none" stroke="rgba(255,255,255,.18)" stroke-width=".7"/>
+
+  <!-- Apple logo (recreated) -->
+  <g transform="translate(6, 2)">
+    <!-- leaf -->
+    <path fill="#fff" d="M29.8,12.2c0.8-1.0,1.5-2.5,1.3-4.0c-1.4,0.1-3.0,0.9-3.9,2.0c-0.8,1.0-1.5,2.5-1.3,3.9C27.4,14.2,29.0,13.3,29.8,12.2z"/>
+    <!-- body -->
+    <path fill="#fff" d="M31.2,14.5c-2.2-0.1-4.1,1.2-5.2,1.2c-1.1,0-2.9-1.2-4.8-1.1c-2.5,0.1-4.7,1.4-6.0,3.6c-2.5,4.4-0.6,10.9,1.8,14.4
+      c1.2,1.7,2.6,3.6,4.4,3.5c1.8-0.1,2.4-1.1,4.5-1.1c2.1,0,2.7,1.1,4.6,1.1c1.9,0,3.2-1.8,4.4-3.5
+      c0.9-1.3,1.3-2.5,1.3-2.6c0,0-3.5-1.4-3.5-5.5c0-3.4,2.8-5.1,2.9-5.2C33.9,16.4,31.5,14.6,31.2,14.5z"/>
+  </g>
+
+  <!-- "Download on the" -->
+  <text x="53" y="22"
+    fill="#fff"
+    font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif"
+    font-size="10.5"
+    letter-spacing="0.15">Download on the</text>
+
+  <!-- "App Store" -->
+  <text x="52" y="41"
+    fill="#fff"
+    font-family="-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif"
+    font-size="21"
+    font-weight="600"
+    letter-spacing="-0.5">App Store</text>
+</svg>
