@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- arc representing the doneness spectrum -->
+  <path d="M8 54 A26 26 0 0 1 56 54" stroke="#3D2006" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- dots on the arc: runny (amber) → hard (dark) -->
+  <circle cx="8"    cy="54"   r="4.5" fill="#F5D060"/>
+  <circle cx="14.5" cy="36.5" r="3.8" fill="#F5B535"/>
+  <circle cx="27"   cy="24"   r="3.2" fill="#E8882A"/>
+  <circle cx="32"   cy="22"   r="3.2" fill="#C06820"/>
+  <circle cx="37"   cy="24"   r="3.2" fill="#8A4810"/>
+  <circle cx="49.5" cy="36.5" r="3.8" fill="#5A3010"/>
+  <circle cx="56"   cy="54"   r="4.5" fill="#3D2006"/>
+</svg>
