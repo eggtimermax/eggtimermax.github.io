@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment cuire des œufs — EggTimer Max</title>
+  <meta name="description" content="Instructions pas à pas pour cuire un ou plusieurs œufs avec EggTimer Max — la méthode à l'eau bouillante comme à l'eau froide — ainsi que des conseils généraux pour cuire les œufs.">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/guide.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/guide.html">
+  <link rel="alternate" hreflang="de" href="https://eggtimermax.github.io/de/guide.html">
+  <link rel="alternate" hreflang="es" href="https://eggtimermax.github.io/es/guide.html">
+  <link rel="alternate" hreflang="fr" href="https://eggtimermax.github.io/fr/guide.html">
+  <link rel="alternate" hreflang="it" href="https://eggtimermax.github.io/it/guide.html">
+  <link rel="alternate" hreflang="ja" href="https://eggtimermax.github.io/ja/guide.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/guide.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl","de","es","fr","it","ja"], page="guide", lang="fr";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="../icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="guide.html">Guide</a>
+      <a href="support.html">Aide</a>
+      <a href="privacy.html">Confidentialité</a>
+      <a href="contact.html">Contact</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/guide.html">English</option><option value="nl" data-url="/nl/guide.html">Nederlands</option><option value="de" data-url="/de/guide.html">Deutsch</option><option value="es" data-url="/es/guide.html">Español</option><option value="fr" data-url="/fr/guide.html" selected>Français</option><option value="it" data-url="/it/guide.html">Italiano</option><option value="ja" data-url="/ja/guide.html">日本語</option></select>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="page wrap">
+  <article class="panel reveal">
+    <h1>Comment réussir l'œuf parfait</h1>
+    <p class="meta">Un guide rapide d'EggTimer Max — et de la cuisson des œufs en général.</p>
+    <p class="guide-intro">EggTimer Max fonctionne avec deux méthodes : plonger les œufs dans <b>de l'eau déjà bouillante</b>, ou les démarrer dans <b>de l'eau froide</b> qui chauffe avec la casserole. Choisissez celle qui correspond à votre façon de cuisiner — les deux vous donnent un temps calculé à la seconde.</p>
+
+    <hr class="divider">
+
+    <h2>Eau bouillante — un seul œuf</h2>
+    <span class="lead-note">La méthode classique · la plus précise</span>
+    <ol class="steps">
+      <li><b>Pesez l'œuf.</b> Glissez le curseur <i>Poids</i>, ou choisissez S / M / L / XL. Les œufs plus lourds demandent plus de temps.</li>
+      <li><b>Réglez la température de départ.</b> Tout droit du frigo, ou à température ambiante — un œuf froid met plus de temps.</li>
+      <li><b>Choisissez la cuisson.</b> Glissez de coulant à dur ; le temps se met à jour en direct.<span class="sub">Vérifiez qu'en bas il est indiqué « Eau bouillante ». Vous pouvez changer de méthode dans les Réglages.</span></li>
+      <li><b>Portez une casserole d'eau à pleine ébullition</b> — assez pour couvrir entièrement l'œuf.<span class="sub">Une fois l'ébullition forte, baissez un peu le feu pour que l'eau continue de bouillir doucement. Une ébullition trop vive fait s'entrechoquer les œufs et les fait craquer.</span></li>
+      <li><b>Touchez « Démarrer le minuteur ».</b> Après un court décompte 3-2-1, déposez délicatement l'œuf dans l'eau bouillante.</li>
+      <li><b>Refroidissez-le quand l'alarme sonne.</b> Plongez l'œuf dans de l'eau froide ou glacée pour stopper la cuisson et faciliter l'épluchage.</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 19h18L14.5 7l-3.2 5.4-2.1-2.8L3 19z" stroke="#C06800" stroke-width="1.8" stroke-linejoin="round"/><circle cx="14.5" cy="6" r="1.6" fill="#F59B23"/></svg></span>
+      <p>Vous vivez en altitude ? En montagne, l'eau bout en dessous de 100 °C, ce qui ralentit la cuisson. EggTimer Max corrige cela automatiquement — voyez le point d'ébullition affiché en bas de l'écran.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Plusieurs œufs à la fois</h2>
+    <span class="lead-note">Chaque œuf minuté séparément</span>
+    <ol class="steps">
+      <li><b>Configurez votre premier œuf</b> comme ci-dessus — poids, température de départ et cuisson.</li>
+      <li><b>Touchez « Ajouter cet œuf ».</b> Il rejoint votre fournée, et vous réglez le suivant avec ses propres paramètres — un mollet pour vous, un dur pour les enfants.</li>
+      <li><b>Répétez pour chaque œuf</b> que vous voulez cuire. Chacun garde son propre temps.</li>
+      <li><b>Touchez « Démarrer le minuteur ».</b> Mettez les œufs ensemble au départ ; l'app vous dit exactement quand sortir chacun.</li>
+      <li><b>Sortez chaque œuf dès qu'il est annoncé</b> et refroidissez-le dans l'eau froide.</li>
+    </ol>
+
+    <hr class="divider">
+
+    <h2>Départ à l'eau froide</h2>
+    <span class="lead-note">Doux · moins de fissures · idéal pour les œufs froids du frigo</span>
+    <p>Vous préférez démarrer vos œufs dans l'eau froide et tout chauffer ensemble ? Cette méthode est plus douce pour la coquille. Comme chaque plaque chauffe à son rythme, vous indiquez à l'app quand l'eau atteint vraiment l'ébullition.</p>
+    <ol class="steps">
+      <li><b>Passez la méthode sur « Eau froide »</b> dans les Réglages. En bas de l'écran il sera indiqué « Eau froide — chauffe avec la casserole ».</li>
+      <li><b>Réglez poids, température de départ et cuisson</b> pour votre œuf (ou ajoutez-en plusieurs, comme ci-dessus).</li>
+      <li><b>Mettez l'œuf (ou les œufs) dans une casserole d'eau froide</b> et posez-la sur le feu.</li>
+      <li><b>Touchez « Démarrer le minuteur ».</b> L'app commence à surveiller et attend l'ébullition.</li>
+      <li><b>Touchez « L'eau bout ! »</b> dès que l'eau bout à gros bouillons. Le décompte exact démarre à ce moment.</li>
+      <li><b>Refroidissez les œufs quand l'alarme sonne.</b> L'eau froide stoppe la cuisson pile à temps.</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="13" r="8" stroke="#C06800" stroke-width="1.8"/><path d="M12 9v4l2.8 2" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 2.5h6" stroke="#F59B23" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      <p>Le minuteur eau froide ne démarre qu'une fois l'ébullition confirmée — vous n'avez donc jamais à deviner combien de temps votre casserole met à chauffer.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Conseils généraux pour cuire les œufs</h2>
+    <ul>
+      <li><b>Utilisez assez d'eau.</b> L'œuf doit être entièrement immergé, avec quelques centimètres de marge, pour que la température reste stable.</li>
+      <li><b>Une pincée de sel ou un trait de vinaigre</b> dans l'eau aide le blanc d'une microfissure à coaguler vite au lieu de fuir.</li>
+      <li><b>Descendez les œufs doucement</b> à la cuillère pour éviter les fissures — et garder vos doigts loin de la vapeur.</li>
+      <li><b>Les œufs plus vieux s'épluchent plus facilement</b> que les très frais. Si l'épluchage est difficile, des œufs d'une semaine environ conviennent mieux.</li>
+      <li><b>Refroidissez toujours dans l'eau froide ou glacée.</b> Cela stoppe la cuisson à l'instant où le minuteur se termine et décolle la coquille du blanc.</li>
+      <li><b>Démarrez les œufs froids en douceur.</b> Les œufs froids du frigo craquent plus dans l'eau bouillante — la méthode à l'eau froide ou les laisser tempérer un peu aide.</li>
+      <li><b>Roulez et épluchez sous l'eau courante.</b> Tapotez l'œuf de partout, puis épluchez par le bout large et arrondi, où se trouve la poche d'air.</li>
+    </ul>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3v6L5 17.5A2 2 0 006.8 20.5h10.4A2 2 0 0019 17.5L14.5 9V3" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.5 3h7" stroke="#C06800" stroke-width="1.8" stroke-linecap="round"/><circle cx="10.5" cy="16" r="1.2" fill="#F59B23"/><circle cx="13.5" cy="17.5" r="1" fill="#F59B23"/></svg></span>
+      <p>EggTimer Max n'utilise pas de règles toutes faites — il applique le modèle physique de Williams au poids, à la température et à l'altitude exacts de votre œuf. C'est pourquoi le même réglage de cuisson convient aussi bien à un tout petit œuf qu'à un très gros.</p>
+    </div>
+
+    <p style="margin-top:28px;">Toujours bloqué ? <a href="contact.html">Contactez-nous →</a></p>
+  </article>
+</main>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="guide.html">Guide</a>
+    <a href="support.html">Aide</a>
+    <a href="privacy.html">Politique de confidentialité</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div>&copy; 2026 EggTimer Max</div>
+</footer>
+
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>

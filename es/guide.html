@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cómo cocer huevos — EggTimer Max</title>
+  <meta name="description" content="Instrucciones paso a paso para cocer uno o varios huevos con EggTimer Max — tanto el método de agua hirviendo como el de agua fría — además de consejos generales para cocer huevos.">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/guide.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/guide.html">
+  <link rel="alternate" hreflang="de" href="https://eggtimermax.github.io/de/guide.html">
+  <link rel="alternate" hreflang="es" href="https://eggtimermax.github.io/es/guide.html">
+  <link rel="alternate" hreflang="fr" href="https://eggtimermax.github.io/fr/guide.html">
+  <link rel="alternate" hreflang="it" href="https://eggtimermax.github.io/it/guide.html">
+  <link rel="alternate" hreflang="ja" href="https://eggtimermax.github.io/ja/guide.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/guide.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl","de","es","fr","it","ja"], page="guide", lang="es";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="../icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="guide.html">Guía</a>
+      <a href="support.html">Soporte</a>
+      <a href="privacy.html">Privacidad</a>
+      <a href="contact.html">Contacto</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/guide.html">English</option><option value="nl" data-url="/nl/guide.html">Nederlands</option><option value="de" data-url="/de/guide.html">Deutsch</option><option value="es" data-url="/es/guide.html" selected>Español</option><option value="fr" data-url="/fr/guide.html">Français</option><option value="it" data-url="/it/guide.html">Italiano</option><option value="ja" data-url="/ja/guide.html">日本語</option></select>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="page wrap">
+  <article class="panel reveal">
+    <h1>Cómo cocer el huevo perfecto</h1>
+    <p class="meta">Una guía rápida de EggTimer Max — y para cocer huevos en general.</p>
+    <p class="guide-intro">EggTimer Max funciona con dos métodos: echar los huevos en <b>agua ya hirviendo</b>, o empezarlos en <b>agua fría</b> que se calienta con la cazuela. Elige el que encaje con tu forma de cocinar — ambos te dan un tiempo calculado al segundo.</p>
+
+    <hr class="divider">
+
+    <h2>Agua hirviendo — un solo huevo</h2>
+    <span class="lead-note">El método clásico · el más preciso</span>
+    <ol class="steps">
+      <li><b>Pesa el huevo.</b> Arrastra el control de <i>Peso</i> o elige S / M / L / XL. Los huevos más pesados necesitan más tiempo.</li>
+      <li><b>Ajusta la temperatura inicial.</b> Directo de la nevera o a temperatura ambiente — un huevo frío tarda más.</li>
+      <li><b>Elige el punto de cocción.</b> Desliza de líquido a duro; el tiempo se actualiza en vivo.<span class="sub">Asegúrate de que abajo ponga «Agua hirviendo». Puedes cambiar de método en Ajustes.</span></li>
+      <li><b>Pon una cazuela de agua a hervir a borbotones</b> — suficiente para cubrir el huevo por completo.<span class="sub">Cuando hierva fuerte, baja un poco el fuego para que el agua siga hirviendo suavemente. Un hervor violento hace que los huevos reboten y se rompan.</span></li>
+      <li><b>Toca «Iniciar temporizador».</b> Tras una breve cuenta atrás 3-2-1, baja el huevo con cuidado al agua hirviendo.</li>
+      <li><b>Enfríalo cuando suene la alarma.</b> Echa el huevo en agua fría o con hielo para detener la cocción y facilitar el pelado.</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 19h18L14.5 7l-3.2 5.4-2.1-2.8L3 19z" stroke="#C06800" stroke-width="1.8" stroke-linejoin="round"/><circle cx="14.5" cy="6" r="1.6" fill="#F59B23"/></svg></span>
+      <p>¿Vives en altura? En la montaña el agua hierve por debajo de 100 °C, lo que ralentiza la cocción. EggTimer Max lo corrige automáticamente — mira el punto de ebullición en la parte inferior de la pantalla.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Varios huevos a la vez</h2>
+    <span class="lead-note">Cada huevo cronometrado por separado</span>
+    <ol class="steps">
+      <li><b>Configura tu primer huevo</b> como antes — peso, temperatura inicial y punto de cocción.</li>
+      <li><b>Toca «Añadir este huevo».</b> Pasa a tu tanda y puedes ajustar el siguiente con sus propios valores — uno blando para ti, uno duro para los niños.</li>
+      <li><b>Repite con cada huevo</b> que quieras cocer. Cada uno mantiene su propio tiempo.</li>
+      <li><b>Toca «Iniciar temporizador».</b> Echa los huevos juntos al principio; la app te dice exactamente cuándo sacar cada uno.</li>
+      <li><b>Saca cada huevo en cuanto lo indique</b> y enfríalo en agua fría.</li>
+    </ol>
+
+    <hr class="divider">
+
+    <h2>Inicio con agua fría</h2>
+    <span class="lead-note">Suave · menos roturas · ideal para huevos fríos de nevera</span>
+    <p>¿Prefieres empezar los huevos en agua fría y calentar todo junto? Este método es más suave con la cáscara. Como cada fogón calienta a su ritmo, tú le indicas a la app cuándo el agua llega de verdad a ebullición.</p>
+    <ol class="steps">
+      <li><b>Cambia el método a «Agua fría»</b> en Ajustes. Abajo en la pantalla pondrá «Agua fría — se calienta con la cazuela».</li>
+      <li><b>Ajusta peso, temperatura inicial y punto de cocción</b> para tu huevo (o añade varios, igual que antes).</li>
+      <li><b>Pon el huevo (o los huevos) en una cazuela con agua fría</b> y ponla al fuego.</li>
+      <li><b>Toca «Iniciar temporizador».</b> La app empieza a vigilar y espera la ebullición.</li>
+      <li><b>Toca «¡El agua hierve!»</b> en cuanto el agua hierva a borbotones. La cuenta atrás exacta empieza ahí.</li>
+      <li><b>Enfría los huevos cuando suene la alarma.</b> El agua fría detiene la cocción justo a tiempo.</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="13" r="8" stroke="#C06800" stroke-width="1.8"/><path d="M12 9v4l2.8 2" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 2.5h6" stroke="#F59B23" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      <p>El temporizador de agua fría solo empieza cuando confirmas la ebullición — así nunca tienes que adivinar cuánto tarda tu cazuela en calentarse.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Consejos generales para cocer huevos</h2>
+    <ul>
+      <li><b>Usa agua suficiente.</b> El huevo debe quedar totalmente cubierto, con un par de centímetros de margen, para que la temperatura se mantenga estable.</li>
+      <li><b>Una pizca de sal o un chorrito de vinagre</b> en el agua ayuda a que la clara de una grieta fina cuaje rápido en vez de salirse.</li>
+      <li><b>Baja los huevos con cuidado</b> con una cuchara para evitar roturas — y para alejar los dedos del vapor.</li>
+      <li><b>Los huevos más viejos se pelan mejor</b> que los muy frescos. Si te cuesta pelarlos, los de una semana o más van mejor.</li>
+      <li><b>Enfría siempre en agua fría o con hielo.</b> Detiene la cocción en el instante en que acaba el temporizador y suelta la cáscara de la clara.</li>
+      <li><b>Empieza los huevos fríos con suavidad.</b> Los huevos fríos de nevera se rompen más en agua hirviendo — el método de agua fría o dejar que se atemperen un poco ayuda.</li>
+      <li><b>Rueda y pela bajo el grifo.</b> Golpea el huevo por todos lados y pela desde el extremo ancho y romo, donde está la cámara de aire.</li>
+    </ul>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3v6L5 17.5A2 2 0 006.8 20.5h10.4A2 2 0 0019 17.5L14.5 9V3" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.5 3h7" stroke="#C06800" stroke-width="1.8" stroke-linecap="round"/><circle cx="10.5" cy="16" r="1.2" fill="#F59B23"/><circle cx="13.5" cy="17.5" r="1" fill="#F59B23"/></svg></span>
+      <p>EggTimer Max no usa reglas fijas — aplica el modelo físico de Williams al peso, la temperatura y la altitud exactos de tu huevo. Por eso el mismo punto de cocción funciona igual para un huevo diminuto que para uno gigante.</p>
+    </div>
+
+    <p style="margin-top:28px;">¿Sigues atascado? <a href="contact.html">Ponte en contacto →</a></p>
+  </article>
+</main>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="guide.html">Guía</a>
+    <a href="support.html">Soporte</a>
+    <a href="privacy.html">Política de privacidad</a>
+    <a href="contact.html">Contacto</a>
+  </div>
+  <div>&copy; 2026 EggTimer Max</div>
+</footer>
+
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>

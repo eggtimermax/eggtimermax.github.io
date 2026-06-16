@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politique de confidentialité — EggTimer Max</title>
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/privacy.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/privacy.html">
+  <link rel="alternate" hreflang="de" href="https://eggtimermax.github.io/de/privacy.html">
+  <link rel="alternate" hreflang="es" href="https://eggtimermax.github.io/es/privacy.html">
+  <link rel="alternate" hreflang="fr" href="https://eggtimermax.github.io/fr/privacy.html">
+  <link rel="alternate" hreflang="it" href="https://eggtimermax.github.io/it/privacy.html">
+  <link rel="alternate" hreflang="ja" href="https://eggtimermax.github.io/ja/privacy.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/privacy.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl","de","es","fr","it","ja"], page="privacy", lang="fr";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="../icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="guide.html">Guide</a>
+      <a href="support.html">Aide</a>
+      <a href="privacy.html">Confidentialité</a>
+      <a href="contact.html">Contact</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/privacy.html">English</option><option value="nl" data-url="/nl/privacy.html">Nederlands</option><option value="de" data-url="/de/privacy.html">Deutsch</option><option value="es" data-url="/es/privacy.html">Español</option><option value="fr" data-url="/fr/privacy.html" selected>Français</option><option value="it" data-url="/it/privacy.html">Italiano</option><option value="ja" data-url="/ja/privacy.html">日本語</option></select>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="page wrap">
+  <article class="panel reveal">
+    <h1>Politique de confidentialité</h1>
+    <p class="meta">Dernière mise à jour : 15 juin 2025</p>
+
+    <h2>Aperçu</h2>
+    <p>EggTimer Max est conçu avec la confidentialité à l'esprit. L'app ne nécessite aucun compte et ne collecte, ne stocke ni ne transmet aucune donnée personnelle.</p>
+
+    <h2>Données que nous collectons</h2>
+    <p>Aucune. Nous ne collectons aucune information personnelle. Vos réglages — poids de l'œuf, température de départ et cuisson préférée — sont enregistrés localement sur votre appareil et ne le quittent jamais.</p>
+
+    <h2>Achats</h2>
+    <p>Les achats intégrés et les pourboires sont entièrement gérés par Apple via StoreKit. Nous ne voyons ni ne stockons jamais vos informations de paiement.</p>
+
+    <h2>Analyse &amp; suivi</h2>
+    <p>EggTimer Max ne contient aucun SDK d'analyse ou de suivi tiers. Nous ne suivons pas votre usage de l'app, et il n'y a aucun identifiant publicitaire.</p>
+
+    <h2>Services tiers</h2>
+    <p>Aucun SDK tiers collectant des données n'est inclus. L'app utilise les propres frameworks d'Apple (comme StoreKit pour les achats), régis par la <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Politique de confidentialité d'Apple</a>.</p>
+
+    <h2>Enfants</h2>
+    <p>EggTimer Max ne collecte sciemment de données de personne, y compris les enfants de moins de 13 ans.</p>
+
+    <h2>Modifications de cette politique</h2>
+    <p>Si cette politique change, la version mise à jour sera publiée sur cette page avec une nouvelle date.</p>
+
+    <h2>Contact</h2>
+    <p>Des questions sur votre confidentialité ? Joignez-nous via la <a href="contact.html">page de contact</a>.</p>
+  </article>
+</main>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="guide.html">Guide</a>
+    <a href="support.html">Aide</a>
+    <a href="privacy.html">Politique de confidentialité</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div>&copy; 2026 EggTimer Max</div>
+</footer>
+
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>

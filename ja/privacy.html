@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー — EggTimer Max</title>
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/privacy.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/privacy.html">
+  <link rel="alternate" hreflang="de" href="https://eggtimermax.github.io/de/privacy.html">
+  <link rel="alternate" hreflang="es" href="https://eggtimermax.github.io/es/privacy.html">
+  <link rel="alternate" hreflang="fr" href="https://eggtimermax.github.io/fr/privacy.html">
+  <link rel="alternate" hreflang="it" href="https://eggtimermax.github.io/it/privacy.html">
+  <link rel="alternate" hreflang="ja" href="https://eggtimermax.github.io/ja/privacy.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/privacy.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl","de","es","fr","it","ja"], page="privacy", lang="ja";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="../icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="guide.html">ガイド</a>
+      <a href="support.html">サポート</a>
+      <a href="privacy.html">プライバシー</a>
+      <a href="contact.html">お問い合わせ</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/privacy.html">English</option><option value="nl" data-url="/nl/privacy.html">Nederlands</option><option value="de" data-url="/de/privacy.html">Deutsch</option><option value="es" data-url="/es/privacy.html">Español</option><option value="fr" data-url="/fr/privacy.html">Français</option><option value="it" data-url="/it/privacy.html">Italiano</option><option value="ja" data-url="/ja/privacy.html" selected>日本語</option></select>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="page wrap">
+  <article class="panel reveal">
+    <h1>プライバシーポリシー</h1>
+    <p class="meta">最終更新：2025年6月15日</p>
+
+    <h2>概要</h2>
+    <p>EggTimer Max はプライバシーを第一に考えて作られています。本アプリはアカウントを必要とせず、個人データの収集・保存・送信を一切行いません。</p>
+
+    <h2>収集するデータ</h2>
+    <p>ありません。個人情報は一切収集しません。あなたの設定 — 卵の重さ、スタート温度、好みのかたさ — は端末内にローカル保存され、外部に出ることはありません。</p>
+
+    <h2>購入</h2>
+    <p>アプリ内購入とチップはすべて Apple が StoreKit を通じて処理します。お支払い情報を当方が見たり保存したりすることはありません。</p>
+
+    <h2>分析とトラッキング</h2>
+    <p>EggTimer Max にはサードパーティの分析・トラッキング SDK は含まれていません。アプリの使い方を追跡せず、広告 ID もありません。</p>
+
+    <h2>サードパーティサービス</h2>
+    <p>データを収集するサードパーティ SDK は含まれていません。本アプリは Apple 自身のフレームワーク（購入用の StoreKit など）を使用しており、これらは <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple のプライバシーポリシー</a>に従います。</p>
+
+    <h2>お子さま</h2>
+    <p>EggTimer Max は、13歳未満のお子さまを含め、誰からも意図的にデータを収集しません。</p>
+
+    <h2>本ポリシーの変更</h2>
+    <p>本ポリシーが変更された場合、更新版を新しい日付とともにこのページに掲載します。</p>
+
+    <h2>お問い合わせ</h2>
+    <p>プライバシーに関するご質問は <a href="contact.html">お問い合わせページ</a>からご連絡ください。</p>
+  </article>
+</main>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="guide.html">ガイド</a>
+    <a href="support.html">サポート</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+    <a href="contact.html">お問い合わせ</a>
+  </div>
+  <div>&copy; 2026 EggTimer Max</div>
+</footer>
+
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>

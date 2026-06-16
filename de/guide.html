@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eier kochen — EggTimer Max</title>
+  <meta name="description" content="Schritt-für-Schritt-Anleitung zum Kochen von einem oder mehreren Eiern mit EggTimer Max — sowohl die Methode mit kochendem als auch mit kaltem Wasser — plus allgemeine Tipps zum Eierkochen.">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/guide.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/guide.html">
+  <link rel="alternate" hreflang="de" href="https://eggtimermax.github.io/de/guide.html">
+  <link rel="alternate" hreflang="es" href="https://eggtimermax.github.io/es/guide.html">
+  <link rel="alternate" hreflang="fr" href="https://eggtimermax.github.io/fr/guide.html">
+  <link rel="alternate" hreflang="it" href="https://eggtimermax.github.io/it/guide.html">
+  <link rel="alternate" hreflang="ja" href="https://eggtimermax.github.io/ja/guide.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/guide.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl","de","es","fr","it","ja"], page="guide", lang="de";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="../icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="guide.html">Anleitung</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Datenschutz</a>
+      <a href="contact.html">Kontakt</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/guide.html">English</option><option value="nl" data-url="/nl/guide.html">Nederlands</option><option value="de" data-url="/de/guide.html" selected>Deutsch</option><option value="es" data-url="/es/guide.html">Español</option><option value="fr" data-url="/fr/guide.html">Français</option><option value="it" data-url="/it/guide.html">Italiano</option><option value="ja" data-url="/ja/guide.html">日本語</option></select>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="page wrap">
+  <article class="panel reveal">
+    <h1>So kochst du das perfekte Ei</h1>
+    <p class="meta">Eine kurze Anleitung zu EggTimer Max — und zum Eierkochen allgemein.</p>
+    <p class="guide-intro">EggTimer Max arbeitet mit zwei Methoden: Eier in <b>bereits kochendes Wasser</b> geben oder sie in <b>kaltem Wasser</b> starten, das mit dem Topf erhitzt. Wähl die Methode, die zu deinem Kochen passt — beide liefern dir eine auf die Sekunde berechnete Zeit.</p>
+
+    <hr class="divider">
+
+    <h2>Kochendes Wasser — ein einzelnes Ei</h2>
+    <span class="lead-note">Die klassische Methode · am präzisesten</span>
+    <ol class="steps">
+      <li><b>Wiege das Ei.</b> Zieh den <i>Gewicht</i>-Regler oder wähl S / M / L / XL. Schwerere Eier brauchen länger.</li>
+      <li><b>Stell die Ausgangstemperatur ein.</b> Direkt aus dem Kühlschrank oder bei Zimmertemperatur — ein kaltes Ei braucht länger.</li>
+      <li><b>Wähl den Härtegrad.</b> Schieb von flüssig bis hart gekocht; die Kochzeit aktualisiert sich live.<span class="sub">Achte darauf, dass unten „Kochendes Wasser“ steht. Die Methode kannst du in den Einstellungen wechseln.</span></li>
+      <li><b>Bring einen Topf Wasser zum sprudelnden Kochen</b> — genug, um das Ei vollständig zu bedecken.<span class="sub">Sobald es stark kocht, dreh die Hitze etwas herunter, sodass das Wasser gerade noch sanft weiterkocht. Heftiges Kochen schleudert die Eier umher und lässt sie platzen.</span></li>
+      <li><b>Tippe auf „Timer starten“.</b> Nach einem kurzen 3-2-1-Countdown lässt du das Ei vorsichtig ins kochende Wasser gleiten.</li>
+      <li><b>Kühl es ab, wenn der Alarm ertönt.</b> Gib das Ei in kaltes oder Eiswasser, um das Garen zu stoppen und das Pellen zu erleichtern.</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 19h18L14.5 7l-3.2 5.4-2.1-2.8L3 19z" stroke="#C06800" stroke-width="1.8" stroke-linejoin="round"/><circle cx="14.5" cy="6" r="1.6" fill="#F59B23"/></svg></span>
+      <p>Wohnst du in der Höhe? In den Bergen kocht Wasser unter 100 °C, was das Garen verlangsamt. EggTimer Max korrigiert das automatisch — sieh dir den Siedepunkt unten am Bildschirm an.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Mehrere Eier auf einmal</h2>
+    <span class="lead-note">Jedes Ei einzeln getaktet</span>
+    <ol class="steps">
+      <li><b>Richte dein erstes Ei ein</b> wie oben — Gewicht, Ausgangstemperatur und Härtegrad.</li>
+      <li><b>Tippe auf „Dieses Ei hinzufügen“.</b> Es wandert in deine Ladung, und du stellst das nächste mit eigenen Einstellungen ein — ein weiches für dich, ein hartes für die Kinder.</li>
+      <li><b>Wiederhol das für jedes Ei</b>, das du kochen willst. Jedes behält seine eigene Kochzeit.</li>
+      <li><b>Tippe auf „Timer starten“.</b> Gib die Eier zu Beginn zusammen hinein; die App sagt dir genau, wann du jedes herausnimmst.</li>
+      <li><b>Hol jedes Ei genau dann heraus, wenn es aufgerufen wird</b>, und kühl es in kaltem Wasser.</li>
+    </ol>
+
+    <hr class="divider">
+
+    <h2>Start mit kaltem Wasser</h2>
+    <span class="lead-note">Sanft · weniger Risse · ideal für kühlschrankkalte Eier</span>
+    <p>Lieber die Eier in kaltem Wasser starten und alles zusammen erhitzen? Diese Methode ist schonender für die Schale. Da jeder Herd unterschiedlich schnell heizt, sagst du der App, wann das Wasser tatsächlich kocht.</p>
+    <ol class="steps">
+      <li><b>Stell die Methode auf „Kaltes Wasser“</b> in den Einstellungen. Unten am Bildschirm steht dann „Kaltes Wasser — erhitzt mit dem Topf“.</li>
+      <li><b>Stell Gewicht, Ausgangstemperatur und Härtegrad</b> für dein Ei ein (oder füg mehrere hinzu, wie oben).</li>
+      <li><b>Gib das Ei (oder die Eier) in einen Topf mit kaltem Wasser</b> und stell ihn auf die Hitze.</li>
+      <li><b>Tippe auf „Timer starten“.</b> Die App beginnt zu beobachten und wartet aufs Kochen.</li>
+      <li><b>Tippe auf „Wasser kocht!“</b>, sobald das Wasser voll sprudelnd kocht. Ab da beginnt der exakte Countdown.</li>
+      <li><b>Kühl die Eier, wenn der Alarm ertönt.</b> Kaltes Wasser stoppt das Garen genau rechtzeitig.</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="13" r="8" stroke="#C06800" stroke-width="1.8"/><path d="M12 9v4l2.8 2" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 2.5h6" stroke="#F59B23" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      <p>Der Kaltwasser-Timer startet erst, wenn du das Kochen bestätigst — so musst du nie raten, wie lange dein Topf zum Aufheizen braucht.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Allgemeine Tipps zum Eierkochen</h2>
+    <ul>
+      <li><b>Nimm genug Wasser.</b> Das Ei sollte vollständig bedeckt sein, mit ein paar Zentimetern Spielraum, damit die Temperatur stabil bleibt.</li>
+      <li><b>Eine Prise Salz oder ein Schuss Essig</b> im Wasser hilft, dass Eiweiß aus einem Haarriss schnell stockt, statt auszulaufen.</li>
+      <li><b>Lass die Eier sanft hinein</b> mit einem Löffel, um Risse zu vermeiden — und um deine Finger vom Dampf fernzuhalten.</li>
+      <li><b>Ältere Eier lassen sich leichter pellen</b> als ganz frische. Wenn das Pellen schwerfällt, eignen sich Eier am besten, die etwa eine Woche alt sind.</li>
+      <li><b>Kühl immer in kaltem oder Eiswasser.</b> Das stoppt das Garen genau dann, wenn dein Timer endet, und löst die Schale vom Eiweiß.</li>
+      <li><b>Starte kalte Eier sanft.</b> Kühlschrankkalte Eier platzen leichter in kochendem Wasser — die Kaltwasser-Methode oder etwas Anwärmen hilft.</li>
+      <li><b>Rollen und unter fließendem Wasser pellen.</b> Klopf das Ei rundum an und pell von der breiteren, stumpfen Seite, wo die Luftkammer sitzt.</li>
+    </ul>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3v6L5 17.5A2 2 0 006.8 20.5h10.4A2 2 0 0019 17.5L14.5 9V3" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.5 3h7" stroke="#C06800" stroke-width="1.8" stroke-linecap="round"/><circle cx="10.5" cy="16" r="1.2" fill="#F59B23"/><circle cx="13.5" cy="17.5" r="1" fill="#F59B23"/></svg></span>
+      <p>EggTimer Max nutzt keine festen Faustregeln — es rechnet das physikbasierte Williams-Modell mit dem exakten Gewicht, der Temperatur und der Höhe deines Eis. Deshalb funktioniert dieselbe Härtegrad-Einstellung für ein winziges genauso wie für ein Riesenei.</p>
+    </div>
+
+    <p style="margin-top:28px;">Kommst du nicht weiter? <a href="contact.html">Nimm Kontakt auf →</a></p>
+  </article>
+</main>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="guide.html">Anleitung</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Datenschutzerklärung</a>
+    <a href="contact.html">Kontakt</a>
+  </div>
+  <div>&copy; 2026 EggTimer Max</div>
+</footer>
+
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>

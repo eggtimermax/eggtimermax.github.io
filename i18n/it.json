@@ -1,0 +1,131 @@
+{
+  "htmlLang": "it",
+  "label": "Italiano",
+  "nav": { "guide": "Guida", "support": "Assistenza", "privacy": "Privacy", "contact": "Contatti" },
+  "footer": { "privacyPolicy": "Informativa sulla privacy" },
+  "index": {
+    "title": "EggTimer Max — Uova perfette, ogni volta",
+    "metaDesc": "EggTimer Max calcola il tempo di cottura esatto del tuo uovo in base a peso, temperatura e cottura desiderata. Alla coque, morbido o sodo — perfetto ogni volta.",
+    "heroH1": "Uova perfette,<br><span class=\"accent\">ogni volta.</span>",
+    "heroLead": "EggTimer Max calcola il tempo di cottura esatto del tuo uovo — in base al peso, alla temperatura iniziale e a come piace esattamente a te. Alla coque, morbido o sodo.",
+    "learnMore": "Scopri di più",
+    "shotMain": "Schermata principale",
+    "shotTimer": "Animazione di cottura dal vivo",
+    "shotBatch": "Cuoci più uova",
+    "whyTitle": "Perché EggTimer Max?",
+    "whySub": "Non un semplice conto alla rovescia — un modello basato sulla fisica che rende il tuo uovo perfetto al punto giusto.",
+    "features": {
+      "science": { "h": "Scienza, non a occhio", "p": "Usa la formula di Williams per considerare il peso dell'uovo, la temperatura iniziale (frigo o ambiente) e la cottura che vuoi." },
+      "doneness": { "h": "Dal liquido al sodo", "p": "Imposta esattamente come ti piace — liquido, cremoso, morbido, bazzotto, appena rappreso, medio o sodo." },
+      "live": { "h": "Guardalo cuocere dal vivo", "p": "Una vera animazione di acqua bollente mostra il tuo uovo cuocere in tempo reale, sullo schermo." },
+      "altitude": { "h": "Tiene conto dell'altitudine", "p": "In quota l'acqua bolle a temperatura più bassa. EggTimer Max corregge il punto di ebollizione perché i tempi siano precisi ovunque." },
+      "batch": { "h": "Cuoci un'intera infornata", "p": "Metti più uova insieme, ciascuna con il proprio peso e cottura — ognuna cronometrata singolarmente." },
+      "private": { "h": "Privato per scelta", "p": "Nessun account, nessun tracciamento, nessuna raccolta dati. Tutto resta sul tuo dispositivo. Funziona completamente offline." }
+    }
+  },
+  "guide": {
+    "title": "Come cuocere le uova — EggTimer Max",
+    "metaDesc": "Istruzioni passo passo per cuocere uno o più uova con EggTimer Max — sia il metodo in acqua bollente sia quello in acqua fredda — più consigli generali per cuocere le uova.",
+    "h1": "Come cuocere l'uovo perfetto",
+    "meta": "Una guida rapida a EggTimer Max — e alla cottura delle uova in generale.",
+    "intro": "EggTimer Max funziona con due metodi: tuffare le uova in <b>acqua già bollente</b>, oppure avviarle in <b>acqua fredda</b> che si scalda insieme alla pentola. Scegli quello che si adatta al tuo modo di cucinare — entrambi ti danno un tempo calcolato al secondo.",
+    "s1": {
+      "h": "Acqua bollente — un solo uovo",
+      "note": "Il metodo classico · il più preciso",
+      "steps": [
+        { "main": "<b>Pesa l'uovo.</b> Trascina il cursore <i>Peso</i> oppure scegli S / M / L / XL. Le uova più pesanti richiedono più tempo." },
+        { "main": "<b>Imposta la temperatura iniziale.</b> Appena uscito dal frigo o a temperatura ambiente — un uovo freddo impiega di più." },
+        { "main": "<b>Scegli la cottura.</b> Scorri da liquido a sodo; il tempo si aggiorna dal vivo.", "sub": "Assicurati che in basso ci sia scritto «Acqua bollente». Puoi cambiare metodo nelle Impostazioni." },
+        { "main": "<b>Porta una pentola d'acqua a bollore vivace</b> — abbastanza da coprire del tutto l'uovo.", "sub": "Quando bolle forte, abbassa un po' la fiamma così l'acqua continua a sobbollire dolcemente. Un bollore violento fa sbattere le uova e le fa rompere." },
+        { "main": "<b>Tocca «Avvia timer».</b> Dopo un breve conto alla rovescia 3-2-1, cala delicatamente l'uovo nell'acqua bollente." },
+        { "main": "<b>Raffreddalo quando suona l'allarme.</b> Metti l'uovo in acqua fredda o ghiacciata per fermare la cottura e facilitare la sbucciatura." }
+      ]
+    },
+    "tipAltitude": "Vivi in quota? In montagna l'acqua bolle sotto i 100 °C, rallentando la cottura. EggTimer Max corregge tutto automaticamente — guarda il punto di ebollizione mostrato in basso sullo schermo.",
+    "s2": {
+      "h": "Più uova insieme",
+      "note": "Ogni uovo cronometrato singolarmente",
+      "steps": [
+        { "main": "<b>Imposta il primo uovo</b> come sopra — peso, temperatura iniziale e cottura." },
+        { "main": "<b>Tocca «Aggiungi questo uovo».</b> Passa alla tua infornata e puoi impostare il successivo con i suoi valori — uno morbido per te, uno sodo per i bambini." },
+        { "main": "<b>Ripeti per ogni uovo</b> che vuoi cuocere. Ognuno mantiene il proprio tempo." },
+        { "main": "<b>Tocca «Avvia timer».</b> Metti le uova insieme all'inizio; l'app ti dice esattamente quando togliere ciascuna." },
+        { "main": "<b>Togli ogni uovo nel momento in cui viene annunciato</b> e raffreddalo in acqua fredda." }
+      ]
+    },
+    "s3": {
+      "h": "Avvio in acqua fredda",
+      "note": "Delicato · meno crepe · ideale per uova fredde di frigo",
+      "intro": "Preferisci avviare le uova in acqua fredda e scaldare tutto insieme? Questo metodo è più delicato sul guscio. Poiché ogni fornello scalda a ritmo diverso, sei tu a indicare all'app quando l'acqua arriva davvero a bollore.",
+      "steps": [
+        { "main": "<b>Imposta il metodo su «Acqua fredda»</b> nelle Impostazioni. In basso sullo schermo comparirà «Acqua fredda — si scalda con la pentola»." },
+        { "main": "<b>Imposta peso, temperatura iniziale e cottura</b> per il tuo uovo (o aggiungine diversi, come sopra)." },
+        { "main": "<b>Metti l'uovo (o le uova) in una pentola con acqua fredda</b> e mettila sul fuoco." },
+        { "main": "<b>Tocca «Avvia timer».</b> L'app inizia a sorvegliare e attende il bollore." },
+        { "main": "<b>Tocca «L'acqua bolle!»</b> appena l'acqua bolle a pieno regime. Da lì parte il conto alla rovescia esatto." },
+        { "main": "<b>Raffredda le uova quando suona l'allarme.</b> L'acqua fredda ferma la cottura giusto in tempo." }
+      ]
+    },
+    "tipCold": "Il timer dell'acqua fredda parte solo quando confermi il bollore — così non devi mai indovinare quanto impiega la pentola a scaldarsi.",
+    "s4": { "h": "Consigli generali per cuocere le uova" },
+    "tips": [
+      "<b>Usa abbastanza acqua.</b> L'uovo deve essere del tutto immerso, con un paio di centimetri di margine, così la temperatura resta stabile.",
+      "<b>Un pizzico di sale o un goccio di aceto</b> nell'acqua aiuta l'albume di una piccola crepa a rapprendersi in fretta invece di fuoriuscire.",
+      "<b>Cala le uova con delicatezza</b> con un cucchiaio per evitare crepe — e per tenere le dita lontane dal vapore.",
+      "<b>Le uova più vecchie si sbucciano più facilmente</b> di quelle freschissime. Se la sbucciatura è difficile, vanno meglio uova di una settimana o più.",
+      "<b>Raffredda sempre in acqua fredda o ghiacciata.</b> Ferma la cottura nell'istante in cui finisce il timer e stacca il guscio dall'albume.",
+      "<b>Avvia le uova fredde con delicatezza.</b> Le uova fredde di frigo si rompono più facilmente in acqua bollente — il metodo in acqua fredda o lasciarle intiepidire un po' aiuta.",
+      "<b>Rulla e sbuccia sotto l'acqua corrente.</b> Picchietta l'uovo tutt'intorno, poi sbuccia dall'estremità larga e tondeggiante, dove si trova la camera d'aria."
+    ],
+    "tipScience": "EggTimer Max non usa regole fisse — applica il modello fisico di Williams al peso, alla temperatura e all'altitudine esatti del tuo uovo. Ecco perché la stessa impostazione di cottura funziona sia per un uovo piccolissimo sia per uno gigante.",
+    "stillStuck": "Ancora bloccato? <a href=\"contact.html\">Contattaci →</a>"
+  },
+  "support": {
+    "title": "Assistenza — EggTimer Max",
+    "h1": "Assistenza",
+    "meta": "Siamo felici di aiutarti.",
+    "faqHeading": "Domande frequenti",
+    "faqs": [
+      { "q": "Come calcola EggTimer Max il tempo di cottura?", "a": "Usa la formula di Williams — un modello basato sulla fisica che tiene conto del peso dell'uovo, della sua temperatura iniziale e dell'altitudine a cui cucini (che cambia il punto di ebollizione dell'acqua). Il risultato è il tempo esatto per raggiungere la cottura scelta." },
+      { "q": "Cosa sblocca Pro?", "a": "Pro aggiunge l'animazione dell'acqua bollente dal vivo, la correzione del punto di ebollizione in base all'altitudine, una Live Activity e la cottura di più uova insieme con impostazioni di cottura individuali. Pro si sblocca con una mancia una tantum di 2,99 € o più." },
+      { "q": "Ho acquistato Pro ma non compare", "a": "Apri Impostazioni → Ripristina acquisti. Se ancora non compare, <a href=\"contact.html\">contattaci</a> e lo risolviamo." },
+      { "q": "Funziona offline?", "a": "Sì. EggTimer Max funziona completamente offline e non richiede alcun account." }
+    ],
+    "contactHeading": "Contattaci",
+    "contactBody": "Hai trovato un bug o hai un suggerimento? <a href=\"contact.html\">Inviaci un messaggio →</a>"
+  },
+  "privacy": {
+    "title": "Informativa sulla privacy — EggTimer Max",
+    "h1": "Informativa sulla privacy",
+    "meta": "Ultimo aggiornamento: 15 giugno 2025",
+    "sections": [
+      { "h": "Panoramica", "p": "EggTimer Max è realizzata pensando alla privacy. L'app non richiede alcun account e non raccoglie, conserva né trasmette alcun dato personale." },
+      { "h": "Dati che raccogliamo", "p": "Nessuno. Non raccogliamo alcuna informazione personale. Le tue impostazioni — peso dell'uovo, temperatura iniziale e cottura preferita — sono salvate localmente sul tuo dispositivo e non lo lasciano mai." },
+      { "h": "Acquisti", "p": "Gli acquisti in-app e le mance sono gestiti interamente da Apple tramite StoreKit. Non vediamo né conserviamo mai i tuoi dati di pagamento." },
+      { "h": "Analisi e tracciamento", "p": "EggTimer Max non contiene SDK di analisi o tracciamento di terze parti. Non monitoriamo come usi l'app e non ci sono identificatori pubblicitari." },
+      { "h": "Servizi di terze parti", "p": "Non è incluso alcun SDK di terze parti che raccoglie dati. L'app usa i framework di Apple (come StoreKit per gli acquisti), regolati dall'<a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Informativa sulla privacy di Apple</a>." },
+      { "h": "Minori", "p": "EggTimer Max non raccoglie consapevolmente dati da nessuno, inclusi i minori di 13 anni." },
+      { "h": "Modifiche a questa informativa", "p": "Se questa informativa cambia, la versione aggiornata sarà pubblicata su questa pagina con una nuova data." },
+      { "h": "Contatti", "p": "Domande sulla tua privacy? Raggiungici tramite la <a href=\"contact.html\">pagina dei contatti</a>." }
+    ]
+  },
+  "contact": {
+    "title": "Contatti — EggTimer Max",
+    "h1": "Contatti",
+    "meta": "Leggiamo ogni messaggio e rispondiamo il prima possibile.",
+    "nameLabel": "Il tuo nome",
+    "namePlaceholder": "Mario Rossi",
+    "emailLabel": "La tua e-mail",
+    "emailPlaceholder": "tu@esempio.com",
+    "subjectLabel": "Oggetto",
+    "subjectPlaceholder": "Di cosa si tratta?",
+    "messageLabel": "Messaggio",
+    "messagePlaceholder": "Raccontaci di più…",
+    "send": "Invia messaggio",
+    "sending": "Invio…",
+    "successTitle": "Messaggio inviato!",
+    "successBody": "Grazie per averci scritto. Ti risponderemo il prima possibile.",
+    "backHome": "Torna alla home",
+    "alertError": "Qualcosa è andato storto — riprova."
+  }
+}

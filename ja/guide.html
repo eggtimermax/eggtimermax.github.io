@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>卵のゆで方 — EggTimer Max</title>
+  <meta name="description" content="EggTimer Max で1個または複数の卵をゆでる手順を、お湯からと水からの両方の方法でステップごとに解説。卵をゆでる一般的なコツも紹介します。">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/guide.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/guide.html">
+  <link rel="alternate" hreflang="de" href="https://eggtimermax.github.io/de/guide.html">
+  <link rel="alternate" hreflang="es" href="https://eggtimermax.github.io/es/guide.html">
+  <link rel="alternate" hreflang="fr" href="https://eggtimermax.github.io/fr/guide.html">
+  <link rel="alternate" hreflang="it" href="https://eggtimermax.github.io/it/guide.html">
+  <link rel="alternate" hreflang="ja" href="https://eggtimermax.github.io/ja/guide.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/guide.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl","de","es","fr","it","ja"], page="guide", lang="ja";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="../icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="guide.html">ガイド</a>
+      <a href="support.html">サポート</a>
+      <a href="privacy.html">プライバシー</a>
+      <a href="contact.html">お問い合わせ</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/guide.html">English</option><option value="nl" data-url="/nl/guide.html">Nederlands</option><option value="de" data-url="/de/guide.html">Deutsch</option><option value="es" data-url="/es/guide.html">Español</option><option value="fr" data-url="/fr/guide.html">Français</option><option value="it" data-url="/it/guide.html">Italiano</option><option value="ja" data-url="/ja/guide.html" selected>日本語</option></select>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="page wrap">
+  <article class="panel reveal">
+    <h1>完璧なゆで卵の作り方</h1>
+    <p class="meta">EggTimer Max — そして卵をゆでること全般 — のかんたんガイド。</p>
+    <p class="guide-intro">EggTimer Max には2つの方法があります。<b>すでに沸騰したお湯</b>に卵を入れる方法と、鍋といっしょに温まる<b>水</b>からスタートする方法です。あなたの調理スタイルに合うほうを選んでください — どちらも秒単位で計算した時間を出します。</p>
+
+    <hr class="divider">
+
+    <h2>沸騰したお湯 — 卵1個</h2>
+    <span class="lead-note">定番の方法・最も正確</span>
+    <ol class="steps">
+      <li><b>卵の重さを量る。</b><i>重さ</i>スライダーを動かすか、S / M / L / XL から選びます。重い卵ほど時間がかかります。</li>
+      <li><b>スタート温度を設定する。</b>冷蔵庫から出したてか常温か — 冷たい卵は時間が長くなります。</li>
+      <li><b>かたさを選ぶ。</b>とろとろから固ゆでまでスライドすると、ゆで時間がリアルタイムで更新されます。<span class="sub">画面下に「沸騰したお湯」と表示されているか確認してください。方法は設定で切り替えられます。</span></li>
+      <li><b>鍋のお湯をしっかり沸騰させる</b> — 卵が完全に浸かるくらいの量で。<span class="sub">強く沸騰したら火を少し弱め、お湯がやさしく沸き続ける程度にします。激しく沸騰すると卵がぶつかり合って割れてしまいます。</span></li>
+      <li><b>「タイマー開始」をタップ。</b>3-2-1 の短いカウントダウンのあと、卵をそっとお湯に入れます。</li>
+      <li><b>アラームが鳴ったら冷やす。</b>冷水か氷水に入れて加熱を止め、殻をむきやすくします。</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 19h18L14.5 7l-3.2 5.4-2.1-2.8L3 19z" stroke="#C06800" stroke-width="1.8" stroke-linejoin="round"/><circle cx="14.5" cy="6" r="1.6" fill="#F59B23"/></svg></span>
+      <p>標高の高い場所にお住まいですか？山では水は100 °C より低い温度で沸騰し、加熱が遅くなります。EggTimer Max はこれを自動で補正します — 画面下に表示される沸点をご覧ください。</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>複数の卵を一度に</h2>
+    <span class="lead-note">卵ごとに個別計測</span>
+    <ol class="steps">
+      <li><b>最初の卵を設定する</b> — 上記のとおり重さ、スタート温度、かたさを。</li>
+      <li><b>「この卵を追加」をタップ。</b>その卵がまとめてゆでるリストに入り、次の卵を独自の設定で指定できます — 自分にはやわらかめ、子どもには固ゆで。</li>
+      <li><b>ゆでたい卵ごとに繰り返す。</b>それぞれが自分のゆで時間を保持します。</li>
+      <li><b>「タイマー開始」をタップ。</b>最初に卵をいっしょに入れます。アプリが各卵を取り出すタイミングを正確に知らせます。</li>
+      <li><b>呼ばれたらすぐにその卵を取り出し</b>、冷水で冷やします。</li>
+    </ol>
+
+    <hr class="divider">
+
+    <h2>水からスタート</h2>
+    <span class="lead-note">やさしい・割れにくい・冷蔵庫から出したての卵に最適</span>
+    <p>卵を水からスタートし、すべていっしょに温めたいですか？この方法は殻にやさしいです。コンロによって加熱の速さが違うため、水が実際に沸騰したタイミングをあなたがアプリに伝えます。</p>
+    <ol class="steps">
+      <li><b>設定で方法を「水から」に切り替える。</b>画面下に「水から — 鍋といっしょに温まります」と表示されます。</li>
+      <li><b>卵の重さ、スタート温度、かたさを設定する</b>（上記同様に複数追加も可能）。</li>
+      <li><b>卵を水の入った鍋に入れて</b>火にかけます。</li>
+      <li><b>「タイマー開始」をタップ。</b>アプリが見守りを始め、沸騰を待ちます。</li>
+      <li><b>お湯が完全に沸騰したら「沸騰しました！」をタップ。</b>そこから正確なカウントダウンが始まります。</li>
+      <li><b>アラームが鳴ったら卵を冷やす。</b>冷水がぴったりのタイミングで加熱を止めます。</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="13" r="8" stroke="#C06800" stroke-width="1.8"/><path d="M12 9v4l2.8 2" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 2.5h6" stroke="#F59B23" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      <p>水からのタイマーは沸騰を確認してから始まるので、鍋が温まるのにかかる時間を勘で当てる必要はありません。</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>卵をゆでる一般的なコツ</h2>
+    <ul>
+      <li><b>十分な水を使う。</b>卵が完全に浸かり、数センチ余裕があると、温度が安定します。</li>
+      <li><b>ひとつまみの塩か少量の酢</b>を加えると、細かいひびから出た白身がすぐ固まり、流れ出にくくなります。</li>
+      <li><b>卵はそっと入れる。</b>スプーンを使うと割れを防げ、指を蒸気から守れます。</li>
+      <li><b>古い卵のほうがむきやすい。</b>むきにくいときは、1週間ほど経った卵がおすすめです。</li>
+      <li><b>必ず冷水か氷水で冷やす。</b>タイマーが終わった瞬間に加熱が止まり、殻が白身から離れやすくなります。</li>
+      <li><b>冷たい卵はやさしくスタート。</b>冷蔵庫から出したての卵は沸騰したお湯で割れやすいので、水からの方法か少し常温に戻すと安心です。</li>
+      <li><b>転がして流水でむく。</b>卵全体を軽くたたき、空気室のある広く丸い側からむきます。</li>
+    </ul>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3v6L5 17.5A2 2 0 006.8 20.5h10.4A2 2 0 0019 17.5L14.5 9V3" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.5 3h7" stroke="#C06800" stroke-width="1.8" stroke-linecap="round"/><circle cx="10.5" cy="16" r="1.2" fill="#F59B23"/><circle cx="13.5" cy="17.5" r="1" fill="#F59B23"/></svg></span>
+      <p>EggTimer Max は決まった目安に頼りません — あなたの卵の正確な重さ・温度・標高に物理ベースのウィリアムズモデルを適用します。だから同じかたさ設定が、小さな卵にも特大の卵にも同じように効きます。</p>
+    </div>
+
+    <p style="margin-top:28px;">解決しませんか？ <a href="contact.html">お問い合わせください →</a></p>
+  </article>
+</main>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="guide.html">ガイド</a>
+    <a href="support.html">サポート</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+    <a href="contact.html">お問い合わせ</a>
+  </div>
+  <div>&copy; 2026 EggTimer Max</div>
+</footer>
+
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>

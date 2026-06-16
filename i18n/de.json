@@ -1,0 +1,131 @@
+{
+  "htmlLang": "de",
+  "label": "Deutsch",
+  "nav": { "guide": "Anleitung", "support": "Support", "privacy": "Datenschutz", "contact": "Kontakt" },
+  "footer": { "privacyPolicy": "Datenschutzerklärung" },
+  "index": {
+    "title": "EggTimer Max — Perfekte Eier, jedes Mal",
+    "metaDesc": "EggTimer Max berechnet die exakte Kochzeit für dein Ei anhand von Gewicht, Temperatur und Härtegrad. Weich, wachsweich oder hart — jedes Mal perfekt.",
+    "heroH1": "Perfekte Eier,<br><span class=\"accent\">jedes Mal.</span>",
+    "heroLead": "EggTimer Max berechnet die exakte Kochzeit für dein Ei — anhand von Gewicht, Ausgangstemperatur und genau so, wie du es magst. Weich, wachsweich oder hart.",
+    "learnMore": "Mehr erfahren",
+    "shotMain": "Hauptbildschirm",
+    "shotTimer": "Live-Koch-Animation",
+    "shotBatch": "Mehrere Eier kochen",
+    "whyTitle": "Warum EggTimer Max?",
+    "whySub": "Nicht nur ein Countdown — ein physikbasiertes Modell, das dein Ei genau richtig hinbekommt.",
+    "features": {
+      "science": { "h": "Wissenschaft statt Raten", "p": "Nutzt die Williams-Formel und berücksichtigt Eigewicht, Ausgangstemperatur (Kühlschrank oder Zimmertemperatur) und deinen gewünschten Härtegrad." },
+      "doneness": { "h": "Von flüssig bis hart", "p": "Stell genau ein, wie du es magst — flüssig, cremig, weich, wachsweich, gerade gestockt, mittel oder hart gekocht." },
+      "live": { "h": "Sieh live beim Kochen zu", "p": "Eine echte Kochwasser-Animation zeigt dein Ei in Echtzeit beim Garen, direkt auf deinem Bildschirm." },
+      "altitude": { "h": "Höhenbewusst", "p": "In der Höhe kocht Wasser bei niedrigerer Temperatur. EggTimer Max korrigiert den Siedepunkt, damit das Timing überall stimmt." },
+      "batch": { "h": "Koche eine ganze Ladung", "p": "Reihe mehrere Eier auf einmal an, jedes mit eigenem Gewicht und Härtegrad — jedes einzeln getaktet." },
+      "private": { "h": "Privat von Grund auf", "p": "Kein Konto, kein Tracking, keine Datensammlung. Alles bleibt auf deinem Gerät. Funktioniert komplett offline." }
+    }
+  },
+  "guide": {
+    "title": "Eier kochen — EggTimer Max",
+    "metaDesc": "Schritt-für-Schritt-Anleitung zum Kochen von einem oder mehreren Eiern mit EggTimer Max — sowohl die Methode mit kochendem als auch mit kaltem Wasser — plus allgemeine Tipps zum Eierkochen.",
+    "h1": "So kochst du das perfekte Ei",
+    "meta": "Eine kurze Anleitung zu EggTimer Max — und zum Eierkochen allgemein.",
+    "intro": "EggTimer Max arbeitet mit zwei Methoden: Eier in <b>bereits kochendes Wasser</b> geben oder sie in <b>kaltem Wasser</b> starten, das mit dem Topf erhitzt. Wähl die Methode, die zu deinem Kochen passt — beide liefern dir eine auf die Sekunde berechnete Zeit.",
+    "s1": {
+      "h": "Kochendes Wasser — ein einzelnes Ei",
+      "note": "Die klassische Methode · am präzisesten",
+      "steps": [
+        { "main": "<b>Wiege das Ei.</b> Zieh den <i>Gewicht</i>-Regler oder wähl S / M / L / XL. Schwerere Eier brauchen länger." },
+        { "main": "<b>Stell die Ausgangstemperatur ein.</b> Direkt aus dem Kühlschrank oder bei Zimmertemperatur — ein kaltes Ei braucht länger." },
+        { "main": "<b>Wähl den Härtegrad.</b> Schieb von flüssig bis hart gekocht; die Kochzeit aktualisiert sich live.", "sub": "Achte darauf, dass unten „Kochendes Wasser“ steht. Die Methode kannst du in den Einstellungen wechseln." },
+        { "main": "<b>Bring einen Topf Wasser zum sprudelnden Kochen</b> — genug, um das Ei vollständig zu bedecken.", "sub": "Sobald es stark kocht, dreh die Hitze etwas herunter, sodass das Wasser gerade noch sanft weiterkocht. Heftiges Kochen schleudert die Eier umher und lässt sie platzen." },
+        { "main": "<b>Tippe auf „Timer starten“.</b> Nach einem kurzen 3-2-1-Countdown lässt du das Ei vorsichtig ins kochende Wasser gleiten." },
+        { "main": "<b>Kühl es ab, wenn der Alarm ertönt.</b> Gib das Ei in kaltes oder Eiswasser, um das Garen zu stoppen und das Pellen zu erleichtern." }
+      ]
+    },
+    "tipAltitude": "Wohnst du in der Höhe? In den Bergen kocht Wasser unter 100 °C, was das Garen verlangsamt. EggTimer Max korrigiert das automatisch — sieh dir den Siedepunkt unten am Bildschirm an.",
+    "s2": {
+      "h": "Mehrere Eier auf einmal",
+      "note": "Jedes Ei einzeln getaktet",
+      "steps": [
+        { "main": "<b>Richte dein erstes Ei ein</b> wie oben — Gewicht, Ausgangstemperatur und Härtegrad." },
+        { "main": "<b>Tippe auf „Dieses Ei hinzufügen“.</b> Es wandert in deine Ladung, und du stellst das nächste mit eigenen Einstellungen ein — ein weiches für dich, ein hartes für die Kinder." },
+        { "main": "<b>Wiederhol das für jedes Ei</b>, das du kochen willst. Jedes behält seine eigene Kochzeit." },
+        { "main": "<b>Tippe auf „Timer starten“.</b> Gib die Eier zu Beginn zusammen hinein; die App sagt dir genau, wann du jedes herausnimmst." },
+        { "main": "<b>Hol jedes Ei genau dann heraus, wenn es aufgerufen wird</b>, und kühl es in kaltem Wasser." }
+      ]
+    },
+    "s3": {
+      "h": "Start mit kaltem Wasser",
+      "note": "Sanft · weniger Risse · ideal für kühlschrankkalte Eier",
+      "intro": "Lieber die Eier in kaltem Wasser starten und alles zusammen erhitzen? Diese Methode ist schonender für die Schale. Da jeder Herd unterschiedlich schnell heizt, sagst du der App, wann das Wasser tatsächlich kocht.",
+      "steps": [
+        { "main": "<b>Stell die Methode auf „Kaltes Wasser“</b> in den Einstellungen. Unten am Bildschirm steht dann „Kaltes Wasser — erhitzt mit dem Topf“." },
+        { "main": "<b>Stell Gewicht, Ausgangstemperatur und Härtegrad</b> für dein Ei ein (oder füg mehrere hinzu, wie oben)." },
+        { "main": "<b>Gib das Ei (oder die Eier) in einen Topf mit kaltem Wasser</b> und stell ihn auf die Hitze." },
+        { "main": "<b>Tippe auf „Timer starten“.</b> Die App beginnt zu beobachten und wartet aufs Kochen." },
+        { "main": "<b>Tippe auf „Wasser kocht!“</b>, sobald das Wasser voll sprudelnd kocht. Ab da beginnt der exakte Countdown." },
+        { "main": "<b>Kühl die Eier, wenn der Alarm ertönt.</b> Kaltes Wasser stoppt das Garen genau rechtzeitig." }
+      ]
+    },
+    "tipCold": "Der Kaltwasser-Timer startet erst, wenn du das Kochen bestätigst — so musst du nie raten, wie lange dein Topf zum Aufheizen braucht.",
+    "s4": { "h": "Allgemeine Tipps zum Eierkochen" },
+    "tips": [
+      "<b>Nimm genug Wasser.</b> Das Ei sollte vollständig bedeckt sein, mit ein paar Zentimetern Spielraum, damit die Temperatur stabil bleibt.",
+      "<b>Eine Prise Salz oder ein Schuss Essig</b> im Wasser hilft, dass Eiweiß aus einem Haarriss schnell stockt, statt auszulaufen.",
+      "<b>Lass die Eier sanft hinein</b> mit einem Löffel, um Risse zu vermeiden — und um deine Finger vom Dampf fernzuhalten.",
+      "<b>Ältere Eier lassen sich leichter pellen</b> als ganz frische. Wenn das Pellen schwerfällt, eignen sich Eier am besten, die etwa eine Woche alt sind.",
+      "<b>Kühl immer in kaltem oder Eiswasser.</b> Das stoppt das Garen genau dann, wenn dein Timer endet, und löst die Schale vom Eiweiß.",
+      "<b>Starte kalte Eier sanft.</b> Kühlschrankkalte Eier platzen leichter in kochendem Wasser — die Kaltwasser-Methode oder etwas Anwärmen hilft.",
+      "<b>Rollen und unter fließendem Wasser pellen.</b> Klopf das Ei rundum an und pell von der breiteren, stumpfen Seite, wo die Luftkammer sitzt."
+    ],
+    "tipScience": "EggTimer Max nutzt keine festen Faustregeln — es rechnet das physikbasierte Williams-Modell mit dem exakten Gewicht, der Temperatur und der Höhe deines Eis. Deshalb funktioniert dieselbe Härtegrad-Einstellung für ein winziges genauso wie für ein Riesenei.",
+    "stillStuck": "Kommst du nicht weiter? <a href=\"contact.html\">Nimm Kontakt auf →</a>"
+  },
+  "support": {
+    "title": "Support — EggTimer Max",
+    "h1": "Support",
+    "meta": "Wir helfen dir gerne.",
+    "faqHeading": "Häufig gestellte Fragen",
+    "faqs": [
+      { "q": "Wie berechnet EggTimer Max die Kochzeit?", "a": "Es nutzt die Williams-Formel — ein physikbasiertes Modell, das das Gewicht des Eis, seine Ausgangstemperatur und die Höhe, auf der du kochst (die den Siedepunkt des Wassers verändert), berücksichtigt. Das Ergebnis ist die exakte Zeit für deinen gewählten Härtegrad." },
+      { "q": "Was schaltet Pro frei?", "a": "Pro fügt die Live-Kochwasser-Animation, die höhenabhängige Siedepunkt-Korrektur, eine Live Activity und das Kochen mehrerer Eier auf einmal mit individuellen Härtegrad-Einstellungen hinzu. Pro schaltest du mit einem einmaligen Trinkgeld von 2,99 € oder mehr frei." },
+      { "q": "Ich habe Pro gekauft, aber es wird nicht angezeigt", "a": "Öffne Einstellungen → Käufe wiederherstellen. Erscheint es immer noch nicht, <a href=\"contact.html\">nimm Kontakt auf</a> und wir lösen das." },
+      { "q": "Funktioniert es offline?", "a": "Ja. EggTimer Max funktioniert komplett offline und braucht kein Konto." }
+    ],
+    "contactHeading": "Nimm Kontakt auf",
+    "contactBody": "Einen Fehler gefunden oder einen Vorschlag? <a href=\"contact.html\">Schick uns eine Nachricht →</a>"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung — EggTimer Max",
+    "h1": "Datenschutzerklärung",
+    "meta": "Zuletzt aktualisiert: 15. Juni 2025",
+    "sections": [
+      { "h": "Überblick", "p": "EggTimer Max ist mit Blick auf den Datenschutz gebaut. Die App benötigt kein Konto und sammelt, speichert oder überträgt keine personenbezogenen Daten." },
+      { "h": "Daten, die wir erheben", "p": "Keine. Wir erheben keine personenbezogenen Informationen. Deine Einstellungen — Eigewicht, Ausgangstemperatur und gewünschter Härtegrad — werden lokal auf deinem Gerät gespeichert und verlassen es nie." },
+      { "h": "Käufe", "p": "In-App-Käufe und Trinkgelder werden vollständig von Apple über StoreKit abgewickelt. Wir sehen oder speichern deine Zahlungsdaten nie." },
+      { "h": "Analyse &amp; Tracking", "p": "EggTimer Max enthält keine Analyse- oder Tracking-SDKs von Drittanbietern. Wir verfolgen nicht, wie du die App nutzt, und es gibt keine Werbe-IDs." },
+      { "h": "Dienste von Drittanbietern", "p": "Es sind keine datensammelnden Drittanbieter-SDKs eingebunden. Die App nutzt Apples eigene Frameworks (wie StoreKit für Käufe), die der <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Datenschutzerklärung von Apple</a> unterliegen." },
+      { "h": "Kinder", "p": "EggTimer Max sammelt bewusst von niemandem Daten, auch nicht von Kindern unter 13 Jahren." },
+      { "h": "Änderungen dieser Erklärung", "p": "Ändert sich diese Erklärung, wird die aktualisierte Version mit einem neuen Datum auf dieser Seite veröffentlicht." },
+      { "h": "Kontakt", "p": "Fragen zu deinem Datenschutz? Erreich uns über die <a href=\"contact.html\">Kontaktseite</a>." }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt — EggTimer Max",
+    "h1": "Kontakt",
+    "meta": "Wir lesen jede Nachricht und melden uns so schnell wie möglich.",
+    "nameLabel": "Dein Name",
+    "namePlaceholder": "Max Mustermann",
+    "emailLabel": "Deine E-Mail",
+    "emailPlaceholder": "du@beispiel.de",
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Worum geht es?",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Erzähl uns mehr…",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet…",
+    "successTitle": "Nachricht gesendet!",
+    "successBody": "Danke für deine Nachricht. Wir melden uns so schnell wie möglich.",
+    "backHome": "Zurück zur Startseite",
+    "alertError": "Etwas ist schiefgelaufen — bitte versuch es erneut."
+  }
+}

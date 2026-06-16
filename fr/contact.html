@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
     // Route to the visitor's language before paint (no flash). Respects a manual
     // choice stored in localStorage; otherwise uses the browser language once.
     (function(){
-      var SUP=["en","nl","de","es","fr","it","ja"], page="contact", lang="nl";
+      var SUP=["en","nl","de","es","fr","it","ja"], page="contact", lang="fr";
       function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
       try{
         var stored=localStorage.getItem('preferredLang'), target=stored;
@@ -45,12 +45,12 @@
       <b>EggTimer <span>Max</span></b>
     </a>
     <div class="links">
-      <a href="guide.html">Gids</a>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
+      <a href="guide.html">Guide</a>
+      <a href="support.html">Aide</a>
+      <a href="privacy.html">Confidentialité</a>
       <a href="contact.html">Contact</a>
       <div class="langpick">
-        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/contact.html">English</option><option value="nl" data-url="/nl/contact.html" selected>Nederlands</option><option value="de" data-url="/de/contact.html">Deutsch</option><option value="es" data-url="/es/contact.html">Español</option><option value="fr" data-url="/fr/contact.html">Français</option><option value="it" data-url="/it/contact.html">Italiano</option><option value="ja" data-url="/ja/contact.html">日本語</option></select>
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/contact.html">English</option><option value="nl" data-url="/nl/contact.html">Nederlands</option><option value="de" data-url="/de/contact.html">Deutsch</option><option value="es" data-url="/es/contact.html">Español</option><option value="fr" data-url="/fr/contact.html" selected>Français</option><option value="it" data-url="/it/contact.html">Italiano</option><option value="ja" data-url="/ja/contact.html">日本語</option></select>
       </div>
     </div>
   </div>
@@ -59,44 +59,44 @@
 <main class="page wrap">
   <article class="panel reveal">
     <h1>Contact</h1>
-    <p class="meta">We lezen elk bericht en reageren zo snel mogelijk.</p>
+    <p class="meta">Nous lisons chaque message et répondons dès que possible.</p>
 
     <form class="form" id="contactForm" novalidate>
       <input type="checkbox" name="botcheck" style="display:none !important" tabindex="-1" autocomplete="off">
 
       <div>
-        <label for="name">Je naam</label>
-        <input type="text" id="name" name="name" placeholder="Jan Jansen" required autocomplete="name">
+        <label for="name">Votre nom</label>
+        <input type="text" id="name" name="name" placeholder="Marie Dupont" required autocomplete="name">
       </div>
       <div>
-        <label for="email">Je e-mail</label>
-        <input type="email" id="email" name="email" placeholder="jij@voorbeeld.nl" required autocomplete="email">
+        <label for="email">Votre e-mail</label>
+        <input type="email" id="email" name="email" placeholder="vous@exemple.com" required autocomplete="email">
       </div>
       <div>
-        <label for="subject">Onderwerp</label>
-        <input type="text" id="subject" name="subject" placeholder="Waar gaat het over?" required>
+        <label for="subject">Sujet</label>
+        <input type="text" id="subject" name="subject" placeholder="De quoi s'agit-il ?" required>
       </div>
       <div>
-        <label for="message">Bericht</label>
-        <textarea id="message" name="message" placeholder="Vertel ons meer…" required></textarea>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Dites-nous en plus…" required></textarea>
       </div>
-      <button type="submit" class="btn btn-primary" id="submitBtn">Verstuur bericht</button>
+      <button type="submit" class="btn btn-primary" id="submitBtn">Envoyer le message</button>
     </form>
 
     <div class="success-msg" id="thankYou">
       <div class="check">✓</div>
-      <h2>Bericht verstuurd!</h2>
-      <p>Bedankt voor je bericht. We reageren zo snel mogelijk.</p>
-      <a href="index.html" class="btn btn-ghost">Terug naar home</a>
+      <h2>Message envoyé !</h2>
+      <p>Merci de nous avoir écrit. Nous reviendrons vers vous dès que possible.</p>
+      <a href="index.html" class="btn btn-ghost">Retour à l'accueil</a>
     </div>
   </article>
 </main>
 
 <footer class="site wrap">
   <div class="flinks">
-    <a href="guide.html">Gids</a>
-    <a href="support.html">Support</a>
-    <a href="privacy.html">Privacybeleid</a>
+    <a href="guide.html">Guide</a>
+    <a href="support.html">Aide</a>
+    <a href="privacy.html">Politique de confidentialité</a>
     <a href="contact.html">Contact</a>
   </div>
   <div>&copy; 2026 EggTimer Max</div>
@@ -110,7 +110,7 @@
     if (this.botcheck && this.botcheck.checked) return;
     const btn = document.getElementById('submitBtn');
     btn.disabled = true;
-    btn.textContent = "Versturen…";
+    btn.textContent = "Envoi…";
     const payload = {
       access_key:  '6161d962-9e6c-4838-8408-2c210109eede',
       from_name:   'EggTimer Max',
@@ -134,8 +134,8 @@
       }
     } catch (err) {
       btn.disabled = false;
-      btn.textContent = "Verstuur bericht";
-      alert("Er ging iets mis — probeer het opnieuw.");
+      btn.textContent = "Envoyer le message";
+      alert("Une erreur s'est produite — veuillez réessayer.");
     }
   });
 </script>

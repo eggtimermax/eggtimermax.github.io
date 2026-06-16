@@ -8,12 +8,17 @@
   <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/privacy.html">
   <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/privacy.html">
+  <link rel="alternate" hreflang="de" href="https://eggtimermax.github.io/de/privacy.html">
+  <link rel="alternate" hreflang="es" href="https://eggtimermax.github.io/es/privacy.html">
+  <link rel="alternate" hreflang="fr" href="https://eggtimermax.github.io/fr/privacy.html">
+  <link rel="alternate" hreflang="it" href="https://eggtimermax.github.io/it/privacy.html">
+  <link rel="alternate" hreflang="ja" href="https://eggtimermax.github.io/ja/privacy.html">
   <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/privacy.html">
   <script>
     // Route to the visitor's language before paint (no flash). Respects a manual
     // choice stored in localStorage; otherwise uses the browser language once.
     (function(){
-      var SUP=["en","nl"], page="privacy", lang="nl";
+      var SUP=["en","nl","de","es","fr","it","ja"], page="privacy", lang="nl";
       function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
       try{
         var stored=localStorage.getItem('preferredLang'), target=stored;
@@ -45,7 +50,7 @@
       <a href="privacy.html">Privacy</a>
       <a href="contact.html">Contact</a>
       <div class="langpick">
-        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/privacy.html">English</option><option value="nl" data-url="/nl/privacy.html" selected>Nederlands</option></select>
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/privacy.html">English</option><option value="nl" data-url="/nl/privacy.html" selected>Nederlands</option><option value="de" data-url="/de/privacy.html">Deutsch</option><option value="es" data-url="/es/privacy.html">Español</option><option value="fr" data-url="/fr/privacy.html">Français</option><option value="it" data-url="/it/privacy.html">Italiano</option><option value="ja" data-url="/ja/privacy.html">日本語</option></select>
       </div>
     </div>
   </div>

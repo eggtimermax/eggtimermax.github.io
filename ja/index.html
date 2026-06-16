@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EggTimer Max — いつでも完璧なゆで卵</title>
+  <meta name="description" content="EggTimer Max は卵の重さ・温度・好みのかたさから正確なゆで時間を計算します。とろとろ、半熟、固ゆで — いつでも完璧に。">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/index.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/index.html">
+  <link rel="alternate" hreflang="de" href="https://eggtimermax.github.io/de/index.html">
+  <link rel="alternate" hreflang="es" href="https://eggtimermax.github.io/es/index.html">
+  <link rel="alternate" hreflang="fr" href="https://eggtimermax.github.io/fr/index.html">
+  <link rel="alternate" hreflang="it" href="https://eggtimermax.github.io/it/index.html">
+  <link rel="alternate" hreflang="ja" href="https://eggtimermax.github.io/ja/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/index.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl","de","es","fr","it","ja"], page="index", lang="ja";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="../icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="guide.html">ガイド</a>
+      <a href="support.html">サポート</a>
+      <a href="privacy.html">プライバシー</a>
+      <a href="contact.html">お問い合わせ</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/index.html">English</option><option value="nl" data-url="/nl/index.html">Nederlands</option><option value="de" data-url="/de/index.html">Deutsch</option><option value="es" data-url="/es/index.html">Español</option><option value="fr" data-url="/fr/index.html">Français</option><option value="it" data-url="/it/index.html">Italiano</option><option value="ja" data-url="/ja/index.html" selected>日本語</option></select>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap">
+  <img class="appicon reveal" src="../icon.png" alt="EggTimer Max icon">
+  <h1 class="reveal rd1">完璧なゆで卵を、<br><span class="accent">いつでも。</span></h1>
+  <p class="lead reveal rd2">EggTimer Max は卵の重さ・スタート温度・好みのかたさから、正確なゆで時間を計算します。とろとろ、半熟、固ゆでも思いのまま。</p>
+  <div class="actions reveal rd3" id="download">
+    <a class="badge-appstore" href="#">
+      <img src="../appstore-badge.svg" alt="Download on the App Store">
+    </a>
+    <a class="btn btn-ghost" href="support.html">詳しく見る</a>
+  </div>
+  <div class="showcase reveal rd4">
+    <img src="../screenshot-main.png" alt="メイン画面">
+    <img src="../screenshot-timer.png" alt="リアルタイム調理アニメーション">
+    <img src="../screenshot-batch.png" alt="複数の卵をゆでる">
+  </div>
+</header>
+
+<section class="section wrap">
+  <h2 class="reveal">なぜ EggTimer Max？</h2>
+  <p class="sub reveal rd1">ただのタイマーではありません — 物理モデルが卵を狙いどおりに仕上げます。</p>
+  <div class="grid">
+    <div class="card reveal rd1">
+      <img class="ico" src="../icons/icon-science.svg" alt="">
+      <h3>勘ではなく科学</h3>
+      <p>ウィリアムズの式を使い、卵の重さ、スタート温度（冷蔵庫か常温か）、好みのかたさを考慮します。</p>
+    </div>
+    <div class="card reveal rd2">
+      <img class="ico" src="../icons/icon-doneness.svg" alt="">
+      <h3>とろとろから固ゆでまで</h3>
+      <p>好みのかたさを正確に設定 — とろとろ、クリーミー、やわらかめ、半熟、固まりかけ、ミディアム、固ゆで。</p>
+    </div>
+    <div class="card reveal rd3">
+      <img class="ico" src="../icons/icon-live.svg" alt="">
+      <h3>ゆで上がりをライブで</h3>
+      <p>本物そっくりの沸騰アニメーションが、卵がゆで上がる様子を画面上でリアルタイムに見せます。</p>
+    </div>
+    <div class="card reveal rd4">
+      <img class="ico" src="../icons/icon-altitude.svg" alt="">
+      <h3>標高にも対応</h3>
+      <p>標高が高いと水は低い温度で沸騰します。EggTimer Max は沸点を補正し、どこでも正確なタイミングを保ちます。</p>
+    </div>
+    <div class="card reveal rd5">
+      <img class="ico" src="../icons/icon-batch.svg" alt="">
+      <h3>まとめてゆでる</h3>
+      <p>複数の卵を一度にセットし、それぞれに重さとかたさを指定 — 一つずつ個別に計測します。</p>
+    </div>
+    <div class="card reveal rd6">
+      <img class="ico" src="../icons/icon-private.svg" alt="">
+      <h3>設計からプライベート</h3>
+      <p>アカウント不要、トラッキングなし、データ収集なし。すべて端末内で完結し、完全オフラインで動作します。</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="guide.html">ガイド</a>
+    <a href="support.html">サポート</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+    <a href="contact.html">お問い合わせ</a>
+  </div>
+  <div>&copy; 2026 EggTimer Max</div>
+</footer>
+
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>

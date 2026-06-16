@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Come cuocere le uova — EggTimer Max</title>
+  <meta name="description" content="Istruzioni passo passo per cuocere uno o più uova con EggTimer Max — sia il metodo in acqua bollente sia quello in acqua fredda — più consigli generali per cuocere le uova.">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/guide.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/guide.html">
+  <link rel="alternate" hreflang="de" href="https://eggtimermax.github.io/de/guide.html">
+  <link rel="alternate" hreflang="es" href="https://eggtimermax.github.io/es/guide.html">
+  <link rel="alternate" hreflang="fr" href="https://eggtimermax.github.io/fr/guide.html">
+  <link rel="alternate" hreflang="it" href="https://eggtimermax.github.io/it/guide.html">
+  <link rel="alternate" hreflang="ja" href="https://eggtimermax.github.io/ja/guide.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/guide.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl","de","es","fr","it","ja"], page="guide", lang="it";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="../icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="guide.html">Guida</a>
+      <a href="support.html">Assistenza</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contatti</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/guide.html">English</option><option value="nl" data-url="/nl/guide.html">Nederlands</option><option value="de" data-url="/de/guide.html">Deutsch</option><option value="es" data-url="/es/guide.html">Español</option><option value="fr" data-url="/fr/guide.html">Français</option><option value="it" data-url="/it/guide.html" selected>Italiano</option><option value="ja" data-url="/ja/guide.html">日本語</option></select>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="page wrap">
+  <article class="panel reveal">
+    <h1>Come cuocere l'uovo perfetto</h1>
+    <p class="meta">Una guida rapida a EggTimer Max — e alla cottura delle uova in generale.</p>
+    <p class="guide-intro">EggTimer Max funziona con due metodi: tuffare le uova in <b>acqua già bollente</b>, oppure avviarle in <b>acqua fredda</b> che si scalda insieme alla pentola. Scegli quello che si adatta al tuo modo di cucinare — entrambi ti danno un tempo calcolato al secondo.</p>
+
+    <hr class="divider">
+
+    <h2>Acqua bollente — un solo uovo</h2>
+    <span class="lead-note">Il metodo classico · il più preciso</span>
+    <ol class="steps">
+      <li><b>Pesa l'uovo.</b> Trascina il cursore <i>Peso</i> oppure scegli S / M / L / XL. Le uova più pesanti richiedono più tempo.</li>
+      <li><b>Imposta la temperatura iniziale.</b> Appena uscito dal frigo o a temperatura ambiente — un uovo freddo impiega di più.</li>
+      <li><b>Scegli la cottura.</b> Scorri da liquido a sodo; il tempo si aggiorna dal vivo.<span class="sub">Assicurati che in basso ci sia scritto «Acqua bollente». Puoi cambiare metodo nelle Impostazioni.</span></li>
+      <li><b>Porta una pentola d'acqua a bollore vivace</b> — abbastanza da coprire del tutto l'uovo.<span class="sub">Quando bolle forte, abbassa un po' la fiamma così l'acqua continua a sobbollire dolcemente. Un bollore violento fa sbattere le uova e le fa rompere.</span></li>
+      <li><b>Tocca «Avvia timer».</b> Dopo un breve conto alla rovescia 3-2-1, cala delicatamente l'uovo nell'acqua bollente.</li>
+      <li><b>Raffreddalo quando suona l'allarme.</b> Metti l'uovo in acqua fredda o ghiacciata per fermare la cottura e facilitare la sbucciatura.</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 19h18L14.5 7l-3.2 5.4-2.1-2.8L3 19z" stroke="#C06800" stroke-width="1.8" stroke-linejoin="round"/><circle cx="14.5" cy="6" r="1.6" fill="#F59B23"/></svg></span>
+      <p>Vivi in quota? In montagna l'acqua bolle sotto i 100 °C, rallentando la cottura. EggTimer Max corregge tutto automaticamente — guarda il punto di ebollizione mostrato in basso sullo schermo.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Più uova insieme</h2>
+    <span class="lead-note">Ogni uovo cronometrato singolarmente</span>
+    <ol class="steps">
+      <li><b>Imposta il primo uovo</b> come sopra — peso, temperatura iniziale e cottura.</li>
+      <li><b>Tocca «Aggiungi questo uovo».</b> Passa alla tua infornata e puoi impostare il successivo con i suoi valori — uno morbido per te, uno sodo per i bambini.</li>
+      <li><b>Ripeti per ogni uovo</b> che vuoi cuocere. Ognuno mantiene il proprio tempo.</li>
+      <li><b>Tocca «Avvia timer».</b> Metti le uova insieme all'inizio; l'app ti dice esattamente quando togliere ciascuna.</li>
+      <li><b>Togli ogni uovo nel momento in cui viene annunciato</b> e raffreddalo in acqua fredda.</li>
+    </ol>
+
+    <hr class="divider">
+
+    <h2>Avvio in acqua fredda</h2>
+    <span class="lead-note">Delicato · meno crepe · ideale per uova fredde di frigo</span>
+    <p>Preferisci avviare le uova in acqua fredda e scaldare tutto insieme? Questo metodo è più delicato sul guscio. Poiché ogni fornello scalda a ritmo diverso, sei tu a indicare all'app quando l'acqua arriva davvero a bollore.</p>
+    <ol class="steps">
+      <li><b>Imposta il metodo su «Acqua fredda»</b> nelle Impostazioni. In basso sullo schermo comparirà «Acqua fredda — si scalda con la pentola».</li>
+      <li><b>Imposta peso, temperatura iniziale e cottura</b> per il tuo uovo (o aggiungine diversi, come sopra).</li>
+      <li><b>Metti l'uovo (o le uova) in una pentola con acqua fredda</b> e mettila sul fuoco.</li>
+      <li><b>Tocca «Avvia timer».</b> L'app inizia a sorvegliare e attende il bollore.</li>
+      <li><b>Tocca «L'acqua bolle!»</b> appena l'acqua bolle a pieno regime. Da lì parte il conto alla rovescia esatto.</li>
+      <li><b>Raffredda le uova quando suona l'allarme.</b> L'acqua fredda ferma la cottura giusto in tempo.</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="13" r="8" stroke="#C06800" stroke-width="1.8"/><path d="M12 9v4l2.8 2" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 2.5h6" stroke="#F59B23" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      <p>Il timer dell'acqua fredda parte solo quando confermi il bollore — così non devi mai indovinare quanto impiega la pentola a scaldarsi.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Consigli generali per cuocere le uova</h2>
+    <ul>
+      <li><b>Usa abbastanza acqua.</b> L'uovo deve essere del tutto immerso, con un paio di centimetri di margine, così la temperatura resta stabile.</li>
+      <li><b>Un pizzico di sale o un goccio di aceto</b> nell'acqua aiuta l'albume di una piccola crepa a rapprendersi in fretta invece di fuoriuscire.</li>
+      <li><b>Cala le uova con delicatezza</b> con un cucchiaio per evitare crepe — e per tenere le dita lontane dal vapore.</li>
+      <li><b>Le uova più vecchie si sbucciano più facilmente</b> di quelle freschissime. Se la sbucciatura è difficile, vanno meglio uova di una settimana o più.</li>
+      <li><b>Raffredda sempre in acqua fredda o ghiacciata.</b> Ferma la cottura nell'istante in cui finisce il timer e stacca il guscio dall'albume.</li>
+      <li><b>Avvia le uova fredde con delicatezza.</b> Le uova fredde di frigo si rompono più facilmente in acqua bollente — il metodo in acqua fredda o lasciarle intiepidire un po' aiuta.</li>
+      <li><b>Rulla e sbuccia sotto l'acqua corrente.</b> Picchietta l'uovo tutt'intorno, poi sbuccia dall'estremità larga e tondeggiante, dove si trova la camera d'aria.</li>
+    </ul>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3v6L5 17.5A2 2 0 006.8 20.5h10.4A2 2 0 0019 17.5L14.5 9V3" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.5 3h7" stroke="#C06800" stroke-width="1.8" stroke-linecap="round"/><circle cx="10.5" cy="16" r="1.2" fill="#F59B23"/><circle cx="13.5" cy="17.5" r="1" fill="#F59B23"/></svg></span>
+      <p>EggTimer Max non usa regole fisse — applica il modello fisico di Williams al peso, alla temperatura e all'altitudine esatti del tuo uovo. Ecco perché la stessa impostazione di cottura funziona sia per un uovo piccolissimo sia per uno gigante.</p>
+    </div>
+
+    <p style="margin-top:28px;">Ancora bloccato? <a href="contact.html">Contattaci →</a></p>
+  </article>
+</main>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="guide.html">Guida</a>
+    <a href="support.html">Assistenza</a>
+    <a href="privacy.html">Informativa sulla privacy</a>
+    <a href="contact.html">Contatti</a>
+  </div>
+  <div>&copy; 2026 EggTimer Max</div>
+</footer>
+
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>
