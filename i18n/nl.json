@@ -1,0 +1,131 @@
+{
+  "htmlLang": "nl",
+  "label": "Nederlands",
+  "nav": { "guide": "Gids", "support": "Support", "privacy": "Privacy", "contact": "Contact" },
+  "footer": { "privacyPolicy": "Privacybeleid" },
+  "index": {
+    "title": "EggTimer Max — Perfecte eieren, elke keer",
+    "metaDesc": "EggTimer Max berekent de exacte kooktijd voor je ei op basis van gewicht, temperatuur en gaarheid. Zacht, smeuïg of hardgekookt — elke keer perfect.",
+    "heroH1": "Perfecte eieren,<br><span class=\"accent\">elke keer.</span>",
+    "heroLead": "EggTimer Max berekent de exacte kooktijd voor je ei — op basis van het gewicht, de starttemperatuur en precies hoe jij het lekker vindt. Zacht, smeuïg of hardgekookt.",
+    "learnMore": "Meer weten",
+    "shotMain": "Hoofdscherm",
+    "shotTimer": "Live kookanimatie",
+    "shotBatch": "Kook meerdere eieren",
+    "whyTitle": "Waarom EggTimer Max?",
+    "whySub": "Geen simpele timer — een natuurkundig model dat je ei precies goed krijgt.",
+    "features": {
+      "science": { "h": "Wetenschap, geen giswerk", "p": "Gebruikt de Williams-formule om rekening te houden met het eigewicht, de starttemperatuur (koelkast of kamertemperatuur) en je gewenste gaarheid." },
+      "doneness": { "h": "Van lopend tot hard", "p": "Stel precies in hoe je het lekker vindt — lopend, smeuïg, zacht, jammy, net gestold, medium of hardgekookt." },
+      "live": { "h": "Zie het live koken", "p": "Een echte kokend-wateranimatie laat je ei in realtime garen, gewoon op je scherm." },
+      "altitude": { "h": "Houdt rekening met hoogte", "p": "Op hoogte kookt water bij een lagere temperatuur. EggTimer Max corrigeert het kookpunt zodat de timing overal klopt." },
+      "batch": { "h": "Kook een hele lading", "p": "Zet meerdere eieren tegelijk klaar, elk met een eigen gewicht en gaarheid — stuk voor stuk apart getimed." },
+      "private": { "h": "Privé van nature", "p": "Geen account, geen tracking, geen dataverzameling. Alles blijft op je toestel. Werkt volledig offline." }
+    }
+  },
+  "guide": {
+    "title": "Eieren koken — EggTimer Max",
+    "metaDesc": "Stap-voor-stap instructies om één of meerdere eieren te koken met EggTimer Max — zowel de methode met kokend water als met koud water — plus algemene tips voor het koken van eieren.",
+    "h1": "Zo kook je het perfecte ei",
+    "meta": "Een korte gids voor EggTimer Max — en voor het koken van eieren in het algemeen.",
+    "intro": "EggTimer Max werkt met twee methodes: eieren in <b>al kokend water</b> leggen, of ze in <b>koud water</b> starten dat samen met de pan opwarmt. Kies de methode die past bij hoe jij kookt — beide geven je een tijd die tot op de seconde is berekend.",
+    "s1": {
+      "h": "Kokend water — één ei",
+      "note": "De klassieke methode · het meest precies",
+      "steps": [
+        { "main": "<b>Weeg het ei.</b> Sleep de <i>Gewicht</i>-schuif, of kies S / M / L / XL. Zwaardere eieren hebben meer tijd nodig." },
+        { "main": "<b>Stel de starttemperatuur in.</b> Recht uit de koelkast, of op kamertemperatuur — een koud ei doet er langer over." },
+        { "main": "<b>Kies de gaarheid.</b> Schuif van lopend tot hardgekookt; de kooktijd past zich live aan.", "sub": "Zorg dat de methode onderaan op “Kokend water” staat. Je kunt van methode wisselen in Instellingen." },
+        { "main": "<b>Breng een pan water aan de kook</b> — genoeg om het ei volledig onder te dompelen.", "sub": "Zodra het hard kookt, zet je de bron iets lager zodat het water net blijft doorkoken. Wild kokend water laat de eieren stuiteren en barsten." },
+        { "main": "<b>Tik op “Start timer”.</b> Na een korte 3-2-1 aftelling laat je het ei voorzichtig in het kokende water zakken." },
+        { "main": "<b>Koel het af zodra het alarm gaat.</b> Leg het ei in koud of ijswater om het garen te stoppen en het pellen makkelijker te maken." }
+      ]
+    },
+    "tipAltitude": "Woon je hoog? In de bergen kookt water onder de 100 °C, waardoor het garen trager gaat. EggTimer Max corrigeert hier automatisch voor — zie het kookpunt onderaan het scherm.",
+    "s2": {
+      "h": "Meerdere eieren tegelijk",
+      "note": "Elk ei apart getimed",
+      "steps": [
+        { "main": "<b>Stel je eerste ei in</b> zoals hierboven — gewicht, starttemperatuur en gaarheid." },
+        { "main": "<b>Tik op “Voeg dit ei toe”.</b> Het verhuist naar je lading, en je stelt het volgende in met eigen instellingen — een zachte voor jou, een harde voor de kinderen." },
+        { "main": "<b>Herhaal voor elk ei</b> dat je wilt koken. Elk houdt zijn eigen kooktijd." },
+        { "main": "<b>Tik op “Start timer”.</b> Voeg de eieren bij de start samen toe; de app vertelt je precies wanneer je elk ei eruit haalt." },
+        { "main": "<b>Schep elk ei eruit op het moment dat het wordt genoemd</b>, en koel het in koud water." }
+      ]
+    },
+    "s3": {
+      "h": "Start met koud water",
+      "note": "Zachtaardig · minder barsten · ideaal voor koelkastkoude eieren",
+      "intro": "Liever je eieren in koud water starten en alles samen laten opwarmen? Deze methode is zachter voor de schaal. Omdat elk fornuis anders opwarmt, geef jij de app aan wanneer het water echt kookt.",
+      "steps": [
+        { "main": "<b>Zet de methode op “Koud water”</b> in Instellingen. Onderaan het scherm staat dan “Koud water — warmt op met de pan”." },
+        { "main": "<b>Stel gewicht, starttemperatuur en gaarheid in</b> voor je ei (of voeg er meerdere toe, net als hierboven)." },
+        { "main": "<b>Leg het ei (of de eieren) in een pan koud water</b> en zet die op het vuur." },
+        { "main": "<b>Tik op “Start timer”.</b> De app begint te kijken en wacht op het kookpunt." },
+        { "main": "<b>Tik op “Water kookt!”</b> zodra het water volop kookt. Vanaf dat moment begint de exacte aftelling." },
+        { "main": "<b>Koel de eieren zodra het alarm gaat.</b> Koud water stopt het garen precies op tijd." }
+      ]
+    },
+    "tipCold": "De koud-watertimer start pas zodra jij het kookpunt bevestigt — zo hoef je nooit te gokken hoe lang je pan erover doet om op te warmen.",
+    "s4": { "h": "Algemene tips voor het koken van eieren" },
+    "tips": [
+      "<b>Gebruik genoeg water.</b> Het ei moet volledig onder staan, met een paar centimeter speling, zodat de temperatuur stabiel blijft.",
+      "<b>Een snufje zout of een scheutje azijn</b> in het water helpt eiwit uit een haarscheurtje snel te laten stollen in plaats van eruit te lekken.",
+      "<b>Laat eieren voorzichtig zakken</b> met een lepel om barsten te voorkomen — en om je vingers uit de stoom te houden.",
+      "<b>Oudere eieren pellen makkelijker</b> dan heel verse. Lukt het pellen niet goed, dan werken eieren van een week of ouder het best.",
+      "<b>Koel altijd in koud of ijswater.</b> Dat stopt het garen op het moment dat je timer afloopt en maakt de schaal los van het eiwit.",
+      "<b>Start koude eieren rustig.</b> Koelkastkoude eieren barsten eerder in kokend water — de koud-watermethode of ze even laten opwarmen helpt.",
+      "<b>Rol en pel onder stromend water.</b> Tik het ei rondom in en pel vanaf de brede, stompe kant waar het luchtbelletje zit."
+    ],
+    "tipScience": "EggTimer Max gebruikt geen vaste vuistregels — het draait het natuurkundige Williams-model op het exacte gewicht, de temperatuur en de hoogte van jouw ei. Daarom werkt dezelfde gaarheid-instelling net zo goed voor een piepklein ei als voor een jumbo.",
+    "stillStuck": "Kom je er niet uit? <a href=\"contact.html\">Neem contact op →</a>"
+  },
+  "support": {
+    "title": "Support — EggTimer Max",
+    "h1": "Support",
+    "meta": "We helpen je graag.",
+    "faqHeading": "Veelgestelde vragen",
+    "faqs": [
+      { "q": "Hoe berekent EggTimer Max de kooktijd?", "a": "Het gebruikt de Williams-formule — een natuurkundig model dat rekening houdt met het gewicht van het ei, de starttemperatuur en de hoogte waarop je kookt (die het kookpunt van water verandert). Het resultaat is de exacte tijd om jouw gekozen gaarheid te bereiken." },
+      { "q": "Wat ontgrendelt Pro?", "a": "Pro voegt de live kokend-wateranimatie toe, de hoogte-correctie van het kookpunt, een Live Activity, en het koken van meerdere eieren tegelijk met aparte gaarheid-instellingen. Pro ontgrendel je met een eenmalige fooi van € 2,99 of meer." },
+      { "q": "Ik heb Pro gekocht maar zie het niet", "a": "Open Instellingen → Aankopen herstellen. Verschijnt het dan nog niet, <a href=\"contact.html\">neem dan contact op</a> en we lossen het op." },
+      { "q": "Werkt het offline?", "a": "Ja. EggTimer Max werkt volledig offline en heeft geen account nodig." }
+    ],
+    "contactHeading": "Neem contact op",
+    "contactBody": "Een bug gevonden of een suggestie? <a href=\"contact.html\">Stuur ons een bericht →</a>"
+  },
+  "privacy": {
+    "title": "Privacybeleid — EggTimer Max",
+    "h1": "Privacybeleid",
+    "meta": "Laatst bijgewerkt: 15 juni 2025",
+    "sections": [
+      { "h": "Overzicht", "p": "EggTimer Max is gebouwd met privacy voorop. De app vereist geen account en verzamelt, bewaart of verstuurt geen persoonlijke gegevens." },
+      { "h": "Gegevens die we verzamelen", "p": "Geen. We verzamelen geen persoonlijke informatie. Je instellingen — eigewicht, starttemperatuur en gewenste gaarheid — worden lokaal op je toestel bewaard en verlaten het nooit." },
+      { "h": "Aankopen", "p": "In-app aankopen en fooien worden volledig door Apple afgehandeld via StoreKit. We zien of bewaren je betaalgegevens nooit." },
+      { "h": "Analytics &amp; tracking", "p": "EggTimer Max bevat geen analytics- of tracking-SDK's van derden. We volgen niet hoe je de app gebruikt, en er zijn geen advertentie-identifiers." },
+      { "h": "Diensten van derden", "p": "Er zijn geen data-verzamelende SDK's van derden ingebouwd. De app gebruikt Apple's eigen frameworks (zoals StoreKit voor aankopen), die vallen onder <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple's privacybeleid</a>." },
+      { "h": "Kinderen", "p": "EggTimer Max verzamelt bewust van niemand gegevens, ook niet van kinderen onder de 13." },
+      { "h": "Wijzigingen in dit beleid", "p": "Als dit beleid verandert, wordt de bijgewerkte versie op deze pagina geplaatst met een nieuwe datum." },
+      { "h": "Contact", "p": "Vragen over je privacy? Bereik ons via de <a href=\"contact.html\">contactpagina</a>." }
+    ]
+  },
+  "contact": {
+    "title": "Contact — EggTimer Max",
+    "h1": "Contact",
+    "meta": "We lezen elk bericht en reageren zo snel mogelijk.",
+    "nameLabel": "Je naam",
+    "namePlaceholder": "Jan Jansen",
+    "emailLabel": "Je e-mail",
+    "emailPlaceholder": "jij@voorbeeld.nl",
+    "subjectLabel": "Onderwerp",
+    "subjectPlaceholder": "Waar gaat het over?",
+    "messageLabel": "Bericht",
+    "messagePlaceholder": "Vertel ons meer…",
+    "send": "Verstuur bericht",
+    "sending": "Versturen…",
+    "successTitle": "Bericht verstuurd!",
+    "successBody": "Bedankt voor je bericht. We reageren zo snel mogelijk.",
+    "backHome": "Terug naar home",
+    "alertError": "Er ging iets mis — probeer het opnieuw."
+  }
+}

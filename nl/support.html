@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Support — EggTimer Max</title>
-  <link rel="icon" href="icon.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/support.html">
   <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/support.html">
   <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/support.html">
@@ -13,7 +13,7 @@
     // Route to the visitor's language before paint (no flash). Respects a manual
     // choice stored in localStorage; otherwise uses the browser language once.
     (function(){
-      var SUP=["en","nl"], page="support", lang="en";
+      var SUP=["en","nl"], page="support", lang="nl";
       function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
       try{
         var stored=localStorage.getItem('preferredLang'), target=stored;
@@ -36,16 +36,16 @@
 <nav class="bar">
   <div class="inner">
     <a class="brand" href="index.html">
-      <img src="icon.png" alt="EggTimer Max">
+      <img src="../icon.png" alt="EggTimer Max">
       <b>EggTimer <span>Max</span></b>
     </a>
     <div class="links">
-      <a href="guide.html">Guide</a>
+      <a href="guide.html">Gids</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="contact.html">Contact</a>
       <div class="langpick">
-        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/support.html" selected>English</option><option value="nl" data-url="/nl/support.html">Nederlands</option></select>
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/support.html">English</option><option value="nl" data-url="/nl/support.html" selected>Nederlands</option></select>
       </div>
     </div>
   </div>
@@ -54,38 +54,38 @@
 <main class="page wrap">
   <article class="panel reveal">
     <h1>Support</h1>
-    <p class="meta">We're happy to help.</p>
+    <p class="meta">We helpen je graag.</p>
 
-    <h2>Frequently asked questions</h2>
+    <h2>Veelgestelde vragen</h2>
 
-    <h2>How does EggTimer Max calculate cooking time?</h2>
-    <p>It uses the Williams formula — a physics-based model that accounts for the egg's weight, its starting temperature, and the altitude where you're cooking (which changes the boiling point of water). The result is the exact time to reach your chosen doneness.</p>
+    <h2>Hoe berekent EggTimer Max de kooktijd?</h2>
+    <p>Het gebruikt de Williams-formule — een natuurkundig model dat rekening houdt met het gewicht van het ei, de starttemperatuur en de hoogte waarop je kookt (die het kookpunt van water verandert). Het resultaat is de exacte tijd om jouw gekozen gaarheid te bereiken.</p>
 
-    <h2>What does Pro unlock?</h2>
-    <p>Pro adds the live boiling-water animation, altitude-aware boiling-point correction, a Live Activity, and cooking multiple eggs at once with individual doneness settings. Pro unlocks with a one-time tip of €2.99 or more.</p>
+    <h2>Wat ontgrendelt Pro?</h2>
+    <p>Pro voegt de live kokend-wateranimatie toe, de hoogte-correctie van het kookpunt, een Live Activity, en het koken van meerdere eieren tegelijk met aparte gaarheid-instellingen. Pro ontgrendel je met een eenmalige fooi van € 2,99 of meer.</p>
 
-    <h2>I bought Pro but it isn't showing</h2>
-    <p>Open Settings → Restore purchases. If it still doesn't appear, <a href="contact.html">get in touch</a> and we'll sort it out.</p>
+    <h2>Ik heb Pro gekocht maar zie het niet</h2>
+    <p>Open Instellingen → Aankopen herstellen. Verschijnt het dan nog niet, <a href="contact.html">neem dan contact op</a> en we lossen het op.</p>
 
-    <h2>Does it work offline?</h2>
-    <p>Yes. EggTimer Max works completely offline and needs no account.</p>
+    <h2>Werkt het offline?</h2>
+    <p>Ja. EggTimer Max werkt volledig offline en heeft geen account nodig.</p>
 
-    <h2>Get in touch</h2>
-    <p>Found a bug or have a suggestion? <a href="contact.html">Send us a message →</a></p>
+    <h2>Neem contact op</h2>
+    <p>Een bug gevonden of een suggestie? <a href="contact.html">Stuur ons een bericht →</a></p>
   </article>
 </main>
 
 <footer class="site wrap">
   <div class="flinks">
-    <a href="guide.html">Guide</a>
+    <a href="guide.html">Gids</a>
     <a href="support.html">Support</a>
-    <a href="privacy.html">Privacy Policy</a>
+    <a href="privacy.html">Privacybeleid</a>
     <a href="contact.html">Contact</a>
   </div>
   <div>&copy; 2026 EggTimer Max</div>
 </footer>
 
-<script src="bubbles.js"></script>
-<script src="main.js"></script>
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
 </body>
 </html>

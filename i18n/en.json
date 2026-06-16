@@ -1,0 +1,131 @@
+{
+  "htmlLang": "en",
+  "label": "English",
+  "nav": { "guide": "Guide", "support": "Support", "privacy": "Privacy", "contact": "Contact" },
+  "footer": { "privacyPolicy": "Privacy Policy" },
+  "index": {
+    "title": "EggTimer Max — Perfect eggs, every time",
+    "metaDesc": "EggTimer Max calculates the exact cooking time for your egg based on weight, temperature and doneness. Soft, jammy or hard-boiled — perfect every time.",
+    "heroH1": "Perfect eggs,<br><span class=\"accent\">every time.</span>",
+    "heroLead": "EggTimer Max calculates the exact cooking time for your egg — based on its weight, starting temperature and exactly how you like it. Soft, jammy or hard-boiled.",
+    "learnMore": "Learn more",
+    "shotMain": "Main screen",
+    "shotTimer": "Live cooking animation",
+    "shotBatch": "Cook a batch of eggs",
+    "whyTitle": "Why EggTimer Max?",
+    "whySub": "Not just a countdown — a physics-based model that gets your egg exactly right.",
+    "features": {
+      "science": { "h": "Science, not guesswork", "p": "Uses the Williams formula to factor in egg weight, fridge-or-room starting temperature and your target doneness." },
+      "doneness": { "h": "From runny to hard", "p": "Dial in exactly how you like it — runny, creamy, soft, jammy, just-set, medium or hard-boiled." },
+      "live": { "h": "Watch it cook, live", "p": "A real boiling-water animation shows your egg cooking in real time, right on your screen." },
+      "altitude": { "h": "Altitude-aware", "p": "Water boils cooler at altitude. EggTimer Max corrects the boiling point so timing stays accurate anywhere." },
+      "batch": { "h": "Cook a whole batch", "p": "Queue up several eggs at once, each with its own weight and doneness — every one timed individually." },
+      "private": { "h": "Private by design", "p": "No account, no tracking, no data collection. Everything stays on your device. Works fully offline." }
+    }
+  },
+  "guide": {
+    "title": "How to cook eggs — EggTimer Max",
+    "metaDesc": "Step-by-step instructions for cooking one or several eggs with EggTimer Max — both the boiling-water and cold-water start methods — plus general egg-cooking tips.",
+    "h1": "How to cook the perfect egg",
+    "meta": "A quick guide to EggTimer Max — and to boiling eggs in general.",
+    "intro": "EggTimer Max works with two methods: dropping eggs into <b>already-boiling water</b>, or starting them in <b>cold water</b> that heats up with the pan. Pick the one that matches how you cook — both give you a time calculated to the second.",
+    "s1": {
+      "h": "Boiling water — a single egg",
+      "note": "The classic method · most precise",
+      "steps": [
+        { "main": "<b>Weigh the egg.</b> Drag the <i>Weight</i> slider, or pick S / M / L / XL. Heavier eggs need more time." },
+        { "main": "<b>Set the starting temperature.</b> Straight from the fridge, or at room temperature — a cold egg takes longer." },
+        { "main": "<b>Choose your doneness.</b> Slide from runny to hard-boiled; the cooking time updates live.", "sub": "Make sure the method at the bottom reads “Boiling water”. You can switch methods in Settings." },
+        { "main": "<b>Bring a pan of water to a rolling boil</b> — enough to fully cover the egg.", "sub": "Once it’s boiling hard, turn the heat down a little so the water just keeps boiling gently. A violent boil bounces the eggs around and cracks them." },
+        { "main": "<b>Tap “Start timer”.</b> After a short 3-2-1 countdown, gently lower the egg into the boiling water." },
+        { "main": "<b>Cool it down when the alarm sounds.</b> Drop the egg into cold or iced water to stop the cooking and make peeling easier." }
+      ]
+    },
+    "tipAltitude": "Living at altitude? Water boils below 100 °C up in the mountains, which slows cooking. EggTimer Max corrects for this automatically — see the boiling point shown at the bottom of the screen.",
+    "s2": {
+      "h": "Several eggs at once",
+      "note": "Each egg timed individually",
+      "steps": [
+        { "main": "<b>Set up your first egg</b> as above — weight, start temperature and doneness." },
+        { "main": "<b>Tap “Add this egg”.</b> It moves to your batch, and you can dial in the next one with its own settings — a soft one for you, a hard one for the kids." },
+        { "main": "<b>Repeat for every egg</b> you want to cook. Each keeps its own cooking time." },
+        { "main": "<b>Tap “Start timer”.</b> Add the eggs together at the start; the app tells you exactly when to lift out each one." },
+        { "main": "<b>Scoop out each egg the moment it’s called</b>, and cool it in cold water." }
+      ]
+    },
+    "s3": {
+      "h": "Cold-water start",
+      "note": "Gentle · fewer cracks · great for fridge-cold eggs",
+      "intro": "Prefer to start your eggs in cold water and let everything heat up together? This method is gentler on the shell. Because every stove heats at a different rate, you tell the app when the water actually reaches a boil.",
+      "steps": [
+        { "main": "<b>Switch the method to “Cold water”</b> in Settings. The bottom of the screen will read “Cold water — warms up with the pan”." },
+        { "main": "<b>Set weight, start temperature and doneness</b> for your egg (or add several, just like above)." },
+        { "main": "<b>Put the egg(s) in a pan of cold water</b> and place it on the heat." },
+        { "main": "<b>Tap “Start timer”.</b> The app starts watching and waits for the boil." },
+        { "main": "<b>Tap “Water is boiling!”</b> the moment the water reaches a full, rolling boil. The exact countdown begins from there." },
+        { "main": "<b>Cool the eggs when the alarm sounds.</b> Cold water stops the cooking right on time." }
+      ]
+    },
+    "tipCold": "The cold-water timer only starts once you confirm the boil — so you never have to guess how long your pan takes to heat up.",
+    "s4": { "h": "General egg-cooking tips" },
+    "tips": [
+      "<b>Use enough water.</b> The egg should be fully submerged, with a couple of centimetres to spare, so the temperature stays stable.",
+      "<b>A pinch of salt or a splash of vinegar</b> in the water helps any white from a hairline crack set quickly instead of leaking out.",
+      "<b>Lower eggs in gently</b> with a spoon to avoid cracks — and to keep your fingers away from the steam.",
+      "<b>Older eggs peel more easily</b> than very fresh ones. If peeling is a struggle, eggs that are a week or so old work best.",
+      "<b>Always cool in cold or iced water.</b> It stops the cooking the instant your timer ends and loosens the shell from the white.",
+      "<b>Start cold eggs gently.</b> Fridge-cold eggs are more likely to crack in boiling water — the cold-water method or letting them warm up a little helps.",
+      "<b>Roll and peel under running water.</b> Tap the egg all over, then peel from the wider, blunt end where the air pocket sits."
+    ],
+    "tipScience": "EggTimer Max doesn’t use fixed rules of thumb — it runs the physics-based Williams model on your egg’s exact weight, temperature and altitude. That’s why the same doneness setting works for a tiny egg and a jumbo one alike.",
+    "stillStuck": "Still stuck? <a href=\"contact.html\">Get in touch →</a>"
+  },
+  "support": {
+    "title": "Support — EggTimer Max",
+    "h1": "Support",
+    "meta": "We're happy to help.",
+    "faqHeading": "Frequently asked questions",
+    "faqs": [
+      { "q": "How does EggTimer Max calculate cooking time?", "a": "It uses the Williams formula — a physics-based model that accounts for the egg's weight, its starting temperature, and the altitude where you're cooking (which changes the boiling point of water). The result is the exact time to reach your chosen doneness." },
+      { "q": "What does Pro unlock?", "a": "Pro adds the live boiling-water animation, altitude-aware boiling-point correction, a Live Activity, and cooking multiple eggs at once with individual doneness settings. Pro unlocks with a one-time tip of €2.99 or more." },
+      { "q": "I bought Pro but it isn't showing", "a": "Open Settings → Restore purchases. If it still doesn't appear, <a href=\"contact.html\">get in touch</a> and we'll sort it out." },
+      { "q": "Does it work offline?", "a": "Yes. EggTimer Max works completely offline and needs no account." }
+    ],
+    "contactHeading": "Get in touch",
+    "contactBody": "Found a bug or have a suggestion? <a href=\"contact.html\">Send us a message →</a>"
+  },
+  "privacy": {
+    "title": "Privacy Policy — EggTimer Max",
+    "h1": "Privacy Policy",
+    "meta": "Last updated: 15 June 2025",
+    "sections": [
+      { "h": "Overview", "p": "EggTimer Max is built with privacy in mind. The app does not require an account and does not collect, store or transmit any personal data." },
+      { "h": "Data we collect", "p": "None. We do not collect any personal information. Your settings — egg weight, starting temperature and preferred doneness — are saved locally on your device and never leave it." },
+      { "h": "Purchases", "p": "In-app purchases and tips are handled entirely by Apple through StoreKit. We never see or store your payment details." },
+      { "h": "Analytics &amp; tracking", "p": "EggTimer Max contains no third-party analytics or tracking SDKs. We do not track how you use the app, and there are no advertising identifiers." },
+      { "h": "Third-party services", "p": "No data-collecting third-party SDKs are included. The app uses Apple's own frameworks (such as StoreKit for purchases), which are governed by <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple's Privacy Policy</a>." },
+      { "h": "Children", "p": "EggTimer Max does not knowingly collect data from anyone, including children under 13." },
+      { "h": "Changes to this policy", "p": "If this policy changes, the updated version will be posted on this page with a new date." },
+      { "h": "Contact", "p": "Questions about your privacy? Reach us via the <a href=\"contact.html\">contact page</a>." }
+    ]
+  },
+  "contact": {
+    "title": "Contact — EggTimer Max",
+    "h1": "Contact",
+    "meta": "We read every message and get back to you as soon as possible.",
+    "nameLabel": "Your name",
+    "namePlaceholder": "Jane Doe",
+    "emailLabel": "Your email",
+    "emailPlaceholder": "you@example.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "What's it about?",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us more…",
+    "send": "Send message",
+    "sending": "Sending…",
+    "successTitle": "Message sent!",
+    "successBody": "Thanks for reaching out. We'll get back to you as soon as possible.",
+    "backHome": "Back to home",
+    "alertError": "Something went wrong — please try again."
+  }
+}

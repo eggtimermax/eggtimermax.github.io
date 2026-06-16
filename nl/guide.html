@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eieren koken — EggTimer Max</title>
+  <meta name="description" content="Stap-voor-stap instructies om één of meerdere eieren te koken met EggTimer Max — zowel de methode met kokend water als met koud water — plus algemene tips voor het koken van eieren.">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/guide.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/guide.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/guide.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl"], page="guide", lang="nl";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="../icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="guide.html">Gids</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/guide.html">English</option><option value="nl" data-url="/nl/guide.html" selected>Nederlands</option></select>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="page wrap">
+  <article class="panel reveal">
+    <h1>Zo kook je het perfecte ei</h1>
+    <p class="meta">Een korte gids voor EggTimer Max — en voor het koken van eieren in het algemeen.</p>
+    <p class="guide-intro">EggTimer Max werkt met twee methodes: eieren in <b>al kokend water</b> leggen, of ze in <b>koud water</b> starten dat samen met de pan opwarmt. Kies de methode die past bij hoe jij kookt — beide geven je een tijd die tot op de seconde is berekend.</p>
+
+    <hr class="divider">
+
+    <h2>Kokend water — één ei</h2>
+    <span class="lead-note">De klassieke methode · het meest precies</span>
+    <ol class="steps">
+      <li><b>Weeg het ei.</b> Sleep de <i>Gewicht</i>-schuif, of kies S / M / L / XL. Zwaardere eieren hebben meer tijd nodig.</li>
+      <li><b>Stel de starttemperatuur in.</b> Recht uit de koelkast, of op kamertemperatuur — een koud ei doet er langer over.</li>
+      <li><b>Kies de gaarheid.</b> Schuif van lopend tot hardgekookt; de kooktijd past zich live aan.<span class="sub">Zorg dat de methode onderaan op “Kokend water” staat. Je kunt van methode wisselen in Instellingen.</span></li>
+      <li><b>Breng een pan water aan de kook</b> — genoeg om het ei volledig onder te dompelen.<span class="sub">Zodra het hard kookt, zet je de bron iets lager zodat het water net blijft doorkoken. Wild kokend water laat de eieren stuiteren en barsten.</span></li>
+      <li><b>Tik op “Start timer”.</b> Na een korte 3-2-1 aftelling laat je het ei voorzichtig in het kokende water zakken.</li>
+      <li><b>Koel het af zodra het alarm gaat.</b> Leg het ei in koud of ijswater om het garen te stoppen en het pellen makkelijker te maken.</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 19h18L14.5 7l-3.2 5.4-2.1-2.8L3 19z" stroke="#C06800" stroke-width="1.8" stroke-linejoin="round"/><circle cx="14.5" cy="6" r="1.6" fill="#F59B23"/></svg></span>
+      <p>Woon je hoog? In de bergen kookt water onder de 100 °C, waardoor het garen trager gaat. EggTimer Max corrigeert hier automatisch voor — zie het kookpunt onderaan het scherm.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Meerdere eieren tegelijk</h2>
+    <span class="lead-note">Elk ei apart getimed</span>
+    <ol class="steps">
+      <li><b>Stel je eerste ei in</b> zoals hierboven — gewicht, starttemperatuur en gaarheid.</li>
+      <li><b>Tik op “Voeg dit ei toe”.</b> Het verhuist naar je lading, en je stelt het volgende in met eigen instellingen — een zachte voor jou, een harde voor de kinderen.</li>
+      <li><b>Herhaal voor elk ei</b> dat je wilt koken. Elk houdt zijn eigen kooktijd.</li>
+      <li><b>Tik op “Start timer”.</b> Voeg de eieren bij de start samen toe; de app vertelt je precies wanneer je elk ei eruit haalt.</li>
+      <li><b>Schep elk ei eruit op het moment dat het wordt genoemd</b>, en koel het in koud water.</li>
+    </ol>
+
+    <hr class="divider">
+
+    <h2>Start met koud water</h2>
+    <span class="lead-note">Zachtaardig · minder barsten · ideaal voor koelkastkoude eieren</span>
+    <p>Liever je eieren in koud water starten en alles samen laten opwarmen? Deze methode is zachter voor de schaal. Omdat elk fornuis anders opwarmt, geef jij de app aan wanneer het water echt kookt.</p>
+    <ol class="steps">
+      <li><b>Zet de methode op “Koud water”</b> in Instellingen. Onderaan het scherm staat dan “Koud water — warmt op met de pan”.</li>
+      <li><b>Stel gewicht, starttemperatuur en gaarheid in</b> voor je ei (of voeg er meerdere toe, net als hierboven).</li>
+      <li><b>Leg het ei (of de eieren) in een pan koud water</b> en zet die op het vuur.</li>
+      <li><b>Tik op “Start timer”.</b> De app begint te kijken en wacht op het kookpunt.</li>
+      <li><b>Tik op “Water kookt!”</b> zodra het water volop kookt. Vanaf dat moment begint de exacte aftelling.</li>
+      <li><b>Koel de eieren zodra het alarm gaat.</b> Koud water stopt het garen precies op tijd.</li>
+    </ol>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="13" r="8" stroke="#C06800" stroke-width="1.8"/><path d="M12 9v4l2.8 2" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 2.5h6" stroke="#F59B23" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+      <p>De koud-watertimer start pas zodra jij het kookpunt bevestigt — zo hoef je nooit te gokken hoe lang je pan erover doet om op te warmen.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Algemene tips voor het koken van eieren</h2>
+    <ul>
+      <li><b>Gebruik genoeg water.</b> Het ei moet volledig onder staan, met een paar centimeter speling, zodat de temperatuur stabiel blijft.</li>
+      <li><b>Een snufje zout of een scheutje azijn</b> in het water helpt eiwit uit een haarscheurtje snel te laten stollen in plaats van eruit te lekken.</li>
+      <li><b>Laat eieren voorzichtig zakken</b> met een lepel om barsten te voorkomen — en om je vingers uit de stoom te houden.</li>
+      <li><b>Oudere eieren pellen makkelijker</b> dan heel verse. Lukt het pellen niet goed, dan werken eieren van een week of ouder het best.</li>
+      <li><b>Koel altijd in koud of ijswater.</b> Dat stopt het garen op het moment dat je timer afloopt en maakt de schaal los van het eiwit.</li>
+      <li><b>Start koude eieren rustig.</b> Koelkastkoude eieren barsten eerder in kokend water — de koud-watermethode of ze even laten opwarmen helpt.</li>
+      <li><b>Rol en pel onder stromend water.</b> Tik het ei rondom in en pel vanaf de brede, stompe kant waar het luchtbelletje zit.</li>
+    </ul>
+
+    <div class="tip">
+      <span class="ic"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3v6L5 17.5A2 2 0 006.8 20.5h10.4A2 2 0 0019 17.5L14.5 9V3" stroke="#C06800" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.5 3h7" stroke="#C06800" stroke-width="1.8" stroke-linecap="round"/><circle cx="10.5" cy="16" r="1.2" fill="#F59B23"/><circle cx="13.5" cy="17.5" r="1" fill="#F59B23"/></svg></span>
+      <p>EggTimer Max gebruikt geen vaste vuistregels — het draait het natuurkundige Williams-model op het exacte gewicht, de temperatuur en de hoogte van jouw ei. Daarom werkt dezelfde gaarheid-instelling net zo goed voor een piepklein ei als voor een jumbo.</p>
+    </div>
+
+    <p style="margin-top:28px;">Kom je er niet uit? <a href="contact.html">Neem contact op →</a></p>
+  </article>
+</main>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="guide.html">Gids</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacybeleid</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div>&copy; 2026 EggTimer Max</div>
+</footer>
+
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>

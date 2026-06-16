@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact — EggTimer Max</title>
-  <link rel="icon" href="icon.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
   <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/contact.html">
   <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/contact.html">
   <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/contact.html">
@@ -13,7 +13,7 @@
     // Route to the visitor's language before paint (no flash). Respects a manual
     // choice stored in localStorage; otherwise uses the browser language once.
     (function(){
-      var SUP=["en","nl"], page="contact", lang="en";
+      var SUP=["en","nl"], page="contact", lang="nl";
       function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
       try{
         var stored=localStorage.getItem('preferredLang'), target=stored;
@@ -36,16 +36,16 @@
 <nav class="bar">
   <div class="inner">
     <a class="brand" href="index.html">
-      <img src="icon.png" alt="EggTimer Max">
+      <img src="../icon.png" alt="EggTimer Max">
       <b>EggTimer <span>Max</span></b>
     </a>
     <div class="links">
-      <a href="guide.html">Guide</a>
+      <a href="guide.html">Gids</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="contact.html">Contact</a>
       <div class="langpick">
-        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/contact.html" selected>English</option><option value="nl" data-url="/nl/contact.html">Nederlands</option></select>
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/contact.html">English</option><option value="nl" data-url="/nl/contact.html" selected>Nederlands</option></select>
       </div>
     </div>
   </div>
@@ -54,58 +54,58 @@
 <main class="page wrap">
   <article class="panel reveal">
     <h1>Contact</h1>
-    <p class="meta">We read every message and get back to you as soon as possible.</p>
+    <p class="meta">We lezen elk bericht en reageren zo snel mogelijk.</p>
 
     <form class="form" id="contactForm" novalidate>
       <input type="checkbox" name="botcheck" style="display:none !important" tabindex="-1" autocomplete="off">
 
       <div>
-        <label for="name">Your name</label>
-        <input type="text" id="name" name="name" placeholder="Jane Doe" required autocomplete="name">
+        <label for="name">Je naam</label>
+        <input type="text" id="name" name="name" placeholder="Jan Jansen" required autocomplete="name">
       </div>
       <div>
-        <label for="email">Your email</label>
-        <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+        <label for="email">Je e-mail</label>
+        <input type="email" id="email" name="email" placeholder="jij@voorbeeld.nl" required autocomplete="email">
       </div>
       <div>
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" name="subject" placeholder="What's it about?" required>
+        <label for="subject">Onderwerp</label>
+        <input type="text" id="subject" name="subject" placeholder="Waar gaat het over?" required>
       </div>
       <div>
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Tell us more…" required></textarea>
+        <label for="message">Bericht</label>
+        <textarea id="message" name="message" placeholder="Vertel ons meer…" required></textarea>
       </div>
-      <button type="submit" class="btn btn-primary" id="submitBtn">Send message</button>
+      <button type="submit" class="btn btn-primary" id="submitBtn">Verstuur bericht</button>
     </form>
 
     <div class="success-msg" id="thankYou">
       <div class="check">✓</div>
-      <h2>Message sent!</h2>
-      <p>Thanks for reaching out. We'll get back to you as soon as possible.</p>
-      <a href="index.html" class="btn btn-ghost">Back to home</a>
+      <h2>Bericht verstuurd!</h2>
+      <p>Bedankt voor je bericht. We reageren zo snel mogelijk.</p>
+      <a href="index.html" class="btn btn-ghost">Terug naar home</a>
     </div>
   </article>
 </main>
 
 <footer class="site wrap">
   <div class="flinks">
-    <a href="guide.html">Guide</a>
+    <a href="guide.html">Gids</a>
     <a href="support.html">Support</a>
-    <a href="privacy.html">Privacy Policy</a>
+    <a href="privacy.html">Privacybeleid</a>
     <a href="contact.html">Contact</a>
   </div>
   <div>&copy; 2026 EggTimer Max</div>
 </footer>
 
-<script src="bubbles.js"></script>
-<script src="main.js"></script>
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
 <script>
   document.getElementById('contactForm').addEventListener('submit', async function (e) {
     e.preventDefault();
     if (this.botcheck && this.botcheck.checked) return;
     const btn = document.getElementById('submitBtn');
     btn.disabled = true;
-    btn.textContent = "Sending…";
+    btn.textContent = "Versturen…";
     const payload = {
       access_key:  '6161d962-9e6c-4838-8408-2c210109eede',
       from_name:   'EggTimer Max',
@@ -129,8 +129,8 @@
       }
     } catch (err) {
       btn.disabled = false;
-      btn.textContent = "Send message";
-      alert("Something went wrong — please try again.");
+      btn.textContent = "Verstuur bericht";
+      alert("Er ging iets mis — probeer het opnieuw.");
     }
   });
 </script>

@@ -7,6 +7,29 @@
   <meta name="description" content="Step-by-step instructions for cooking one or several eggs with EggTimer Max — both the boiling-water and cold-water start methods — plus general egg-cooking tips.">
   <link rel="icon" href="icon.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/guide.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/guide.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/guide.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl"], page="guide", lang="en";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
 </head>
 <body>
 <div class="bubbles" id="bubbles"></div>
@@ -22,6 +45,9 @@
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="contact.html">Contact</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/guide.html" selected>English</option><option value="nl" data-url="/nl/guide.html">Nederlands</option></select>
+      </div>
     </div>
   </div>
 </nav>
@@ -34,7 +60,6 @@
 
     <hr class="divider">
 
-    <!-- ===== Boiling water — one egg ===== -->
     <h2>Boiling water — a single egg</h2>
     <span class="lead-note">The classic method · most precise</span>
     <ol class="steps">
@@ -53,7 +78,6 @@
 
     <hr class="divider">
 
-    <!-- ===== Boiling water — several eggs ===== -->
     <h2>Several eggs at once</h2>
     <span class="lead-note">Each egg timed individually</span>
     <ol class="steps">
@@ -66,7 +90,6 @@
 
     <hr class="divider">
 
-    <!-- ===== Cold water start ===== -->
     <h2>Cold-water start</h2>
     <span class="lead-note">Gentle · fewer cracks · great for fridge-cold eggs</span>
     <p>Prefer to start your eggs in cold water and let everything heat up together? This method is gentler on the shell. Because every stove heats at a different rate, you tell the app when the water actually reaches a boil.</p>
@@ -86,7 +109,6 @@
 
     <hr class="divider">
 
-    <!-- ===== General tips ===== -->
     <h2>General egg-cooking tips</h2>
     <ul>
       <li><b>Use enough water.</b> The egg should be fully submerged, with a couple of centimetres to spare, so the temperature stays stable.</li>

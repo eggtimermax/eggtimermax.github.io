@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EggTimer Max — Perfecte eieren, elke keer</title>
+  <meta name="description" content="EggTimer Max berekent de exacte kooktijd voor je ei op basis van gewicht, temperatuur en gaarheid. Zacht, smeuïg of hardgekookt — elke keer perfect.">
+  <link rel="icon" href="../icon.png">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://eggtimermax.github.io/index.html">
+  <link rel="alternate" hreflang="nl" href="https://eggtimermax.github.io/nl/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://eggtimermax.github.io/index.html">
+  <script>
+    // Route to the visitor's language before paint (no flash). Respects a manual
+    // choice stored in localStorage; otherwise uses the browser language once.
+    (function(){
+      var SUP=["en","nl"], page="index", lang="nl";
+      function u(l){var f=page+'.html';return l==='en'?'/'+f:'/'+l+'/'+f;}
+      try{
+        var stored=localStorage.getItem('preferredLang'), target=stored;
+        if(!target){
+          var n=navigator.languages||[navigator.language||'en'];
+          for(var i=0;i<n.length;i++){var c=n[i].slice(0,2).toLowerCase();if(SUP.indexOf(c)>=0){target=c;break;}}
+        }
+        if(!target)target='en';
+        if(target!==lang&&!sessionStorage.getItem('autoRouted')){
+          sessionStorage.setItem('autoRouted','1');
+          location.replace(u(target));
+        }
+      }catch(e){}
+    })();
+  </script>
+</head>
+<body>
+<div class="bubbles" id="bubbles"></div>
+
+<nav class="bar">
+  <div class="inner">
+    <a class="brand" href="index.html">
+      <img src="../icon.png" alt="EggTimer Max">
+      <b>EggTimer <span>Max</span></b>
+    </a>
+    <div class="links">
+      <a href="guide.html">Gids</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+      <div class="langpick">
+        <select aria-label="Language" onchange="try{localStorage.setItem('preferredLang',this.value)}catch(e){};location.href=this.options[this.selectedIndex].dataset.url"><option value="en" data-url="/index.html">English</option><option value="nl" data-url="/nl/index.html" selected>Nederlands</option></select>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero wrap">
+  <img class="appicon reveal" src="../icon.png" alt="EggTimer Max icon">
+  <h1 class="reveal rd1">Perfecte eieren,<br><span class="accent">elke keer.</span></h1>
+  <p class="lead reveal rd2">EggTimer Max berekent de exacte kooktijd voor je ei — op basis van het gewicht, de starttemperatuur en precies hoe jij het lekker vindt. Zacht, smeuïg of hardgekookt.</p>
+  <div class="actions reveal rd3" id="download">
+    <a class="badge-appstore" href="#">
+      <img src="../appstore-badge.svg" alt="Download on the App Store">
+    </a>
+    <a class="btn btn-ghost" href="support.html">Meer weten</a>
+  </div>
+  <div class="showcase reveal rd4">
+    <img src="../screenshot-main.png" alt="Hoofdscherm">
+    <img src="../screenshot-timer.png" alt="Live kookanimatie">
+    <img src="../screenshot-batch.png" alt="Kook meerdere eieren">
+  </div>
+</header>
+
+<section class="section wrap">
+  <h2 class="reveal">Waarom EggTimer Max?</h2>
+  <p class="sub reveal rd1">Geen simpele timer — een natuurkundig model dat je ei precies goed krijgt.</p>
+  <div class="grid">
+    <div class="card reveal rd1">
+      <img class="ico" src="../icons/icon-science.svg" alt="">
+      <h3>Wetenschap, geen giswerk</h3>
+      <p>Gebruikt de Williams-formule om rekening te houden met het eigewicht, de starttemperatuur (koelkast of kamertemperatuur) en je gewenste gaarheid.</p>
+    </div>
+    <div class="card reveal rd2">
+      <img class="ico" src="../icons/icon-doneness.svg" alt="">
+      <h3>Van lopend tot hard</h3>
+      <p>Stel precies in hoe je het lekker vindt — lopend, smeuïg, zacht, jammy, net gestold, medium of hardgekookt.</p>
+    </div>
+    <div class="card reveal rd3">
+      <img class="ico" src="../icons/icon-live.svg" alt="">
+      <h3>Zie het live koken</h3>
+      <p>Een echte kokend-wateranimatie laat je ei in realtime garen, gewoon op je scherm.</p>
+    </div>
+    <div class="card reveal rd4">
+      <img class="ico" src="../icons/icon-altitude.svg" alt="">
+      <h3>Houdt rekening met hoogte</h3>
+      <p>Op hoogte kookt water bij een lagere temperatuur. EggTimer Max corrigeert het kookpunt zodat de timing overal klopt.</p>
+    </div>
+    <div class="card reveal rd5">
+      <img class="ico" src="../icons/icon-batch.svg" alt="">
+      <h3>Kook een hele lading</h3>
+      <p>Zet meerdere eieren tegelijk klaar, elk met een eigen gewicht en gaarheid — stuk voor stuk apart getimed.</p>
+    </div>
+    <div class="card reveal rd6">
+      <img class="ico" src="../icons/icon-private.svg" alt="">
+      <h3>Privé van nature</h3>
+      <p>Geen account, geen tracking, geen dataverzameling. Alles blijft op je toestel. Werkt volledig offline.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site wrap">
+  <div class="flinks">
+    <a href="guide.html">Gids</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacybeleid</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div>&copy; 2026 EggTimer Max</div>
+</footer>
+
+<script src="../bubbles.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>
