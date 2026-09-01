@@ -66,6 +66,8 @@ ${alternates}
       }catch(e){}
     })();
   </script>
+  <script data-goatcounter="https://mrlando.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>`;
 }
@@ -134,7 +136,7 @@ ${nav(t, lang, 'index')}
   <h1 class="reveal rd1">${i.heroH1}</h1>
   <p class="lead reveal rd2">${i.heroLead}</p>
   <div class="actions reveal rd3" id="download">
-    <a class="badge-appstore" href="#">
+    <a class="badge-appstore" href="https://apps.apple.com/app/id6778872583" target="_blank" rel="noopener">
       <img src="${root}appstore-badge.svg" alt="Download on the App Store">
     </a>
     <a class="btn btn-ghost" href="support.html">${i.learnMore}</a>
@@ -203,6 +205,15 @@ ${tip(SVG_ALT, g.tipAltitude)}
     <span class="lead-note">${g.s2.note}</span>
     <ol class="steps">
 ${steps(g.s2.steps)}
+    </ol>
+
+    <hr class="divider">
+
+    <h2>${g.sSteam.h}</h2>
+    <span class="lead-note">${g.sSteam.note}</span>
+    <p>${g.sSteam.intro}</p>
+    <ol class="steps">
+${steps(g.sSteam.steps)}
     </ol>
 
     <hr class="divider">

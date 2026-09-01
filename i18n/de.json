@@ -17,7 +17,7 @@
     "features": {
       "science": { "h": "Wissenschaft statt Raten", "p": "Nutzt die Williams-Formel und berücksichtigt Eigewicht, Ausgangstemperatur — von kühlschrankkalt bis warmer Sommertag — und deinen gewünschten Härtegrad." },
       "doneness": { "h": "Von flüssig bis hart", "p": "Stell genau ein, wie du es magst — flüssig, cremig, weich, wachsweich, mittel oder hartgekocht." },
-      "live": { "h": "Sieh live beim Kochen zu", "p": "Eine echte Kochwasser-Animation zeigt dein Ei in Echtzeit beim Garen, direkt auf deinem Bildschirm." },
+      "live": { "h": "Kochen, dämpfen oder kalt starten", "p": "Drei Kochmethoden, alle mit derselben echten Berechnung gelöst — plus eine Live-Animation des kochenden oder dampfenden Wassers, während du wartest." },
       "altitude": { "h": "Höhenbewusst", "p": "In der Höhe kocht Wasser bei niedrigerer Temperatur. EggTimer Max korrigiert den Siedepunkt, damit das Timing überall stimmt." },
       "batch": { "h": "Koche eine ganze Ladung", "p": "Reihe mehrere Eier auf einmal an, jedes mit eigenem Gewicht und Härtegrad — jedes einzeln getaktet." },
       "private": { "h": "Privat von Grund auf", "p": "Kein Konto, kein Tracking, keine Datensammlung. Alles bleibt auf deinem Gerät. Funktioniert komplett offline." }
@@ -28,17 +28,17 @@
     "metaDesc": "Schritt-für-Schritt-Anleitung zum Kochen von einem oder mehreren Eiern mit EggTimer Max — sowohl die Methode mit kochendem als auch mit kaltem Wasser — plus allgemeine Tipps zum Eierkochen.",
     "h1": "So kochst du das perfekte Ei",
     "meta": "Eine kurze Anleitung zu EggTimer Max — und zum Eierkochen allgemein.",
-    "intro": "EggTimer Max arbeitet mit zwei Methoden: Eier in <b>bereits kochendes Wasser</b> geben oder sie in <b>kaltem Wasser</b> starten, das mit dem Topf erhitzt. Wähl die Methode, die zu deinem Kochen passt — beide liefern dir eine auf die Sekunde berechnete Zeit.",
+    "intro": "EggTimer Max arbeitet mit drei Methoden: Eier in <b>bereits kochendes Wasser</b> geben, sie über <b>Dampf</b> garen, oder sie in <b>kaltem Wasser</b> starten, das mit dem Topf erhitzt. Wähl die Methode, die zu deinem Kochen passt — alle drei liefern dir eine auf die Sekunde berechnete Zeit.",
     "s1": {
       "h": "Kochendes Wasser — ein einzelnes Ei",
       "note": "Die klassische Methode · am präzisesten",
       "steps": [
         { "main": "<b>Wiege das Ei.</b> Zieh den <i>Gewicht</i>-Regler oder wähl im Menü <i>Voreinstellungen</i> eine Größe — S, M, L oder XL. Schwerere Eier brauchen länger." },
         { "main": "<b>Stell die Ausgangstemperatur ein.</b> Kühlschrank, kühl, Zimmertemperatur oder warmer Sommertag — ein kaltes Ei braucht länger." },
-        { "main": "<b>Wähl den Härtegrad.</b> Schieb von flüssig bis hart gekocht; die Kochzeit aktualisiert sich live.", "sub": "Achte darauf, dass unten „Kochendes Wasser“ steht. Die Methode kannst du in den Einstellungen wechseln." },
+        { "main": "<b>Wähl den Härtegrad.</b> Schieb von flüssig bis hart gekocht; die Kochzeit aktualisiert sich live.", "sub": "Achte darauf, dass unten „Kochendes Wasser“ steht. Du kannst in den Einstellungen zu Dampf oder kaltem Wasser wechseln." },
         { "main": "<b>Bring einen Topf Wasser zum sprudelnden Kochen</b> — genug, um das Ei vollständig zu bedecken.", "sub": "Sobald es stark kocht, dreh die Hitze etwas herunter, sodass das Wasser gerade noch sanft weiterkocht. Heftiges Kochen schleudert die Eier umher und lässt sie platzen." },
         { "main": "<b>Tippe auf „Timer starten“.</b> Nach einem kurzen 3-2-1-Countdown lässt du das Ei vorsichtig ins kochende Wasser gleiten." },
-        { "main": "<b>Kühl es ab, wenn der Alarm ertönt.</b> Gib das Ei in kaltes oder Eiswasser, um das Garen zu stoppen und das Pellen zu erleichtern." }
+        { "main": "<b>Warte auf den Alarm und nimm dann das Ei aus dem Topf</b>, und kühl es etwa 20 Sekunden in kaltem oder Eiswasser — das stoppt das Garen und erleichtert das Pellen." }
       ]
     },
     "tipAltitude": "Wohnst du in der Höhe? In den Bergen kocht Wasser unter 100 °C, was das Garen verlangsamt. EggTimer Max korrigiert das automatisch — sieh dir den Siedepunkt unten am Bildschirm an.",
@@ -49,8 +49,20 @@
         { "main": "<b>Richte dein erstes Ei ein</b> wie oben — Gewicht, Ausgangstemperatur und Härtegrad." },
         { "main": "<b>Tippe auf „Dieses Ei hinzufügen“.</b> Es wandert in deine Ladung, und du stellst das nächste mit eigenen Einstellungen ein — ein weiches für dich, ein hartes für die Kinder." },
         { "main": "<b>Wiederhol das für jedes Ei</b>, das du kochen willst. Jedes behält seine eigene Kochzeit." },
-        { "main": "<b>Tippe auf „Timer starten“.</b> Gib die Eier zu Beginn zusammen hinein; die App sagt dir genau, wann du jedes herausnimmst." },
-        { "main": "<b>Hol jedes Ei genau dann heraus, wenn es aufgerufen wird</b>, und kühl es in kaltem Wasser." }
+        { "main": "<b>Tippe auf „Timer starten“.</b> Lass die Eier nacheinander ins Wasser gleiten — die App sagt dir genau, wann du jedes hinzufügst, damit alle gleichzeitig fertig sind." },
+        { "main": "<b>Warte auf den Alarm und nimm dann alle Eier zusammen aus dem Topf</b>, und kühl sie etwa 20 Sekunden in kaltem Wasser." }
+      ]
+    },
+    "sSteam": {
+      "h": "Dampfgaren",
+      "note": "Schonender für die Schale · einfacher zu pellen",
+      "intro": "Möchtest du deine Eier lieber dämpfen statt sie unterzutauchen? EggTimer Max berechnet auch dafür die genaue Zeit — Dampf gart etwas langsamer als volles Kochen, und die App berücksichtigt das automatisch.",
+      "steps": [
+        { "main": "<b>Stell die Methode auf „Dampf“</b> in den Einstellungen. Unten am Bildschirm steht dann „Dampf“." },
+        { "main": "<b>Stell Gewicht, Ausgangstemperatur und Härtegrad</b> für dein Ei ein (oder füge mehrere hinzu, wie oben)." },
+        { "main": "<b>Bring einen Topf mit Dampfeinsatz oder -korb zum Kochen</b>, mit genug Wasser, damit er während des Garens nicht trockenkocht." },
+        { "main": "<b>Tippe auf „Timer starten“.</b> Nach dem 3-2-1-Countdown legst du das Ei (oder die Eier) in den Dampfkorb, über den Dampf." },
+        { "main": "<b>Warte auf den Alarm und nimm dann die Eier aus dem Topf</b>, und kühl sie etwa 20 Sekunden in kaltem oder Eiswasser — das stoppt das Garen und erleichtert das Pellen." }
       ]
     },
     "s3": {
@@ -63,7 +75,7 @@
         { "main": "<b>Gib das Ei (oder die Eier) in einen Topf mit kaltem Wasser</b> und stell ihn auf die Hitze." },
         { "main": "<b>Tippe auf „Timer starten“.</b> Die App beginnt zu beobachten und wartet aufs Kochen." },
         { "main": "<b>Tippe auf „Wasser kocht!“</b>, sobald das Wasser voll sprudelnd kocht. Ab da beginnt der exakte Countdown." },
-        { "main": "<b>Kühl die Eier, wenn der Alarm ertönt.</b> Kaltes Wasser stoppt das Garen genau rechtzeitig." }
+        { "main": "<b>Warte auf den Alarm und nimm dann die Eier aus dem Topf</b>, und kühl sie etwa 20 Sekunden in kaltem Wasser — genau rechtzeitig, um das Garen zu stoppen." }
       ]
     },
     "tipCold": "Der Kaltwasser-Timer startet erst, wenn du das Kochen bestätigst — so musst du nie raten, wie lange dein Topf zum Aufheizen braucht.",
@@ -97,12 +109,12 @@
   "privacy": {
     "title": "Datenschutzerklärung — EggTimer Max",
     "h1": "Datenschutzerklärung",
-    "meta": "Zuletzt aktualisiert: 15. Juni 2025",
+    "meta": "Zuletzt aktualisiert: 15. Juni 2026",
     "sections": [
       { "h": "Überblick", "p": "EggTimer Max ist mit Blick auf den Datenschutz gebaut. Die App benötigt kein Konto und sammelt, speichert oder überträgt keine personenbezogenen Daten." },
       { "h": "Daten, die wir erheben", "p": "Keine. Wir erheben keine personenbezogenen Informationen. Deine Einstellungen — Eigewicht, Ausgangstemperatur und gewünschter Härtegrad — werden lokal auf deinem Gerät gespeichert und verlassen es nie." },
       { "h": "Käufe", "p": "In-App-Käufe und Trinkgelder werden vollständig von Apple über StoreKit abgewickelt. Wir sehen oder speichern deine Zahlungsdaten nie." },
-      { "h": "Analyse &amp; Tracking", "p": "EggTimer Max enthält keine Analyse- oder Tracking-SDKs von Drittanbietern. Wir verfolgen nicht, wie du die App nutzt, und es gibt keine Werbe-IDs." },
+      { "h": "Analyse &amp; Tracking", "p": "EggTimer Max (die App) enthält keine Analyse- oder Tracking-SDKs von Drittanbietern. Wir verfolgen nicht, wie du die App nutzt, und es gibt keine Werbe-IDs. Diese Website (eggtimermax.github.io) verwendet GoatCounter, ein datenschutzfreundliches Analyse-Tool ohne Cookies, um aggregierte Seitenaufrufe zu zählen. Es werden keine personenbezogenen Daten erfasst und du wirst nicht seitenübergreifend verfolgt." },
       { "h": "Dienste von Drittanbietern", "p": "Es sind keine datensammelnden Drittanbieter-SDKs eingebunden. Die App nutzt Apples eigene Frameworks (wie StoreKit für Käufe), die der <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Datenschutzerklärung von Apple</a> unterliegen." },
       { "h": "Kinder", "p": "EggTimer Max sammelt bewusst von niemandem Daten, auch nicht von Kindern unter 13 Jahren." },
       { "h": "Änderungen dieser Erklärung", "p": "Ändert sich diese Erklärung, wird die aktualisierte Version mit einem neuen Datum auf dieser Seite veröffentlicht." },

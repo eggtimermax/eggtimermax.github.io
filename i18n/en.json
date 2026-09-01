@@ -17,7 +17,7 @@
     "features": {
       "science": { "h": "Science, not guesswork", "p": "Uses the Williams formula to factor in egg weight, starting temperature — from fridge-cold to a warm summer day — and your target doneness." },
       "doneness": { "h": "From runny to hard", "p": "Dial in exactly how you like it — runny, creamy, soft, jammy, medium or hard-boiled." },
-      "live": { "h": "Watch it cook, live", "p": "A real boiling-water animation shows your egg cooking in real time, right on your screen." },
+      "live": { "h": "Boil, steam, or cold-start", "p": "Three cooking methods, all solved with the same real calculation — plus a live boiling or steaming animation to watch while you wait." },
       "altitude": { "h": "Altitude-aware", "p": "Water boils cooler at altitude. EggTimer Max corrects the boiling point so timing stays accurate anywhere." },
       "batch": { "h": "Cook a whole batch", "p": "Queue up several eggs at once, each with its own weight and doneness — every one timed individually." },
       "private": { "h": "Private by design", "p": "No account, no tracking, no data collection. Everything stays on your device. Works fully offline." }
@@ -28,17 +28,17 @@
     "metaDesc": "Step-by-step instructions for cooking one or several eggs with EggTimer Max — both the boiling-water and cold-water start methods — plus general egg-cooking tips.",
     "h1": "How to cook the perfect egg",
     "meta": "A quick guide to EggTimer Max — and to boiling eggs in general.",
-    "intro": "EggTimer Max works with two methods: dropping eggs into <b>already-boiling water</b>, or starting them in <b>cold water</b> that heats up with the pan. Pick the one that matches how you cook — both give you a time calculated to the second.",
+    "intro": "EggTimer Max works with three methods: dropping eggs into <b>already-boiling water</b>, cooking them over <b>steam</b>, or starting them in <b>cold water</b> that heats up with the pan. Pick the one that matches how you cook — all three give you a time calculated to the second.",
     "s1": {
       "h": "Boiling water — a single egg",
       "note": "The classic method · most precise",
       "steps": [
         { "main": "<b>Weigh the egg.</b> Drag the <i>Weight</i> slider, or pick a size from the <i>Presets</i> menu — S, M, L or XL. Heavier eggs need more time." },
         { "main": "<b>Set the starting temperature.</b> Fridge, cool, room temperature or a warm summer day — a cold egg takes longer." },
-        { "main": "<b>Choose your doneness.</b> Slide from runny to hard-boiled; the cooking time updates live.", "sub": "Make sure the method at the bottom reads “Boiling water”. You can switch methods in Settings." },
+        { "main": "<b>Choose your doneness.</b> Slide from runny to hard-boiled; the cooking time updates live.", "sub": "Make sure the method at the bottom reads “Boiling water”. You can switch to steam or cold-water start in Settings." },
         { "main": "<b>Bring a pan of water to a rolling boil</b> — enough to fully cover the egg.", "sub": "Once it’s boiling hard, turn the heat down a little so the water just keeps boiling gently. A violent boil bounces the eggs around and cracks them." },
         { "main": "<b>Tap “Start timer”.</b> After a short 3-2-1 countdown, gently lower the egg into the boiling water." },
-        { "main": "<b>Cool it down when the alarm sounds.</b> Drop the egg into cold or iced water to stop the cooking and make peeling easier." }
+        { "main": "<b>Wait for the alarm, then take the egg out of the pan</b> and cool it in cold or iced water for about 20 seconds — this stops the cooking and makes peeling easier." }
       ]
     },
     "tipAltitude": "Living at altitude? Water boils below 100 °C up in the mountains, which slows cooking. EggTimer Max corrects for this automatically — see the boiling point shown at the bottom of the screen.",
@@ -49,8 +49,20 @@
         { "main": "<b>Set up your first egg</b> as above — weight, start temperature and doneness." },
         { "main": "<b>Tap “Add this egg”.</b> It moves to your batch, and you can dial in the next one with its own settings — a soft one for you, a hard one for the kids." },
         { "main": "<b>Repeat for every egg</b> you want to cook. Each keeps its own cooking time." },
-        { "main": "<b>Tap “Start timer”.</b> Add the eggs together at the start; the app tells you exactly when to lift out each one." },
-        { "main": "<b>Scoop out each egg the moment it’s called</b>, and cool it in cold water." }
+        { "main": "<b>Tap “Start timer”.</b> Lower the eggs into the water one at a time — the app tells you exactly when to add each one, so they all finish together." },
+        { "main": "<b>Wait for the alarm, then take all the eggs out together</b> and cool them in cold water for about 20 seconds." }
+      ]
+    },
+    "sSteam": {
+      "h": "Steaming",
+      "note": "Gentler on the shell · easier peeling",
+      "intro": "Prefer to steam your eggs instead of submerging them? EggTimer Max calculates the exact time for that too — steam cooks slightly slower than a full boil, and the app accounts for that automatically.",
+      "steps": [
+        { "main": "<b>Switch the method to “Steam”</b> in Settings. The bottom of the screen will read “Steam”." },
+        { "main": "<b>Set weight, start temperature and doneness</b> for your egg (or add several, just like above)." },
+        { "main": "<b>Bring a pot with a steamer basket or insert to a boil</b>, with enough water that it won't boil dry during cooking." },
+        { "main": "<b>Tap “Start timer”.</b> After the 3-2-1 countdown, place the egg(s) in the steamer basket, over the steam." },
+        { "main": "<b>Wait for the alarm, then take the eggs out of the pan</b> and cool them in cold or iced water for about 20 seconds — this stops the cooking and makes peeling easier." }
       ]
     },
     "s3": {
@@ -63,7 +75,7 @@
         { "main": "<b>Put the egg(s) in a pan of cold water</b> and place it on the heat." },
         { "main": "<b>Tap “Start timer”.</b> The app starts watching and waits for the boil." },
         { "main": "<b>Tap “Water is boiling!”</b> the moment the water reaches a full, rolling boil. The exact countdown begins from there." },
-        { "main": "<b>Cool the eggs when the alarm sounds.</b> Cold water stops the cooking right on time." }
+        { "main": "<b>Wait for the alarm, then take the eggs out of the pan</b> and cool them in cold water for about 20 seconds — right on time to stop the cooking." }
       ]
     },
     "tipCold": "The cold-water timer only starts once you confirm the boil — so you never have to guess how long your pan takes to heat up.",
@@ -97,12 +109,12 @@
   "privacy": {
     "title": "Privacy Policy — EggTimer Max",
     "h1": "Privacy Policy",
-    "meta": "Last updated: 15 June 2025",
+    "meta": "Last updated: 15 June 2026",
     "sections": [
       { "h": "Overview", "p": "EggTimer Max is built with privacy in mind. The app does not require an account and does not collect, store or transmit any personal data." },
       { "h": "Data we collect", "p": "None. We do not collect any personal information. Your settings — egg weight, starting temperature and preferred doneness — are saved locally on your device and never leave it." },
       { "h": "Purchases", "p": "In-app purchases and tips are handled entirely by Apple through StoreKit. We never see or store your payment details." },
-      { "h": "Analytics &amp; tracking", "p": "EggTimer Max contains no third-party analytics or tracking SDKs. We do not track how you use the app, and there are no advertising identifiers." },
+      { "h": "Analytics &amp; tracking", "p": "EggTimer Max (the app) contains no third-party analytics or tracking SDKs. We do not track how you use the app, and there are no advertising identifiers. This website (eggtimermax.github.io) uses GoatCounter, a privacy-friendly, cookieless analytics tool, to count aggregate page views. It does not collect personal data or track you across sites." },
       { "h": "Third-party services", "p": "No data-collecting third-party SDKs are included. The app uses Apple's own frameworks (such as StoreKit for purchases), which are governed by <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Apple's Privacy Policy</a>." },
       { "h": "Children", "p": "EggTimer Max does not knowingly collect data from anyone, including children under 13." },
       { "h": "Changes to this policy", "p": "If this policy changes, the updated version will be posted on this page with a new date." },

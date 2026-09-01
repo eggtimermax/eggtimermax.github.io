@@ -17,7 +17,7 @@
     "features": {
       "science": { "h": "Ciencia, no conjeturas", "p": "Usa la fórmula de Williams para tener en cuenta el peso del huevo, la temperatura inicial — desde recién salido de la nevera hasta un día caluroso de verano — y el punto que deseas." },
       "doneness": { "h": "De líquido a duro", "p": "Ajusta justo como te gusta — líquido, cremoso, blando, meloso, medio o duro." },
-      "live": { "h": "Míralo cocerse en vivo", "p": "Una animación real de agua hirviendo muestra tu huevo cociéndose en tiempo real, en tu pantalla." },
+      "live": { "h": "Hervido, al vapor o desde frío", "p": "Tres métodos de cocción, todos resueltos con el mismo cálculo real — más una animación en vivo del agua hirviendo o del vapor mientras esperas." },
       "altitude": { "h": "Tiene en cuenta la altitud", "p": "En altura el agua hierve a menor temperatura. EggTimer Max corrige el punto de ebullición para que el tiempo sea exacto en cualquier sitio." },
       "batch": { "h": "Cocina una tanda entera", "p": "Pon varios huevos a la vez, cada uno con su peso y punto de cocción — cada uno cronometrado por separado." },
       "private": { "h": "Privado por diseño", "p": "Sin cuenta, sin seguimiento, sin recopilación de datos. Todo se queda en tu dispositivo. Funciona totalmente sin conexión." }
@@ -28,17 +28,17 @@
     "metaDesc": "Instrucciones paso a paso para cocer uno o varios huevos con EggTimer Max — tanto el método de agua hirviendo como el de agua fría — además de consejos generales para cocer huevos.",
     "h1": "Cómo cocer el huevo perfecto",
     "meta": "Una guía rápida de EggTimer Max — y para cocer huevos en general.",
-    "intro": "EggTimer Max funciona con dos métodos: echar los huevos en <b>agua ya hirviendo</b>, o empezarlos en <b>agua fría</b> que se calienta con la cazuela. Elige el que encaje con tu forma de cocinar — ambos te dan un tiempo calculado al segundo.",
+    "intro": "EggTimer Max funciona con tres métodos: echar los huevos en <b>agua ya hirviendo</b>, cocerlos <b>al vapor</b>, o empezarlos en <b>agua fría</b> que se calienta con la cazuela. Elige el que encaje con tu forma de cocinar — los tres te dan un tiempo calculado al segundo.",
     "s1": {
       "h": "Agua hirviendo — un solo huevo",
       "note": "El método clásico · el más preciso",
       "steps": [
         { "main": "<b>Pesa el huevo.</b> Arrastra el control de <i>Peso</i> o elige un tamaño en el menú <i>Preajustes</i> — S, M, L o XL. Los huevos más pesados necesitan más tiempo." },
         { "main": "<b>Ajusta la temperatura inicial.</b> Nevera, fresco, ambiente o un día caluroso de verano — un huevo frío tarda más." },
-        { "main": "<b>Elige el punto de cocción.</b> Desliza de líquido a duro; el tiempo se actualiza en vivo.", "sub": "Asegúrate de que abajo ponga «Agua hirviendo». Puedes cambiar de método en Ajustes." },
+        { "main": "<b>Elige el punto de cocción.</b> Desliza de líquido a duro; el tiempo se actualiza en vivo.", "sub": "Asegúrate de que abajo ponga «Agua hirviendo». Puedes cambiar a vapor o agua fría en Ajustes." },
         { "main": "<b>Pon una cazuela de agua a hervir a borbotones</b> — suficiente para cubrir el huevo por completo.", "sub": "Cuando hierva fuerte, baja un poco el fuego para que el agua siga hirviendo suavemente. Un hervor violento hace que los huevos reboten y se rompan." },
         { "main": "<b>Toca «Iniciar temporizador».</b> Tras una breve cuenta atrás 3-2-1, baja el huevo con cuidado al agua hirviendo." },
-        { "main": "<b>Enfríalo cuando suene la alarma.</b> Echa el huevo en agua fría o con hielo para detener la cocción y facilitar el pelado." }
+        { "main": "<b>Espera a que suene la alarma y saca el huevo de la cazuela</b>, y enfríalo unos 20 segundos en agua fría o con hielo — esto detiene la cocción y facilita el pelado." }
       ]
     },
     "tipAltitude": "¿Vives en altura? En la montaña el agua hierve por debajo de 100 °C, lo que ralentiza la cocción. EggTimer Max lo corrige automáticamente — mira el punto de ebullición en la parte inferior de la pantalla.",
@@ -49,8 +49,20 @@
         { "main": "<b>Configura tu primer huevo</b> como antes — peso, temperatura inicial y punto de cocción." },
         { "main": "<b>Toca «Añadir este huevo».</b> Pasa a tu tanda y puedes ajustar el siguiente con sus propios valores — uno blando para ti, uno duro para los niños." },
         { "main": "<b>Repite con cada huevo</b> que quieras cocer. Cada uno mantiene su propio tiempo." },
-        { "main": "<b>Toca «Iniciar temporizador».</b> Echa los huevos juntos al principio; la app te dice exactamente cuándo sacar cada uno." },
-        { "main": "<b>Saca cada huevo en cuanto lo indique</b> y enfríalo en agua fría." }
+        { "main": "<b>Toca «Iniciar temporizador».</b> Baja los huevos al agua de uno en uno — la app te dice exactamente cuándo añadir cada uno, para que todos terminen a la vez." },
+        { "main": "<b>Espera a que suene la alarma y saca todos los huevos juntos</b> de la cazuela, y enfríalos unos 20 segundos en agua fría." }
+      ]
+    },
+    "sSteam": {
+      "h": "Cocción al vapor",
+      "note": "Más suave con la cáscara · pelado más fácil",
+      "intro": "¿Prefieres cocer los huevos al vapor en vez de sumergirlos? EggTimer Max también calcula el tiempo exacto para eso — el vapor cuece un poco más despacio que el hervor completo, y la app lo tiene en cuenta automáticamente.",
+      "steps": [
+        { "main": "<b>Cambia el método a «Vapor»</b> en Ajustes. Abajo en la pantalla pondrá «Vapor»." },
+        { "main": "<b>Ajusta el peso, la temperatura inicial y el punto de cocción</b> de tu huevo (o añade varios, como antes)." },
+        { "main": "<b>Pon a hervir una cazuela con cesta o rejilla para vapor</b>, con suficiente agua para que no se seque durante la cocción." },
+        { "main": "<b>Toca «Iniciar temporizador».</b> Tras la cuenta atrás 3-2-1, coloca el huevo (o los huevos) en la cesta de vapor, sobre el vapor." },
+        { "main": "<b>Espera a que suene la alarma y saca los huevos de la cazuela</b>, y enfríalos unos 20 segundos en agua fría o con hielo — esto detiene la cocción y facilita el pelado." }
       ]
     },
     "s3": {
@@ -63,7 +75,7 @@
         { "main": "<b>Pon el huevo (o los huevos) en una cazuela con agua fría</b> y ponla al fuego." },
         { "main": "<b>Toca «Iniciar temporizador».</b> La app empieza a vigilar y espera la ebullición." },
         { "main": "<b>Toca «¡El agua hierve!»</b> en cuanto el agua hierva a borbotones. La cuenta atrás exacta empieza ahí." },
-        { "main": "<b>Enfría los huevos cuando suene la alarma.</b> El agua fría detiene la cocción justo a tiempo." }
+        { "main": "<b>Espera a que suene la alarma y saca los huevos de la cazuela</b>, y enfríalos unos 20 segundos en agua fría — justo a tiempo para detener la cocción." }
       ]
     },
     "tipCold": "El temporizador de agua fría solo empieza cuando confirmas la ebullición — así nunca tienes que adivinar cuánto tarda tu cazuela en calentarse.",
@@ -97,12 +109,12 @@
   "privacy": {
     "title": "Política de privacidad — EggTimer Max",
     "h1": "Política de privacidad",
-    "meta": "Última actualización: 15 de junio de 2025",
+    "meta": "Última actualización: 15 de junio de 2026",
     "sections": [
       { "h": "Resumen", "p": "EggTimer Max está creada pensando en la privacidad. La app no requiere cuenta y no recopila, almacena ni transmite ningún dato personal." },
       { "h": "Datos que recopilamos", "p": "Ninguno. No recopilamos ninguna información personal. Tus ajustes — peso del huevo, temperatura inicial y punto de cocción preferido — se guardan localmente en tu dispositivo y nunca lo abandonan." },
       { "h": "Compras", "p": "Las compras dentro de la app y las propinas las gestiona íntegramente Apple a través de StoreKit. Nunca vemos ni almacenamos tus datos de pago." },
-      { "h": "Analítica y seguimiento", "p": "EggTimer Max no contiene SDKs de analítica ni de seguimiento de terceros. No registramos cómo usas la app y no hay identificadores publicitarios." },
+      { "h": "Analítica y seguimiento", "p": "EggTimer Max (la app) no contiene SDKs de analítica ni de seguimiento de terceros. No registramos cómo usas la app y no hay identificadores publicitarios. Este sitio web (eggtimermax.github.io) utiliza GoatCounter, una herramienta de analítica respetuosa con la privacidad y sin cookies, para contar visitas de página agregadas. No recopila datos personales ni te rastrea entre sitios." },
       { "h": "Servicios de terceros", "p": "No se incluye ningún SDK de terceros que recopile datos. La app usa los propios frameworks de Apple (como StoreKit para las compras), que se rigen por la <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Política de privacidad de Apple</a>." },
       { "h": "Menores", "p": "EggTimer Max no recopila datos conscientemente de nadie, incluidos los menores de 13 años." },
       { "h": "Cambios en esta política", "p": "Si esta política cambia, la versión actualizada se publicará en esta página con una nueva fecha." },

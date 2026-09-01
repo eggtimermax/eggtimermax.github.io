@@ -17,7 +17,7 @@
     "features": {
       "science": { "h": "De la science, pas du hasard", "p": "Utilise la formule de Williams pour tenir compte du poids de l'œuf, de la température de départ — du frigo à une chaude journée d'été — et de la cuisson souhaitée." },
       "doneness": { "h": "Du coulant au dur", "p": "Réglez exactement comme vous l'aimez — coulant, crémeux, tendre, mollet, mi-dur ou dur." },
-      "live": { "h": "Regardez-le cuire en direct", "p": "Une vraie animation d'eau bouillante montre votre œuf cuire en temps réel, sur votre écran." },
+      "live": { "h": "Bouillie, vapeur ou eau froide", "p": "Trois méthodes de cuisson, toutes résolues avec le même calcul réel — plus une animation en direct de l'eau bouillante ou de la vapeur pendant l'attente." },
       "altitude": { "h": "Adapté à l'altitude", "p": "En altitude, l'eau bout à plus basse température. EggTimer Max corrige le point d'ébullition pour que le minutage reste juste partout." },
       "batch": { "h": "Cuire toute une fournée", "p": "Mettez plusieurs œufs à la fois, chacun avec son poids et sa cuisson — chacun minuté séparément." },
       "private": { "h": "Privé par conception", "p": "Pas de compte, pas de suivi, pas de collecte de données. Tout reste sur votre appareil. Fonctionne entièrement hors ligne." }
@@ -28,17 +28,17 @@
     "metaDesc": "Instructions pas à pas pour cuire un ou plusieurs œufs avec EggTimer Max — la méthode à l'eau bouillante comme à l'eau froide — ainsi que des conseils généraux pour cuire les œufs.",
     "h1": "Comment réussir l'œuf parfait",
     "meta": "Un guide rapide d'EggTimer Max — et de la cuisson des œufs en général.",
-    "intro": "EggTimer Max fonctionne avec deux méthodes : plonger les œufs dans <b>de l'eau déjà bouillante</b>, ou les démarrer dans <b>de l'eau froide</b> qui chauffe avec la casserole. Choisissez celle qui correspond à votre façon de cuisiner — les deux vous donnent un temps calculé à la seconde.",
+    "intro": "EggTimer Max fonctionne avec trois méthodes : plonger les œufs dans <b>de l'eau déjà bouillante</b>, les cuire <b>à la vapeur</b>, ou les démarrer dans <b>de l'eau froide</b> qui chauffe avec la casserole. Choisissez celle qui correspond à votre façon de cuisiner — les trois vous donnent un temps calculé à la seconde.",
     "s1": {
       "h": "Eau bouillante — un seul œuf",
       "note": "La méthode classique · la plus précise",
       "steps": [
         { "main": "<b>Pesez l'œuf.</b> Glissez le curseur <i>Poids</i>, ou choisissez une taille dans le menu <i>Préréglages</i> — S, M, L ou XL. Les œufs plus lourds demandent plus de temps." },
         { "main": "<b>Réglez la température de départ.</b> Frigo, frais, ambiante ou chaude journée d'été — un œuf froid met plus de temps." },
-        { "main": "<b>Choisissez la cuisson.</b> Glissez de coulant à dur ; le temps se met à jour en direct.", "sub": "Vérifiez qu'en bas il est indiqué « Eau bouillante ». Vous pouvez changer de méthode dans les Réglages." },
+        { "main": "<b>Choisissez la cuisson.</b> Glissez de coulant à dur ; le temps se met à jour en direct.", "sub": "Vérifiez qu'en bas il est indiqué « Eau bouillante ». Vous pouvez passer à la vapeur ou à l'eau froide dans les Réglages." },
         { "main": "<b>Portez une casserole d'eau à pleine ébullition</b> — assez pour couvrir entièrement l'œuf.", "sub": "Une fois l'ébullition forte, baissez un peu le feu pour que l'eau continue de bouillir doucement. Une ébullition trop vive fait s'entrechoquer les œufs et les fait craquer." },
         { "main": "<b>Touchez « Démarrer le minuteur ».</b> Après un court décompte 3-2-1, déposez délicatement l'œuf dans l'eau bouillante." },
-        { "main": "<b>Refroidissez-le quand l'alarme sonne.</b> Plongez l'œuf dans de l'eau froide ou glacée pour stopper la cuisson et faciliter l'épluchage." }
+        { "main": "<b>Attendez l'alarme, puis sortez l'œuf de la casserole</b> et refroidissez-le environ 20 secondes dans de l'eau froide ou glacée — cela stoppe la cuisson et facilite l'épluchage." }
       ]
     },
     "tipAltitude": "Vous vivez en altitude ? En montagne, l'eau bout en dessous de 100 °C, ce qui ralentit la cuisson. EggTimer Max corrige cela automatiquement — voyez le point d'ébullition affiché en bas de l'écran.",
@@ -49,8 +49,20 @@
         { "main": "<b>Configurez votre premier œuf</b> comme ci-dessus — poids, température de départ et cuisson." },
         { "main": "<b>Touchez « Ajouter cet œuf ».</b> Il rejoint votre fournée, et vous réglez le suivant avec ses propres paramètres — un mollet pour vous, un dur pour les enfants." },
         { "main": "<b>Répétez pour chaque œuf</b> que vous voulez cuire. Chacun garde son propre temps." },
-        { "main": "<b>Touchez « Démarrer le minuteur ».</b> Mettez les œufs ensemble au départ ; l'app vous dit exactement quand sortir chacun." },
-        { "main": "<b>Sortez chaque œuf dès qu'il est annoncé</b> et refroidissez-le dans l'eau froide." }
+        { "main": "<b>Touchez « Démarrer le minuteur ».</b> Plongez les œufs dans l'eau un par un — l'app vous dit exactement quand ajouter chacun, pour qu'ils soient tous prêts en même temps." },
+        { "main": "<b>Attendez l'alarme, puis sortez tous les œufs ensemble</b> de la casserole et refroidissez-les environ 20 secondes dans l'eau froide." }
+      ]
+    },
+    "sSteam": {
+      "h": "Cuisson à la vapeur",
+      "note": "Plus doux pour la coquille · épluchage plus facile",
+      "intro": "Vous préférez cuire vos œufs à la vapeur plutôt que les immerger ? EggTimer Max calcule aussi le temps exact pour cela — la vapeur cuit un peu plus lentement qu'une pleine ébullition, et l'app en tient compte automatiquement.",
+      "steps": [
+        { "main": "<b>Passez la méthode sur « Vapeur »</b> dans les Réglages. En bas de l'écran, il sera indiqué « Vapeur »." },
+        { "main": "<b>Réglez le poids, la température de départ et la cuisson</b> de votre œuf (ou ajoutez-en plusieurs, comme ci-dessus)." },
+        { "main": "<b>Portez à ébullition une casserole équipée d'un panier ou d'un insert vapeur</b>, avec assez d'eau pour ne pas s'assécher pendant la cuisson." },
+        { "main": "<b>Touchez « Démarrer le minuteur ».</b> Après le décompte 3-2-1, placez le ou les œufs dans le panier vapeur, au-dessus de la vapeur." },
+        { "main": "<b>Attendez l'alarme, puis sortez les œufs de la casserole</b> et refroidissez-les environ 20 secondes dans de l'eau froide ou glacée — cela stoppe la cuisson et facilite l'épluchage." }
       ]
     },
     "s3": {
@@ -63,7 +75,7 @@
         { "main": "<b>Mettez l'œuf (ou les œufs) dans une casserole d'eau froide</b> et posez-la sur le feu." },
         { "main": "<b>Touchez « Démarrer le minuteur ».</b> L'app commence à surveiller et attend l'ébullition." },
         { "main": "<b>Touchez « L'eau bout ! »</b> dès que l'eau bout à gros bouillons. Le décompte exact démarre à ce moment." },
-        { "main": "<b>Refroidissez les œufs quand l'alarme sonne.</b> L'eau froide stoppe la cuisson pile à temps." }
+        { "main": "<b>Attendez l'alarme, puis sortez les œufs de la casserole</b> et refroidissez-les environ 20 secondes dans l'eau froide — pile à temps pour stopper la cuisson." }
       ]
     },
     "tipCold": "Le minuteur eau froide ne démarre qu'une fois l'ébullition confirmée — vous n'avez donc jamais à deviner combien de temps votre casserole met à chauffer.",
@@ -97,12 +109,12 @@
   "privacy": {
     "title": "Politique de confidentialité — EggTimer Max",
     "h1": "Politique de confidentialité",
-    "meta": "Dernière mise à jour : 15 juin 2025",
+    "meta": "Dernière mise à jour : 15 juin 2026",
     "sections": [
       { "h": "Aperçu", "p": "EggTimer Max est conçu avec la confidentialité à l'esprit. L'app ne nécessite aucun compte et ne collecte, ne stocke ni ne transmet aucune donnée personnelle." },
       { "h": "Données que nous collectons", "p": "Aucune. Nous ne collectons aucune information personnelle. Vos réglages — poids de l'œuf, température de départ et cuisson préférée — sont enregistrés localement sur votre appareil et ne le quittent jamais." },
       { "h": "Achats", "p": "Les achats intégrés et les pourboires sont entièrement gérés par Apple via StoreKit. Nous ne voyons ni ne stockons jamais vos informations de paiement." },
-      { "h": "Analyse &amp; suivi", "p": "EggTimer Max ne contient aucun SDK d'analyse ou de suivi tiers. Nous ne suivons pas votre usage de l'app, et il n'y a aucun identifiant publicitaire." },
+      { "h": "Analyse &amp; suivi", "p": "EggTimer Max (l'app) ne contient aucun SDK d'analyse ou de suivi tiers. Nous ne suivons pas votre usage de l'app, et il n'y a aucun identifiant publicitaire. Ce site web (eggtimermax.github.io) utilise GoatCounter, un outil d'analyse respectueux de la vie privée et sans cookies, pour compter les vues de pages agrégées. Il ne collecte aucune donnée personnelle et ne vous suit pas d'un site à l'autre." },
       { "h": "Services tiers", "p": "Aucun SDK tiers collectant des données n'est inclus. L'app utilise les propres frameworks d'Apple (comme StoreKit pour les achats), régis par la <a href=\"https://www.apple.com/legal/privacy/\" target=\"_blank\" rel=\"noopener\">Politique de confidentialité d'Apple</a>." },
       { "h": "Enfants", "p": "EggTimer Max ne collecte sciemment de données de personne, y compris les enfants de moins de 13 ans." },
       { "h": "Modifications de cette politique", "p": "Si cette politique change, la version mise à jour sera publiée sur cette page avec une nouvelle date." },
