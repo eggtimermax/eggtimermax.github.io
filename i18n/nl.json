@@ -15,8 +15,8 @@
     "whyTitle": "Waarom EggTimer Max?",
     "whySub": "Geen simpele timer — een natuurkundig model dat je ei precies goed krijgt.",
     "features": {
-      "science": { "h": "Wetenschap, geen giswerk", "p": "Gebruikt de Williams-formule om rekening te houden met het eigewicht, de starttemperatuur (koelkast of kamertemperatuur) en je gewenste gaarheid." },
-      "doneness": { "h": "Van lopend tot hard", "p": "Stel precies in hoe je het lekker vindt — lopend, smeuïg, zacht, jammy, net gestold, medium of hardgekookt." },
+      "science": { "h": "Wetenschap, geen giswerk", "p": "Gebruikt de Williams-formule om rekening te houden met het eigewicht, de starttemperatuur — van koelkastkoud tot een warme zomerdag — en je gewenste gaarheid." },
+      "doneness": { "h": "Van lopend tot hard", "p": "Stel precies in hoe je het lekker vindt — vloeibaar, romig, zacht, net gaar, medium of hardgekookt." },
       "live": { "h": "Zie het live koken", "p": "Een echte kokend-wateranimatie laat je ei in realtime garen, gewoon op je scherm." },
       "altitude": { "h": "Houdt rekening met hoogte", "p": "Op hoogte kookt water bij een lagere temperatuur. EggTimer Max corrigeert het kookpunt zodat de timing overal klopt." },
       "batch": { "h": "Kook een hele lading", "p": "Zet meerdere eieren tegelijk klaar, elk met een eigen gewicht en gaarheid — stuk voor stuk apart getimed." },
@@ -33,8 +33,8 @@
       "h": "Kokend water — één ei",
       "note": "De klassieke methode · het meest precies",
       "steps": [
-        { "main": "<b>Weeg het ei.</b> Sleep de <i>Gewicht</i>-schuif, of kies S / M / L / XL. Zwaardere eieren hebben meer tijd nodig." },
-        { "main": "<b>Stel de starttemperatuur in.</b> Recht uit de koelkast, of op kamertemperatuur — een koud ei doet er langer over." },
+        { "main": "<b>Weeg het ei.</b> Sleep de <i>Gewicht</i>-schuif, of kies een maat in het <i>Presets</i>-menu — S, M, L of XL. Zwaardere eieren hebben meer tijd nodig." },
+        { "main": "<b>Stel de starttemperatuur in.</b> Koelkast, koel, kamertemperatuur of een warme zomerdag — een koud ei doet er langer over." },
         { "main": "<b>Kies de gaarheid.</b> Schuif van lopend tot hardgekookt; de kooktijd past zich live aan.", "sub": "Zorg dat de methode onderaan op “Kokend water” staat. Je kunt van methode wisselen in Instellingen." },
         { "main": "<b>Breng een pan water aan de kook</b> — genoeg om het ei volledig onder te dompelen.", "sub": "Zodra het hard kookt, zet je de bron iets lager zodat het water net blijft doorkoken. Wild kokend water laat de eieren stuiteren en barsten." },
         { "main": "<b>Tik op “Start timer”.</b> Na een korte 3-2-1 aftelling laat je het ei voorzichtig in het kokende water zakken." },
@@ -88,7 +88,7 @@
     "faqs": [
       { "q": "Hoe berekent EggTimer Max de kooktijd?", "a": "Het gebruikt de Williams-formule — een natuurkundig model dat rekening houdt met het gewicht van het ei, de starttemperatuur en de hoogte waarop je kookt (die het kookpunt van water verandert). Het resultaat is de exacte tijd om jouw gekozen gaarheid te bereiken." },
       { "q": "Wat ontgrendelt Pro?", "a": "Pro voegt de live kokend-wateranimatie toe, de hoogte-correctie van het kookpunt, een Live Activity, en het koken van meerdere eieren tegelijk met aparte gaarheid-instellingen. Pro ontgrendel je met een eenmalige fooi van € 2,99 of meer." },
-      { "q": "Ik heb Pro gekocht maar zie het niet", "a": "Open Instellingen → Aankopen herstellen. Verschijnt het dan nog niet, <a href=\"contact.html\">neem dan contact op</a> en we lossen het op." },
+      { "q": "Ik heb Pro gekocht maar zie het niet", "a": "Open Instellingen → Aankoop herstellen. Verschijnt het dan nog niet, <a href=\"contact.html\">neem dan contact op</a> en we lossen het op." },
       { "q": "Werkt het offline?", "a": "Ja. EggTimer Max werkt volledig offline en heeft geen account nodig." }
     ],
     "contactHeading": "Neem contact op",

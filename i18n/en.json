@@ -15,8 +15,8 @@
     "whyTitle": "Why EggTimer Max?",
     "whySub": "Not just a countdown — a physics-based model that gets your egg exactly right.",
     "features": {
-      "science": { "h": "Science, not guesswork", "p": "Uses the Williams formula to factor in egg weight, fridge-or-room starting temperature and your target doneness." },
-      "doneness": { "h": "From runny to hard", "p": "Dial in exactly how you like it — runny, creamy, soft, jammy, just-set, medium or hard-boiled." },
+      "science": { "h": "Science, not guesswork", "p": "Uses the Williams formula to factor in egg weight, starting temperature — from fridge-cold to a warm summer day — and your target doneness." },
+      "doneness": { "h": "From runny to hard", "p": "Dial in exactly how you like it — runny, creamy, soft, jammy, medium or hard-boiled." },
       "live": { "h": "Watch it cook, live", "p": "A real boiling-water animation shows your egg cooking in real time, right on your screen." },
       "altitude": { "h": "Altitude-aware", "p": "Water boils cooler at altitude. EggTimer Max corrects the boiling point so timing stays accurate anywhere." },
       "batch": { "h": "Cook a whole batch", "p": "Queue up several eggs at once, each with its own weight and doneness — every one timed individually." },
@@ -33,8 +33,8 @@
       "h": "Boiling water — a single egg",
       "note": "The classic method · most precise",
       "steps": [
-        { "main": "<b>Weigh the egg.</b> Drag the <i>Weight</i> slider, or pick S / M / L / XL. Heavier eggs need more time." },
-        { "main": "<b>Set the starting temperature.</b> Straight from the fridge, or at room temperature — a cold egg takes longer." },
+        { "main": "<b>Weigh the egg.</b> Drag the <i>Weight</i> slider, or pick a size from the <i>Presets</i> menu — S, M, L or XL. Heavier eggs need more time." },
+        { "main": "<b>Set the starting temperature.</b> Fridge, cool, room temperature or a warm summer day — a cold egg takes longer." },
         { "main": "<b>Choose your doneness.</b> Slide from runny to hard-boiled; the cooking time updates live.", "sub": "Make sure the method at the bottom reads “Boiling water”. You can switch methods in Settings." },
         { "main": "<b>Bring a pan of water to a rolling boil</b> — enough to fully cover the egg.", "sub": "Once it’s boiling hard, turn the heat down a little so the water just keeps boiling gently. A violent boil bounces the eggs around and cracks them." },
         { "main": "<b>Tap “Start timer”.</b> After a short 3-2-1 countdown, gently lower the egg into the boiling water." },
@@ -88,7 +88,7 @@
     "faqs": [
       { "q": "How does EggTimer Max calculate cooking time?", "a": "It uses the Williams formula — a physics-based model that accounts for the egg's weight, its starting temperature, and the altitude where you're cooking (which changes the boiling point of water). The result is the exact time to reach your chosen doneness." },
       { "q": "What does Pro unlock?", "a": "Pro adds the live boiling-water animation, altitude-aware boiling-point correction, a Live Activity, and cooking multiple eggs at once with individual doneness settings. Pro unlocks with a one-time tip of €2.99 or more." },
-      { "q": "I bought Pro but it isn't showing", "a": "Open Settings → Restore purchases. If it still doesn't appear, <a href=\"contact.html\">get in touch</a> and we'll sort it out." },
+      { "q": "I bought Pro but it isn't showing", "a": "Open Settings → Restore purchase. If it still doesn't appear, <a href=\"contact.html\">get in touch</a> and we'll sort it out." },
       { "q": "Does it work offline?", "a": "Yes. EggTimer Max works completely offline and needs no account." }
     ],
     "contactHeading": "Get in touch",

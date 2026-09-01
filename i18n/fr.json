@@ -15,8 +15,8 @@
     "whyTitle": "Pourquoi EggTimer Max ?",
     "whySub": "Pas un simple minuteur — un modèle basé sur la physique qui réussit votre œuf à la perfection.",
     "features": {
-      "science": { "h": "De la science, pas du hasard", "p": "Utilise la formule de Williams pour tenir compte du poids de l'œuf, de la température de départ (frigo ou ambiante) et de la cuisson souhaitée." },
-      "doneness": { "h": "Du coulant au dur", "p": "Réglez exactement comme vous l'aimez — coulant, crémeux, mollet, baveux, juste pris, moyen ou dur." },
+      "science": { "h": "De la science, pas du hasard", "p": "Utilise la formule de Williams pour tenir compte du poids de l'œuf, de la température de départ — du frigo à une chaude journée d'été — et de la cuisson souhaitée." },
+      "doneness": { "h": "Du coulant au dur", "p": "Réglez exactement comme vous l'aimez — coulant, crémeux, tendre, mollet, mi-dur ou dur." },
       "live": { "h": "Regardez-le cuire en direct", "p": "Une vraie animation d'eau bouillante montre votre œuf cuire en temps réel, sur votre écran." },
       "altitude": { "h": "Adapté à l'altitude", "p": "En altitude, l'eau bout à plus basse température. EggTimer Max corrige le point d'ébullition pour que le minutage reste juste partout." },
       "batch": { "h": "Cuire toute une fournée", "p": "Mettez plusieurs œufs à la fois, chacun avec son poids et sa cuisson — chacun minuté séparément." },
@@ -33,8 +33,8 @@
       "h": "Eau bouillante — un seul œuf",
       "note": "La méthode classique · la plus précise",
       "steps": [
-        { "main": "<b>Pesez l'œuf.</b> Glissez le curseur <i>Poids</i>, ou choisissez S / M / L / XL. Les œufs plus lourds demandent plus de temps." },
-        { "main": "<b>Réglez la température de départ.</b> Tout droit du frigo, ou à température ambiante — un œuf froid met plus de temps." },
+        { "main": "<b>Pesez l'œuf.</b> Glissez le curseur <i>Poids</i>, ou choisissez une taille dans le menu <i>Préréglages</i> — S, M, L ou XL. Les œufs plus lourds demandent plus de temps." },
+        { "main": "<b>Réglez la température de départ.</b> Frigo, frais, ambiante ou chaude journée d'été — un œuf froid met plus de temps." },
         { "main": "<b>Choisissez la cuisson.</b> Glissez de coulant à dur ; le temps se met à jour en direct.", "sub": "Vérifiez qu'en bas il est indiqué « Eau bouillante ». Vous pouvez changer de méthode dans les Réglages." },
         { "main": "<b>Portez une casserole d'eau à pleine ébullition</b> — assez pour couvrir entièrement l'œuf.", "sub": "Une fois l'ébullition forte, baissez un peu le feu pour que l'eau continue de bouillir doucement. Une ébullition trop vive fait s'entrechoquer les œufs et les fait craquer." },
         { "main": "<b>Touchez « Démarrer le minuteur ».</b> Après un court décompte 3-2-1, déposez délicatement l'œuf dans l'eau bouillante." },
@@ -88,7 +88,7 @@
     "faqs": [
       { "q": "Comment EggTimer Max calcule-t-il le temps de cuisson ?", "a": "Il utilise la formule de Williams — un modèle basé sur la physique qui tient compte du poids de l'œuf, de sa température de départ et de l'altitude où vous cuisinez (qui change le point d'ébullition de l'eau). Le résultat est le temps exact pour atteindre la cuisson choisie." },
       { "q": "Qu'est-ce que Pro débloque ?", "a": "Pro ajoute l'animation d'eau bouillante en direct, la correction du point d'ébullition selon l'altitude, une Live Activity et la cuisson de plusieurs œufs à la fois avec des réglages de cuisson individuels. Pro se débloque avec un pourboire unique de 2,99 € ou plus." },
-      { "q": "J'ai acheté Pro mais il n'apparaît pas", "a": "Ouvrez Réglages → Restaurer les achats. S'il n'apparaît toujours pas, <a href=\"contact.html\">contactez-nous</a> et nous réglerons ça." },
+      { "q": "J'ai acheté Pro mais il n'apparaît pas", "a": "Ouvrez Réglages → Restaurer l'achat. S'il n'apparaît toujours pas, <a href=\"contact.html\">contactez-nous</a> et nous réglerons ça." },
       { "q": "Fonctionne-t-il hors ligne ?", "a": "Oui. EggTimer Max fonctionne entièrement hors ligne et ne nécessite aucun compte." }
     ],
     "contactHeading": "Contactez-nous",

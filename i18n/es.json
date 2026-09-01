@@ -15,8 +15,8 @@
     "whyTitle": "¿Por qué EggTimer Max?",
     "whySub": "No es solo una cuenta atrás — es un modelo basado en la física que deja tu huevo en su punto exacto.",
     "features": {
-      "science": { "h": "Ciencia, no conjeturas", "p": "Usa la fórmula de Williams para tener en cuenta el peso del huevo, la temperatura inicial (nevera o ambiente) y el punto que deseas." },
-      "doneness": { "h": "De líquido a duro", "p": "Ajusta justo como te gusta — líquido, cremoso, blando, mollet, recién cuajado, medio o duro." },
+      "science": { "h": "Ciencia, no conjeturas", "p": "Usa la fórmula de Williams para tener en cuenta el peso del huevo, la temperatura inicial — desde recién salido de la nevera hasta un día caluroso de verano — y el punto que deseas." },
+      "doneness": { "h": "De líquido a duro", "p": "Ajusta justo como te gusta — líquido, cremoso, blando, meloso, medio o duro." },
       "live": { "h": "Míralo cocerse en vivo", "p": "Una animación real de agua hirviendo muestra tu huevo cociéndose en tiempo real, en tu pantalla." },
       "altitude": { "h": "Tiene en cuenta la altitud", "p": "En altura el agua hierve a menor temperatura. EggTimer Max corrige el punto de ebullición para que el tiempo sea exacto en cualquier sitio." },
       "batch": { "h": "Cocina una tanda entera", "p": "Pon varios huevos a la vez, cada uno con su peso y punto de cocción — cada uno cronometrado por separado." },
@@ -33,8 +33,8 @@
       "h": "Agua hirviendo — un solo huevo",
       "note": "El método clásico · el más preciso",
       "steps": [
-        { "main": "<b>Pesa el huevo.</b> Arrastra el control de <i>Peso</i> o elige S / M / L / XL. Los huevos más pesados necesitan más tiempo." },
-        { "main": "<b>Ajusta la temperatura inicial.</b> Directo de la nevera o a temperatura ambiente — un huevo frío tarda más." },
+        { "main": "<b>Pesa el huevo.</b> Arrastra el control de <i>Peso</i> o elige un tamaño en el menú <i>Preajustes</i> — S, M, L o XL. Los huevos más pesados necesitan más tiempo." },
+        { "main": "<b>Ajusta la temperatura inicial.</b> Nevera, fresco, ambiente o un día caluroso de verano — un huevo frío tarda más." },
         { "main": "<b>Elige el punto de cocción.</b> Desliza de líquido a duro; el tiempo se actualiza en vivo.", "sub": "Asegúrate de que abajo ponga «Agua hirviendo». Puedes cambiar de método en Ajustes." },
         { "main": "<b>Pon una cazuela de agua a hervir a borbotones</b> — suficiente para cubrir el huevo por completo.", "sub": "Cuando hierva fuerte, baja un poco el fuego para que el agua siga hirviendo suavemente. Un hervor violento hace que los huevos reboten y se rompan." },
         { "main": "<b>Toca «Iniciar temporizador».</b> Tras una breve cuenta atrás 3-2-1, baja el huevo con cuidado al agua hirviendo." },
@@ -88,7 +88,7 @@
     "faqs": [
       { "q": "¿Cómo calcula EggTimer Max el tiempo de cocción?", "a": "Usa la fórmula de Williams — un modelo basado en la física que tiene en cuenta el peso del huevo, su temperatura inicial y la altitud a la que cocinas (que cambia el punto de ebullición del agua). El resultado es el tiempo exacto para alcanzar el punto que elijas." },
       { "q": "¿Qué desbloquea Pro?", "a": "Pro añade la animación de agua hirviendo en vivo, la corrección del punto de ebullición según la altitud, una Live Activity y la cocción de varios huevos a la vez con ajustes de punto individuales. Pro se desbloquea con una propina única de 2,99 € o más." },
-      { "q": "Compré Pro pero no aparece", "a": "Abre Ajustes → Restaurar compras. Si aún no aparece, <a href=\"contact.html\">ponte en contacto</a> y lo resolvemos." },
+      { "q": "Compré Pro pero no aparece", "a": "Abre Ajustes → Restaurar compra. Si aún no aparece, <a href=\"contact.html\">ponte en contacto</a> y lo resolvemos." },
       { "q": "¿Funciona sin conexión?", "a": "Sí. EggTimer Max funciona completamente sin conexión y no necesita cuenta." }
     ],
     "contactHeading": "Ponte en contacto",

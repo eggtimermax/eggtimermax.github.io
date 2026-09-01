@@ -15,8 +15,8 @@
     "whyTitle": "Perché EggTimer Max?",
     "whySub": "Non un semplice conto alla rovescia — un modello basato sulla fisica che rende il tuo uovo perfetto al punto giusto.",
     "features": {
-      "science": { "h": "Scienza, non a occhio", "p": "Usa la formula di Williams per considerare il peso dell'uovo, la temperatura iniziale (frigo o ambiente) e la cottura che vuoi." },
-      "doneness": { "h": "Dal liquido al sodo", "p": "Imposta esattamente come ti piace — liquido, cremoso, morbido, bazzotto, appena rappreso, medio o sodo." },
+      "science": { "h": "Scienza, non a occhio", "p": "Usa la formula di Williams per considerare il peso dell'uovo, la temperatura iniziale — dal frigo a una calda giornata estiva — e la cottura che vuoi." },
+      "doneness": { "h": "Dal liquido al sodo", "p": "Imposta esattamente come ti piace — liquido, cremoso, morbido, bavoso, medio o sodo." },
       "live": { "h": "Guardalo cuocere dal vivo", "p": "Una vera animazione di acqua bollente mostra il tuo uovo cuocere in tempo reale, sullo schermo." },
       "altitude": { "h": "Tiene conto dell'altitudine", "p": "In quota l'acqua bolle a temperatura più bassa. EggTimer Max corregge il punto di ebollizione perché i tempi siano precisi ovunque." },
       "batch": { "h": "Cuoci un'intera infornata", "p": "Metti più uova insieme, ciascuna con il proprio peso e cottura — ognuna cronometrata singolarmente." },
@@ -33,8 +33,8 @@
       "h": "Acqua bollente — un solo uovo",
       "note": "Il metodo classico · il più preciso",
       "steps": [
-        { "main": "<b>Pesa l'uovo.</b> Trascina il cursore <i>Peso</i> oppure scegli S / M / L / XL. Le uova più pesanti richiedono più tempo." },
-        { "main": "<b>Imposta la temperatura iniziale.</b> Appena uscito dal frigo o a temperatura ambiente — un uovo freddo impiega di più." },
+        { "main": "<b>Pesa l'uovo.</b> Trascina il cursore <i>Peso</i> oppure scegli una misura dal menu <i>Preimpostazioni</i> — S, M, L o XL. Le uova più pesanti richiedono più tempo." },
+        { "main": "<b>Imposta la temperatura iniziale.</b> Frigo, fresco, ambiente o una calda giornata estiva — un uovo freddo impiega di più." },
         { "main": "<b>Scegli la cottura.</b> Scorri da liquido a sodo; il tempo si aggiorna dal vivo.", "sub": "Assicurati che in basso ci sia scritto «Acqua bollente». Puoi cambiare metodo nelle Impostazioni." },
         { "main": "<b>Porta una pentola d'acqua a bollore vivace</b> — abbastanza da coprire del tutto l'uovo.", "sub": "Quando bolle forte, abbassa un po' la fiamma così l'acqua continua a sobbollire dolcemente. Un bollore violento fa sbattere le uova e le fa rompere." },
         { "main": "<b>Tocca «Avvia timer».</b> Dopo un breve conto alla rovescia 3-2-1, cala delicatamente l'uovo nell'acqua bollente." },
@@ -88,7 +88,7 @@
     "faqs": [
       { "q": "Come calcola EggTimer Max il tempo di cottura?", "a": "Usa la formula di Williams — un modello basato sulla fisica che tiene conto del peso dell'uovo, della sua temperatura iniziale e dell'altitudine a cui cucini (che cambia il punto di ebollizione dell'acqua). Il risultato è il tempo esatto per raggiungere la cottura scelta." },
       { "q": "Cosa sblocca Pro?", "a": "Pro aggiunge l'animazione dell'acqua bollente dal vivo, la correzione del punto di ebollizione in base all'altitudine, una Live Activity e la cottura di più uova insieme con impostazioni di cottura individuali. Pro si sblocca con una mancia una tantum di 2,99 € o più." },
-      { "q": "Ho acquistato Pro ma non compare", "a": "Apri Impostazioni → Ripristina acquisti. Se ancora non compare, <a href=\"contact.html\">contattaci</a> e lo risolviamo." },
+      { "q": "Ho acquistato Pro ma non compare", "a": "Apri Impostazioni → Ripristina acquisto. Se ancora non compare, <a href=\"contact.html\">contattaci</a> e lo risolviamo." },
       { "q": "Funziona offline?", "a": "Sì. EggTimer Max funziona completamente offline e non richiede alcun account." }
     ],
     "contactHeading": "Contattaci",
